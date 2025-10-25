@@ -18,6 +18,43 @@ The XML data include both full transcriptions and key-value annotations standard
 
 Such validated data are essential for replicating this interpretative process computationally to extract the underlying chemistry from alchemical language. Given the complexity of this task, having human-verified results for this recipe group will be of exceptional value, serving as a sandbox and testbed for developing and evaluating AI methods to extract the underlying chemistry from alchemical language.
 
+So far, the data in `sammlung_aller_texte.xml` are in a custom XML format (with annotations in German) and intended for internal use. This dataset can later be modified for publication in a more standardised format for externals to use. Here is a code example showing the beginning of text G1-A1, containing the transcribed text and some examples of the chemical annotations standardised across the corpus:
+```
+<div type="g1a1" n="A1 Höchster Schatz und Kleinod der Welt" when="">
+        <head>A1 Höchster Schatz und Kleinod der Welt</head> 1 <head>A. </head>
+        <keys type="Zuschreibung der Vorschrift" n=" FEHLT;"/>
+        <head>Höchster Schatz und Kleinod der Welt Den gerechten und wahrhaften Lapidem philosophorum
+            oder Tincturam universalem, medicinalem et metallurgicam ex regno universalissimo zu
+            machen. </head>
+        <keys type="Philosophische Vorbetrachtung" n=" FEHLT;"/>
+        <head>Vorarbeit oder Praeparatio Salis terrae, seu nitri nostri philosophorum, e terra
+            Virginea. </head>
+        <keys type="Datierung der Probenahme"
+            n=" Mai; klarer Himmel; kein Wind; kein Regen; früh morgens; bei Sonnenaufgang;"/>
+        <keys type="Ort der Probenahme" n=" schöne Wiese; Wiese mit Blumen; "/>
+        <keys type="Art der Erde"
+            n=" fette schwarze Erde; rote Erde; gelbe Erde; lehmig; bolarisch;"/>
+        <keys type="Art der Probenahme"
+            n=" knietief; ohne Gras; ohne Wurzeln; ohne Steine; 20-24 Zentner;"/>
+        <keys type="Aufteilung der Erde" n=" FEHLT;"/>
+        <keys type="Fundort der Erde" n=" FEHLT;"/> Im Monath May, wenn der Himmel gantz klar, hell
+        und rein, auch das Gewitter gantz still, ohne einigen Wind und Regen, auch die Lufft voll
+        lieblichen Geruchs ist, daß gleichsam die Luft, wenn mann darein sieht, von feinen lieblichen
+        und schwüligen Dämpfen brodent oder rauchet, soll mann morgensfrüh bey Sonnen-Aufgang, auf
+        eine schöne Wiese gehen, die eine gute, fette schwartze, viel beßer aber roth oder gelbe
+        Bullarische das ist balligte Erden hat, oder die leimigt ist, und sonsten gleichfalls von
+        Natur von allerhand wohlriechenden Blumen zu tragen pfleget, darauf soll mann etliche große
+        weit und runde Graben machen, und in die Weite und Länge ohngefähr 5 oder 4 Maßruthen breit
+        graben laßen, bis an die Knie tief, das Gras und die Wurtzeln aber müßen vorhero alle daraus
+        abgesondert werden und kann mann solches mit den Wasen erstlich stück weis mit einem
+        Grabscheid ausstechen, hernach die Grube mit anderer Erde und etwas Mist wieder zu füllen,
+        oder als denn den Wasen wieder darauf setzen, so giebt die ausgegrabene Erde der Wiese ein
+        geringsten kleinen Schaden <keys type="Imprägnation der Erde"
+            n=" Erde ausbreiten; 14 Tage; Einwirkung von Gestirn und Himmel; bei Regen abdecken;"/>
+        <keys type="" n=""/>
+```
+Be aware that the text and group numbering was changed throughout the project, which is why the .txt files used in R stylo have the newer naming convention (E groups) whereas the XML file still follows the old naming convention (A groups). 
+
 ## References
 Eder, Maciej, Jan Rybicki und Mike Kestemont (2016): „Stylometry with R: A Package for Computational Text Analysis“. In: The R Journal. 8 (1), 107–121.
 GitHub: https://github.com/computationalstylistics/stylo
