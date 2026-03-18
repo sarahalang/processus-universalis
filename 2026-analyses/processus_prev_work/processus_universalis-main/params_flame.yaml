@@ -1,0 +1,7 @@
+# input_path: /Users/tchang/sites/processus_universalis/ProcessusUniversalis_relevant-files-for-2025/txt-files-lowercase_processus
+# char_norm_alphabet: abcdefghijklmnopqrstuvwxyzαβγδεζηικλμνξοπρστυφχψω0123456789 #ßäëöü #
+ngram: 5
+n_out: 1
+vocab_min_word_freq: 5
+similarity_threshold: 0.5
+# v: 2 # verbosity level

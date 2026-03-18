@@ -1,0 +1,18 @@
+G1_A15-Descriptio-Tincturae-Universalis.txt
+G1_A16-Alexander-Sethonius.txt
+G1_A1-Höchster-Schatz-und-Kleinod-der-Welt.txt
+G1_A5-J.J.-Becher,-Chymischer-Glückshafen.txt
+G1_A6-J.C.-Sprögel-Hsg.,-David-Beuthers-Universal-und-Partikularia.txt
+G2_A12-Lapis-Philosophorum-Sendivogii.txt
+G2_A13-Labor-Universalis-eines-wahren-Adepti.txt
+G2_A2-Processus-Michaelis-Sendivogij,-Equitis- Polonj.txt
+G2_A3-Processus Michaelis Sendivogii equitus Poloni auf das Universal cum Aqua.txt
+G2_A4-Processus-D.Michaelis-Sendivogii-super-centrum-universi,-seu-Sal-centrale.txt
+G2_A7-Labor-et-praxis-Michaelis-Sendivogi-Poloni-quem-eius-Laborator-Johannes-Podowski.txt
+G2_A8-Processus-universalis-per-spiritum-universi-Sendivogyi-Poloni.txt
+G3-A21_Das-grosse-Geheimnuß-Sendivogii-eben-von-diesen-Allsteinio.txt
+G3_A22-Proceßus-universalis-per-spiritum-universi-m.-sendivogy.txt
+G3_A25-wie-aus-dem-primordialischen-chaos.txt
+G3_A26-Von-der-fetten-erde-auf-adeptis.txt
+G3-A9_Ex-ore-D.-Jac-Alst-Secretum-Sedivojae.txt
+original_filenames.txt

@@ -1,0 +1,19 @@
+text_id,a_name,e_name,old_group,new_group,date,text_name,word_count,Zuschreibung der Vorschrift,Philosophische Vorbetrachtung,Datierung der Probenahme,Ort der Probenahme,Art der Erde,Art der Probenahme,Aufteilung der Erde,Fundort der Erde,Imprägnation der Erde,Extraktion,Eindampfen,Bezeichnung des ausgelaugten Salzes,Weiterverarbeitung Erdsalz,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,Sal Volatile extra gewinnen,Extraktion Sal Fixum,Nasser und trockener Weg,Zusammenfügung von zwei Prinzipien,Zusammenfügung der drei Prinzipien,Bezeichnung des Lösungsmittels,Salz mit Gold und Silber zusammenschmelzen,Auflösung von Gold,Beschreibung des Athanors,Erzeugung des Rubinkorns,Bezeichnung des Rubinkorns,Weiterer Syntheseschritt,Zwischenanalyse,Multiplikation,Fermentation,Projection
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,3352,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,1,0,1,1,0,0,1,1,1
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",1278,1,1,0,0,1,0,1,1,0,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,0,0
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,1079,1,0,0,0,1,0,1,0,0,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,0,0
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",2090,1,1,1,0,1,0,1,0,0,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,1737,0,0,0,1,1,1,0,0,0,1,1,1,1,0,0,1,1,0,1,1,0,1,0,1,1,0,0,1,0,0
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",1498,1,0,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,1,0,1,1,0,0,0,0,0
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,1623,1,1,0,0,1,0,1,1,0,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,0,0
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,2270,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,316,1,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,1,0,1
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,1398,0,0,0,0,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,1478,1,0,0,0,1,0,1,0,0,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,1085,0,1,0,0,1,0,1,1,0,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,0,0,0,0,0,0
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,3221,0,0,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,0,1,1,0,1,0,1,1,0,0,1,1,1
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,1879,1,0,0,0,1,1,0,0,0,1,1,1,1,1,0,1,1,0,1,1,0,1,0,1,1,1,0,1,0,0
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,253,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,1,0,1
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,2210,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,1127,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,1,1,0,0,0,0,0
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,546,1,0,1,0,1,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0

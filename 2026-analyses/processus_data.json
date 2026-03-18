@@ -1,0 +1,4653 @@
+{
+  "nomenclature": {
+    "a_to_e": {
+      "A1": "E16",
+      "A2": "E37",
+      "A3": "E38",
+      "A4": "E44",
+      "A5": "E17",
+      "A6": "E19",
+      "A7": "E39",
+      "A8": "E34",
+      "A9": "E2",
+      "A11": "E43",
+      "A12": "E45",
+      "A13": "E42",
+      "A14": "E32a",
+      "A15": "E32b",
+      "A16": "E27",
+      "A21": "E3",
+      "A22": "E35",
+      "A25": "E22",
+      "A26": "E11",
+      "A28": "E21",
+      "A29": "E9",
+      "A31": "E18"
+    },
+    "e_to_a": {
+      "E16": "A1",
+      "E37": "A2",
+      "E38": "A3",
+      "E44": "A4",
+      "E17": "A5",
+      "E19": "A6",
+      "E39": "A7",
+      "E34": "A8",
+      "E2": "A9",
+      "E43": "A11",
+      "E45": "A12",
+      "E42": "A13",
+      "E32a": "A14",
+      "E32b": "A15",
+      "E27": "A16",
+      "E3": "A21",
+      "E35": "A22",
+      "E22": "A25",
+      "E11": "A26",
+      "E21": "A28",
+      "E9": "A29",
+      "E18": "A31"
+    },
+    "old_group_to_new": {
+      "1": "II",
+      "2": "III",
+      "3": "I"
+    },
+    "new_group_to_old": {
+      "II": "1",
+      "III": "2",
+      "I": "3"
+    },
+    "note": "XML uses old A-names and old group numbers (G1/G2/G3). Current project uses E-names and Roman numeral groups (I/II/III). Old G1→Gruppe II, Old G2→Gruppe III, Old G3→Gruppe I."
+  },
+  "master_vocabulary": {
+    "Zuschreibung der Vorschrift": [
+      "Sendivogius",
+      "Johann Podowsky",
+      "David Beuther",
+      "Großschedel",
+      "Jacob Allstein",
+      "Alexander Sethonius",
+      "Stadtschreiber Hertel",
+      "Magister Rebentrost",
+      "Abraham Eleazar",
+      "Rabbi Zoroaster"
+    ],
+    "Philosophische Vorbetrachtung": [
+      "die Erde ist aller Sachen Samen",
+      "Samen in Adamische Erde säen",
+      "Himmlischer Tau"
+    ],
+    "Datierung der Probenahme": [
+      "Mai",
+      "März",
+      "Juni",
+      "Frühjahr",
+      "Sonne im Sternbild Widder",
+      "Sonne im Sternbild Stier",
+      "Sonne im Sternbild Krebs",
+      "klarer Himmel",
+      "kein Wind",
+      "kein Regen",
+      "früh morgens",
+      "bei Sonnenaufgang",
+      "Vollmond"
+    ],
+    "Ort der Probenahme": [
+      "Wiese",
+      "schöne Wiese",
+      "Wiese mit Blumen",
+      "Lehmgrube",
+      "Wiese mit Kräutern",
+      "Wiese mit Klee",
+      "Weinberge",
+      "fruchtbarer Acker"
+    ],
+    "Art der Erde": [
+      "fette Erde",
+      "fette schwarze Erde",
+      "rote Erde",
+      "rote fette Erde",
+      "roter Ton",
+      "gelbe Erde",
+      "lehmig",
+      "Erde durch Sonne, Mond und Sterne imprägniert",
+      "Tonerde",
+      "bolarisch"
+    ],
+    "Art der Probenahme": [
+      "knietief",
+      "halbe Elle tief",
+      "ohne Gras",
+      "ohne Wurzeln",
+      "ohne Steine",
+      "20-24 Zentner",
+      "24 Zentner",
+      "etliche Zentner",
+      "etliche Karren"
+    ],
+    "Aufteilung der Erde": [
+      "Erde in 2 Teile teilen"
+    ],
+    "Fundort der Erde": [
+      "Chomutov",
+      "Thionville",
+      "Freiberg",
+      "Annaberg",
+      "Clausthal"
+    ],
+    "Imprägnation der Erde": [
+      "Erde ausbreiten",
+      "14 Tage",
+      "Einwirkung von Gestirn und Himmel",
+      "Einwirkung des Mondes",
+      "bei Regen abdecken",
+      "vor Sonne schützen",
+      "Nachts",
+      "im Mai",
+      "bis Ende Mai",
+      "mit Maientau besprengen",
+      "bis Ende Juli",
+      "bis Juni"
+    ],
+    "Extraktion": [
+      "Holzfass",
+      "Fass",
+      "wie Salpetersieder",
+      "wie Seifensieder",
+      "Fass mit Stellhölzern",
+      "Fass mit Zapflöchern",
+      "Stroh auf die Stellhölzer",
+      "mit Wasser",
+      "warmes Wasser",
+      "kaltes Wasser",
+      "24 Stunden stehen lassen",
+      "24 Tage stehen lassen",
+      "Regenwasser",
+      "Maientau"
+    ],
+    "Eindampfen": [
+      "Kessel",
+      "Kupferkessel",
+      "Sieden",
+      "Abrauchen",
+      "Eindampfen bis 50 Prozent",
+      "nach Eindampfen wieder Auffüllen",
+      "Wiederholung 8-10 Mal",
+      "Nach Einsieden stehen lassen",
+      "Salz kristallisiert aus",
+      "Salz wird gereinigt"
+    ],
+    "Bezeichnung des ausgelaugten Salzes": [
+      "Sal Terrae",
+      "Sal Terrae Virgineum",
+      "Nitrum Philosophicum",
+      "Wasser, dass die Hände nicht netzt",
+      "Salpeter",
+      "Nitro",
+      "Sal nitri terrae Philosophorum",
+      "Secretum omnium Philosophorum",
+      "Salpeter Philosophorum",
+      "Sal naturae virgineum",
+      "Secretum Philosophorum",
+      "das wahre Salpeter",
+      "Brunnquell Fontanam Naturae",
+      "Nitrum Terrae",
+      "Nitrum nostri"
+    ],
+    "Weiterverarbeitung Erdsalz": [
+      "ausgelaugte Erde calcinieren",
+      "Erdsalz und calcinierte Erde vermischen",
+      "Verhältnis Erdsalz zu Erde 1:2",
+      "Verhältnis Erdsalz zu Erde 1:3",
+      "mit etwas Regenwasser",
+      "mit etwas destillierten Wasser",
+      "mit etwas Maientau",
+      "mit Wasser",
+      "Kugeln herstellen",
+      "Kugeln an Luft imprägnieren lassen",
+      "4 Wochen imprägnieren",
+      "keine Kugeln",
+      "maximal 6 Pfund pro Ansatz",
+      "Mischung in Retorte geben",
+      "Retorte zu 50 Prozent gefüllt",
+      "in Vorlage Wasser",
+      "1 Maß Wasser",
+      "2 Pfund Wasser",
+      "1 Pfund Wasser",
+      "Regenwasser",
+      "destilliertes Regenwasser",
+      "destilliertes Wasser",
+      "Brunnenwasser",
+      "per Gradus destillieren",
+      "Spiritus geht über",
+      "Spiritus rot",
+      "Spiritus rektifizieren",
+      "Spiritus kühl lagern",
+      "Sal volatile geht über",
+      "Spiritus und Sal volatile vermischen",
+      "vermischter Spiritus und Sal volatile in Gefäß gut verschlossen",
+      "Mischung aus Spiritus und Sal volatile kühl lagern",
+      "Mischung aus Spiritus und Sal volatile warm lagern"
+    ],
+    "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": [
+      "Spiritus und Sal volatile in Retorte",
+      "Retorte = Glaskolben",
+      "Retorte 50 Prozent gefüllt",
+      "1. Retorte in Wasserbad",
+      "im Wasserbad Phlegma abtrennen",
+      "2. Retorte in Aschebad oder Sandbad",
+      "2. Retorte in Sandbad",
+      "2.1. Spiritus abdestillieren",
+      "2.2. Sal Volatile übersublimieren",
+      "3.1. wiederholtes Übersublimieren des Sal Volatile",
+      "in Aschebad oder Sandbad",
+      "3.2. wiederholtes Rektifizieren des Spiritus",
+      "in Aschebad oder Sandbad",
+      "Spiritus kühl lagern",
+      "Sal Volatile warm lagern"
+    ],
+    "Sal Volatile extra gewinnen": [
+      "aus frischer Erde",
+      "aus calcinierter Erde",
+      "6 Pfund Erde",
+      "aus Retorte destillieren",
+      "kein Wasser vorlegen"
+    ],
+    "Extraktion Sal Fixum": [
+      "bereits verwendete Erde",
+      "bereits verwendete Erde calcinieren",
+      "bereits verwendete Kugeln calcinieren",
+      "calcinierte Kugeln zermörsern",
+      "Extraktion mit Wasser",
+      "destilliertes Wasser",
+      "destilliertes Regenwasser",
+      "destilliertes warmes Wasser",
+      "destilliertes warmes Regenwasser",
+      "warmes Wasser",
+      "destillierter warmer Maientau",
+      "Extrakt reinigen",
+      "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren",
+      "Sal Fixum warm lagern"
+    ],
+    "Nasser und trockener Weg": [
+      "Ja",
+      "Nein"
+    ],
+    "Zusammenfügung von zwei Prinzipien": [
+      "Salz und Spiritus vereinigen",
+      "Spiritus wieder abziehen und wieder aufgiessen",
+      "7 mal wiederholen",
+      "Resultat: Salz",
+      "Digestion in Phiole"
+    ],
+    "Zusammenfügung der drei Prinzipien": [
+      "Sal Volatile im Mörser fein reiben",
+      "Sal Fixum im Mörser fein reiben",
+      "Sal Volatile, Sal Fixum und Spiritus zusammengeben",
+      "Mischung digerieren",
+      "Digestion im Aschebad",
+      "Digestion im Wasserbad",
+      "Digestion 8 Tage",
+      "Digestion 40 Tage",
+      "Filtration"
+    ],
+    "Bezeichnung des Lösungsmittels": [
+      "Mercurius Triumphans",
+      "Mercurius Triumphans Philosophorum",
+      "Mercurius Triumphans Philosophicus",
+      "Menstruum Universale",
+      "der wahre rechte Hauptschlüssel",
+      "das rechte Wasser des Lebens",
+      "die rechte Fontina",
+      "das Bad der Wiedergeburt",
+      "philosophisches Mercurialwasser",
+      "unsere Philosophische Milch",
+      "unsere Philosophische Jungfern-Milch",
+      "Liquorem Universale",
+      "Mercurius Optatus",
+      "der Philosophische Stein",
+      "trocken Wasser",
+      "Spiritus Universalis"
+    ],
+    "Salz mit Gold und Silber zusammenschmelzen": [
+      "Verhältnis Salz : Gold : Silber = 11 : 1 : 2",
+      "im Tiegel 7 Monate schmelzen",
+      "Resultat: lebendiges Gold"
+    ],
+    "Auflösung von Gold": [
+      "Qualität des Goldes",
+      "klein gefeiltes Gold",
+      "klein geschlagenes Gold",
+      "reines Gold",
+      "hochreines Gold",
+      "durch Antimon gegossen",
+      "6-7 mal durch Antimon gegossen",
+      "7-8 mal durch Antimon gegossen",
+      "natürliches Gold",
+      "Verhältnis Gold : Menstruum Universale 1 : 4",
+      "Verhältnis Gold : Menstruum Universale 1 : 7",
+      "Verhältnis Gold : Menstruum Universale 1 : 10",
+      "1 Lot : 10 Lot",
+      "Gold und Menstruum Universale in Phiole",
+      "Gold und Menstruum Universale in Kolben",
+      "Keramikkolben",
+      "Kolben in Aschebad",
+      "24 Stunden im Aschebad",
+      "Digestion",
+      "24 Stunden Digestion",
+      "Gold löst sich auf",
+      "Abfiltrieren",
+      "Abgießen",
+      "Goldlösung in Phiole überführen",
+      "Phiole zu zwei Drittel leer",
+      "Phiole zuschmelzen",
+      "Phiole hermetisch sigillieren",
+      "lebendiges Gold in 10 Teilen Tau auflösen",
+      "10 Monate kochen"
+    ],
+    "Beschreibung des Athanors": [
+      "3 Kugeln",
+      "1. Kugel die größte",
+      "2. Kugel voller Löcher",
+      "3. Kugel Eichenholz",
+      "3. Kugel Buchenholz"
+    ],
+    "Erzeugung des Rubinkorns": [
+      "gefüllte Phiole in Athanor",
+      "1. Phiole in Wasserdampf",
+      "1a. 40-50 Tage im Wasserdampf",
+      "1a. 40-45 Tage im Wasserdampf",
+      "1a. 40 Tage im Wasserdampf",
+      "1a. 40-48 Tage im Wasserdampf",
+      "1a. 40-44 Tage im Wasserdampf",
+      "1b. im Wasserdampf Putrefaction",
+      "2. Phiole in Aschebad",
+      "2a: 50 Tage im Aschebad",
+      "2a: 40 Tage im Aschebad",
+      "2a: 40-50 Tage im Aschebad",
+      "2b: im Aschebad Pfauenschwanz",
+      "nach Pfauenschwanz grün",
+      "2c: weitere 40 Tage im Aschebad: Weiß",
+      "2c: weitere 45 Tage im Aschebad: Weiß",
+      "2d: weitere 30-40 Tage im Aschebad: rötlich",
+      "2e: nach 50 Tagen im Aschebad: Blutrot mit Rubinkorn",
+      "3. Phiole in halben Sandbad",
+      "3a: Phiole schaut aus Sand heraus",
+      "3b: 50 Tage im halben Sandbad",
+      "3b: 30 Tage im halben Sandbad",
+      "3c: zuerst im halben Sandbad Weiß",
+      "3d: weitere 30 Tage im halben Sandbad",
+      "3d: weitere 30-50 Tage im halben Sandbad",
+      "3e: im halben Sandbad jetzt Gelb",
+      "4: Phiole komplett im Sandbad",
+      "4a: 40 Tage im kompletten Sandbad",
+      "4a: Zeit unbestimmt",
+      "4a: 3 Tage im kompletten Sandbad",
+      "4b: im kompletten Sandbad Rot",
+      "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+      "Rubinkorn ist Linsengroß",
+      "Rubinkorn ist Erbsengroß",
+      "4c: im kompletten Sandbad in der Mitte glänzendes Wesen",
+      "4d: im kompletten Sandbad außen rotes Pulver",
+      "5: rotes Rubinkorn entnehmen"
+    ],
+    "Bezeichnung des Rubinkorns": [
+      "der rechte König des Reichtums und der Gesundheit",
+      "Goldsamen",
+      "das rechte philosophische Gold",
+      "das rechte philosophische lebendige Gold",
+      "das lebendige Gold der Philosophen",
+      "der Philosophen Gold",
+      "roter Mercurius Coagulatus",
+      "Quintessenz",
+      "Quintum Esse"
+    ],
+    "Weiterer Syntheseschritt": [
+      "Secunda Compositio"
+    ],
+    "Zwischenanalyse": [
+      "auf glühendem Silberblech"
+    ],
+    "Multiplikation": [
+      "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+      "Verhältnis Rubinkorn : Menstruum Universale 1 : 3",
+      "in Phiole überführen",
+      "Phiole zu zwei Drittel lehr",
+      "Phiole verschließen",
+      "im Athanor durch alle Farben",
+      "schnellere Wiederholung der ersten Operation",
+      "mehrfache Multiplikation",
+      "jede erneute Multiplikation ist schneller als die vorige",
+      "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+      "jede Multiplikation verzehnfacht die Kraft der Tinktur",
+      "Auflösung 1 Teil Tinktur in 10 Teilen Tau"
+    ],
+    "Fermentation": [
+      "multiplizierte Tinktur und Gold",
+      "multiplizierte Tinktur 1 Lot",
+      "Qualität des Goldes",
+      "hochrein",
+      "fein",
+      "durch Antimon gegossen",
+      "7 mal durch Antimon gegossen",
+      "Verhältnis Tinktur : Gold = 1 : 10",
+      "1 Lot : 10 Lot",
+      "Verhältnis Tinktur : Gold = 1 : 3",
+      "Gold und Tinktur in Schmelztiegel",
+      "im Ofen schmelzen",
+      "6 Stunden schmelzen",
+      "3 Stunden schmelzen",
+      "Gold und Tinktur schmelzen",
+      "Gold wird brüchig",
+      "Gold wird zu Rubinstein",
+      "Gold zu Pulver stoßen"
+    ],
+    "Projection": [
+      "Rubinstein und unedles Metall",
+      "Menge Rubinstein",
+      "1 Gran Rubinstein",
+      "0,5 Pfund unedles Metall",
+      "Rubinstein in Wachs gewickelt",
+      "Rubinstein in Wachs auf unedles Metall geworfen",
+      "Zusammenschmelzen",
+      "1 Stunde zusammenschmelzen",
+      "Ausgießen",
+      "Resultat: allerfeinstes Dukatengold",
+      "fermentiertes Goldpulver und Quecksilber",
+      "1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber",
+      "1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel",
+      "1 Teil fermentiertes Goldpulver und 100 Teile Quecksilber in Schmelztiegel",
+      "Resultat: Gold",
+      "Resultat: reines Gold",
+      "Resultat: bestes Gold",
+      "Resultat: edelstes Gold",
+      "1 Teil tingiert 864 Teile"
+    ]
+  },
+  "categories": [
+    "Zuschreibung der Vorschrift",
+    "Philosophische Vorbetrachtung",
+    "Datierung der Probenahme",
+    "Ort der Probenahme",
+    "Art der Erde",
+    "Art der Probenahme",
+    "Aufteilung der Erde",
+    "Fundort der Erde",
+    "Imprägnation der Erde",
+    "Extraktion",
+    "Eindampfen",
+    "Bezeichnung des ausgelaugten Salzes",
+    "Weiterverarbeitung Erdsalz",
+    "Weiterverarbeitung der Mischung von Spiritus und Sal volatile",
+    "Sal Volatile extra gewinnen",
+    "Extraktion Sal Fixum",
+    "Nasser und trockener Weg",
+    "Zusammenfügung von zwei Prinzipien",
+    "Zusammenfügung der drei Prinzipien",
+    "Bezeichnung des Lösungsmittels",
+    "Salz mit Gold und Silber zusammenschmelzen",
+    "Auflösung von Gold",
+    "Beschreibung des Athanors",
+    "Erzeugung des Rubinkorns",
+    "Bezeichnung des Rubinkorns",
+    "Weiterer Syntheseschritt",
+    "Zwischenanalyse",
+    "Multiplikation",
+    "Fermentation",
+    "Projection"
+  ],
+  "texts": [
+    {
+      "text_id": "g1a1",
+      "text_num": 1,
+      "a_name": "A1",
+      "e_name": "E16",
+      "text_name": "A1 Höchster Schatz und Kleinod der Welt",
+      "old_group": 1,
+      "new_group": "II",
+      "date": null,
+      "text_length": 21088,
+      "word_count": 3352,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": false,
+          "values": []
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "Mai",
+            "klarer Himmel",
+            "kein Wind",
+            "kein Regen",
+            "früh morgens",
+            "bei Sonnenaufgang"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": true,
+          "values": [
+            "schöne Wiese",
+            "Wiese mit Blumen"
+          ]
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "fette schwarze Erde",
+            "rote Erde",
+            "gelbe Erde",
+            "lehmig",
+            "bolarisch"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "knietief",
+            "ohne Gras",
+            "ohne Wurzeln",
+            "ohne Steine",
+            "20-24 Zentner"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": true,
+          "values": [
+            "Erde ausbreiten",
+            "14 Tage",
+            "Einwirkung von Gestirn und Himmel",
+            "bei Regen abdecken"
+          ]
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "Holzfass",
+            "wie Salpetersieder",
+            "Fass mit Stellhölzern",
+            "Fass mit Zapflöchern",
+            "Stroh auf die Stellhölzer",
+            "kaltes Wasser",
+            "24 Stunden stehen lassen"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Kupferkessel",
+            "Sieden",
+            "Eindampfen bis 50 Prozent",
+            "nach Eindampfen wieder Auffüllen",
+            "Wiederholung 8-10 Mal",
+            "Nach Einsieden stehen lassen",
+            "Salz kristallisiert aus",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Sal Terrae Virgineum",
+            "Nitrum Philosophicum",
+            "Wasser, dass die Hände nicht netzt"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:2",
+            "mit etwas Regenwasser",
+            "Kugeln herstellen",
+            "Kugeln an Luft imprägnieren lassen",
+            "4 Wochen imprägnieren",
+            "Mischung in Retorte geben",
+            "Retorte zu 50 Prozent gefüllt",
+            "in Vorlage Wasser",
+            "1 Maß Wasser",
+            "destilliertes Regenwasser",
+            "per Gradus destillieren",
+            "Spiritus geht über",
+            "Sal volatile geht über",
+            "Spiritus und Sal volatile vermischen",
+            "vermischter Spiritus und Sal volatile in Gefäß gut verschlossen",
+            "Mischung aus Spiritus und Sal volatile kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": true,
+          "values": [
+            "Spiritus und Sal volatile in Retorte",
+            "Retorte = Glaskolben",
+            "Retorte 50 Prozent gefüllt",
+            "1. Retorte in Wasserbad",
+            "im Wasserbad Phlegma abtrennen",
+            "2. Retorte in Aschebad oder Sandbad",
+            "2.1. Spiritus abdestillieren",
+            "2.2. Sal Volatile übersublimieren",
+            "3.1. wiederholtes Übersublimieren des Sal Volatile",
+            "in Aschebad oder Sandbad",
+            "3.2. wiederholtes Rektifizieren des Spiritus",
+            "in Aschebad oder Sandbad",
+            "Spiritus kühl lagern",
+            "Sal Volatile warm lagern"
+          ]
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Kugeln calcinieren",
+            "calcinierte Kugeln zermörsern",
+            "Extraktion mit Wasser",
+            "destilliertes Regenwasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren",
+            "Sal Fixum warm lagern"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile im Mörser fein reiben",
+            "Sal Fixum im Mörser fein reiben",
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben",
+            "Mischung digerieren",
+            "Digestion 8 Tage",
+            "Filtration"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "der wahre rechte Hauptschlüssel",
+            "Menstruum Universale",
+            "das rechte Wasser des Lebens",
+            "die rechte Fontina",
+            "das Bad der Wiedergeburt",
+            "philosophisches Mercurialwasser"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein gefeiltes Gold",
+            "hochreines Gold",
+            "durch Antimon gegossen",
+            "6-7 mal durch Antimon gegossen",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "1 Lot : 10 Lot",
+            "Gold und Menstruum Universale in Kolben",
+            "Keramikkolben",
+            "Kolben in Aschebad",
+            "24 Stunden im Aschebad",
+            "Gold löst sich auf",
+            "Abgießen",
+            "Goldlösung in Phiole überführen",
+            "Phiole zu zwei Drittel leer",
+            "Phiole zuschmelzen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-50 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: 40 Tage im kompletten Sandbad",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "der rechte König des Reichtums und der Gesundheit",
+            "Goldsamen"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "in Phiole überführen",
+            "Phiole verschließen",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "jede erneute Multiplikation ist schneller als die vorige",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": true,
+          "values": [
+            "multiplizierte Tinktur und Gold",
+            "multiplizierte Tinktur 1 Lot",
+            "Qualität des Goldes",
+            "hochrein",
+            "durch Antimon gegossen",
+            "7 mal durch Antimon gegossen",
+            "Verhältnis Tinktur : Gold",
+            "Verhältnis 1 : 10",
+            "1 Lot : 10 Lot",
+            "Gold und Tinktur in Schmelztiegel",
+            "im Ofen schmelzen",
+            "6 Stunden schmelzen",
+            "Gold wird brüchig",
+            "Gold wird zu Rubinstein"
+          ]
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "Rubinstein und unedles Metall",
+            "Menge Rubinstein",
+            "1 Gran Rubinstein",
+            "0,5 Pfund unedles Metall",
+            "Rubinstein in Wachs gewickelt",
+            "Rubinstein in Wachs auf unedles Metall geworfen",
+            "Zusammenschmelzen",
+            "1 Stunde zusammenschmelzen",
+            "Ausgießen",
+            "Resultat: allerfeinstes Dukatengold"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g2a2",
+      "text_num": 2,
+      "a_name": "A2",
+      "e_name": "E37",
+      "text_name": "A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",
+      "old_group": 2,
+      "new_group": "III",
+      "date": "1690",
+      "text_length": 8001,
+      "word_count": 1278,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius",
+            "Johann Podowsky"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": true,
+          "values": [
+            "die Erde ist aller Sachen Samen"
+          ]
+        },
+        "Datierung der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": true,
+          "values": [
+            "Chomutov"
+          ]
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "wie Salpetersieder"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Salpeter"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "keine Kugeln",
+            "maximal 6 Pfund pro Ansatz",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "destilliertes Regenwasser",
+            "Spiritus geht über",
+            "Spiritus rot",
+            "Spiritus rektifizieren",
+            "Spiritus kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus frischer Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser",
+            "destilliertes Wasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Triumphans Philosophorus",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "natürliches Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold löst sich auf",
+            "Abfiltrieren",
+            "Goldlösung in Phiole überführen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Eichenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-45 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "Rubinkorn ist Linsengroß",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Goldsamen",
+            "das rechte philosophische lebendige Gold"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": true,
+          "values": [
+            "auf glühendem Silberblech"
+          ]
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    },
+    {
+      "text_id": "g2a3",
+      "text_num": 3,
+      "a_name": "A3",
+      "e_name": "E38",
+      "text_name": "A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser",
+      "old_group": 2,
+      "new_group": "III",
+      "date": null,
+      "text_length": 6496,
+      "word_count": 1079,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "wie Salpetersieder"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Salpeter"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "keine Kugeln",
+            "maximal 6 Pfund pro Ansatz",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "destilliertes Regenwasser",
+            "Spiritus geht über",
+            "Spiritus rot",
+            "Spiritus rektifizieren",
+            "Spiritus kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus frischer Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser",
+            "destilliertes Wasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Triumphans Philosophicus",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "natürliches Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold löst sich auf",
+            "Abfiltrieren",
+            "Goldlösung in Phiole überführen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Eichenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-50 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "Rubinkorn ist Linsengroß",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Goldsamen",
+            "das rechte philosophische lebendige Gold"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": true,
+          "values": [
+            "auf glühendem Silberblech"
+          ]
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    },
+    {
+      "text_id": "g2a4",
+      "text_num": 4,
+      "a_name": "A4",
+      "e_name": "E44",
+      "text_name": "A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",
+      "old_group": 2,
+      "new_group": "III",
+      "date": "1682",
+      "text_length": 13650,
+      "word_count": 2090,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": true,
+          "values": [
+            "die Erde ist aller Sachen Samen"
+          ]
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "März",
+            "Sonne im Sternbild Widder"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert",
+            "Tonerde"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "wie Salpetersieder"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Nitro"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "keine Kugeln",
+            "maximal 6 Pfund pro Ansatz",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "destilliertes Regenwasser",
+            "Spiritus geht über",
+            "Spiritus rot",
+            "Spiritus rektifizieren",
+            "Spiritus kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus frischer Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser",
+            "destilliertes Regenwasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Triumphans Philosophorum",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "natürliches Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold löst sich auf",
+            "Abfiltrieren",
+            "Goldlösung in Phiole überführen",
+            "Phiole hermetisch sigillieren"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Eichenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-45 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 40 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "nach Pfauenschwanz grün",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 40-45 Tagen im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "Rubinkorn ist Linsengroß",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Goldsamen"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": true,
+          "values": [
+            "auf glühendem Silberblech"
+          ]
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": true,
+          "values": [
+            "multiplizierte Tinktur und Gold",
+            "Verhältnis Tinktur : Gold = 1 : 10",
+            "Gold und Tinktur schmelzen",
+            "Gold wird brüchig",
+            "Gold zu Pulver stoßen"
+          ]
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "fermentiertes Goldpulver und Quecksilber",
+            "1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel",
+            "Resultat: reines Gold"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g1a5",
+      "text_num": 5,
+      "a_name": "A5",
+      "e_name": "E17",
+      "text_name": "A5 Praeparatio salis nitri ex terra virginea altera",
+      "old_group": 1,
+      "new_group": "II",
+      "date": "1682",
+      "text_length": 11694,
+      "word_count": 1737,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": false,
+          "values": []
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Ort der Probenahme": {
+          "present": true,
+          "values": [
+            "Lehmgrube"
+          ]
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "fette Erde"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "ohne Steine"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "Holzfass",
+            "wie Salpetersieder",
+            "Fass mit Stellhölzern",
+            "Fass mit Zapflöchern",
+            "Stroh auf die Stellhölzer",
+            "kaltes Wasser",
+            "24 Tage stehen lassen"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Kessel",
+            "Sieden",
+            "Wiederholung 8-10 Mal",
+            "Nach Einsieden stehen lassen",
+            "Salz kristallisiert aus",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Sal nitri terrae Philosophorum",
+            "Wasser, dass die Hände nicht netzt",
+            "Secretum omnium Philosophorum"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "mit etwas destillierten Wasser",
+            "Kugeln herstellen",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "1 Pfund Wasser",
+            "destilliertes Wasser",
+            "per Gradus destillieren",
+            "Spiritus geht über",
+            "Sal volatile geht über",
+            "Spiritus und Sal volatile vermischen",
+            "vermischter Spiritus und Sal volatile in Gefäß gut verschlossen",
+            "Mischung aus Spiritus und Sal volatile warm lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Kugeln calcinieren",
+            "calcinierte Kugeln zermörsern",
+            "Extraktion mit Wasser",
+            "destilliertes warmes Wasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile im Mörser fein reiben",
+            "Sal Fixum im Mörser fein reiben",
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Menstruum Universale",
+            "das rechte Wasser des Lebens",
+            "die rechte Fontina",
+            "unsere Philosophische Milch"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "natürliches Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold und Menstruum Universale in Kolben",
+            "24 Stunden Digestion",
+            "Gold löst sich auf",
+            "Abgießen",
+            "Goldlösung in Phiole überführen",
+            "Phiole zu zwei Drittel leer",
+            "Phiole hermetisch sigillieren"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-50 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: 40 Tage im kompletten Sandbad",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Goldsamen"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "in Phiole überführen",
+            "Phiole verschließen",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "jede erneute Multiplikation ist schneller als die vorige",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    },
+    {
+      "text_id": "g1a6",
+      "text_num": 6,
+      "a_name": "A6",
+      "e_name": "E19",
+      "text_name": "A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",
+      "old_group": 1,
+      "new_group": "II",
+      "date": "1718",
+      "text_length": 9062,
+      "word_count": 1498,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "David Beuther"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "Mai",
+            "klarer Himmel",
+            "kein Wind",
+            "kein Regen",
+            "früh morgens",
+            "bei Sonnenaufgang"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": true,
+          "values": [
+            "schöne Wiese",
+            "Wiese mit Blumen",
+            "Wiese mit Kräutern",
+            "Wiese mit Klee",
+            "Weinberge",
+            "Lehmgrube"
+          ]
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "fette schwarze Erde",
+            "rote Erde",
+            "gelbe Erde",
+            "lehmig",
+            "bolarisch"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "etliche Zentner"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": true,
+          "values": [
+            "Erde ausbreiten",
+            "14 Tage",
+            "Einwirkung von Gestirn und Himmel",
+            "bei Regen abdecken"
+          ]
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "Fass",
+            "wie Seifensieder",
+            "kaltes Wasser",
+            "24 Stunden stehen lassen"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Nach Einsieden stehen lassen",
+            "Salz kristallisiert aus",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Sal Terrae",
+            "Wasser, dass die Hände nicht netzt",
+            "Salpeter Philosophorum",
+            "Sal naturae virgineum",
+            "Secretum Philosophorum"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "mit etwas Regenwasser",
+            "Kugeln herstellen",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "per Gradus destillieren",
+            "Spiritus geht über",
+            "Sal volatile geht über",
+            "Spiritus und Sal volatile vermischen"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": true,
+          "values": [
+            "Spiritus und Sal volatile in Retorte",
+            "Retorte = Glaskolben",
+            "1. Retorte in Wasserbad",
+            "im Wasserbad Phlegma abtrennen",
+            "2. Retorte in Sandbad",
+            "2.1. Spiritus abdestillieren",
+            "2.2. Sal Volatile übersublimieren",
+            "3.1. wiederholtes Übersublimieren des Sal Volatile",
+            "3.2. wiederholtes Rektifizieren des Spiritus"
+          ]
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Kugeln calcinieren",
+            "Extraktion mit Wasser",
+            "destilliertes Regenwasser",
+            "Extrakt reinigen"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile im Mörser fein reiben",
+            "Sal Fixum im Mörser fein reiben",
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben",
+            "Mischung digerieren",
+            "Digestion im Aschebad",
+            "Digestion 8 Tage"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Menstruum Universale",
+            "das rechte Wasser des Lebens",
+            "die rechte Fontina",
+            "das Bad der Wiedergeburt",
+            "unsere Philosophische Jungfern-Milch"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein gefeiltes Gold",
+            "hochreines Gold",
+            "durch Antimon gegossen",
+            "7-8 mal durch Antimon gegossen",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold und Menstruum Universale in Kolben",
+            "Kolben in Aschebad",
+            "24 Stunden im Aschebad",
+            "Gold löst sich auf",
+            "Abgießen",
+            "Goldlösung in Phiole überführen",
+            "Phiole zuschmelzen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Erzeugung des Rubinkorns:: gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: 40 Tage im kompletten Sandbad",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "roter Mercurius Coagulatus"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": false,
+          "values": []
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    },
+    {
+      "text_id": "g2a7",
+      "text_num": 7,
+      "a_name": "A7",
+      "e_name": "E39",
+      "text_name": "A7 Labor et praxis Michaelis Sendivogi Poloni",
+      "old_group": 2,
+      "new_group": "III",
+      "date": null,
+      "text_length": 9852,
+      "word_count": 1623,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius",
+            "Johann Podowsky",
+            "Großschedel"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": true,
+          "values": [
+            "die Erde ist aller Sachen Samen"
+          ]
+        },
+        "Datierung der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": true,
+          "values": [
+            "Chomutov"
+          ]
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "wie Salpetersieder"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Salpeter"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "keine Kugeln",
+            "maximal 6 Pfund pro Ansatz",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "Regenwasser",
+            "Spiritus geht über",
+            "Spiritus rot",
+            "Spiritus rektifizieren",
+            "Spiritus kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus frischer Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser",
+            "destilliertes warmes Wasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Triumphans",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "natürliches Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold löst sich auf",
+            "Abfiltrieren",
+            "Goldlösung in Phiole überführen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Buchenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Erzeugung des Rubinkorns:: gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-48 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "Rubinkorn ist Linsengroß",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Goldsamen",
+            "das rechte philosophische Gold"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": true,
+          "values": [
+            "auf glühendem Silberblech"
+          ]
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    },
+    {
+      "text_id": "g2a8",
+      "text_num": 8,
+      "a_name": "A8",
+      "e_name": "E34",
+      "text_name": "A8 Processus Universalis per Spiritum Universi Sendivogij Poloni",
+      "old_group": 2,
+      "new_group": "III",
+      "date": null,
+      "text_length": 14001,
+      "word_count": 2270,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": true,
+          "values": [
+            "die Erde ist aller Sachen Samen"
+          ]
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "früh morgens",
+            "bei Sonnenaufgang"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": true,
+          "values": [
+            "Wiese mit Blumen",
+            "Wiese mit Kräutern"
+          ]
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert",
+            "rote fette Erde"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "etliche Karren"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": true,
+          "values": [
+            "Erde ausbreiten",
+            "Nachts"
+          ]
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "wie Salpetersieder"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Nitro"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "keine Kugeln",
+            "maximal 6 Pfund pro Ansatz",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "destilliertes Regenwasser",
+            "Spiritus geht über",
+            "Spiritus rot",
+            "Spiritus rektifizieren",
+            "Spiritus kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus frischer Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser",
+            "destilliertes warmes Regenwasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Triumphans Philosophorum",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein geschlagenes Gold",
+            "natürliches Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold löst sich auf",
+            "Abgießen",
+            "Goldlösung in Phiole überführen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Eichenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Erzeugung des Rubinkorns:: gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-45 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "nach Pfauenschwanz grün",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 30 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "Rubinkorn ist Linsengroß",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Goldsamen",
+            "das lebendige Gold der Philosophen"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": true,
+          "values": [
+            "auf glühendem Silberblech"
+          ]
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "in Phiole überführen",
+            "Phiole verschließen",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": true,
+          "values": [
+            "multiplizierte Tinktur und Gold",
+            "Verhältnis Tinktur : Gold = 1 : 10",
+            "Gold und Tinktur schmelzen",
+            "Gold wird brüchig",
+            "Gold zu Pulver stoßen"
+          ]
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "fermentiertes Goldpulver und Quecksilber",
+            "1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel",
+            "Resultat: Gold"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g3a9",
+      "text_num": 9,
+      "a_name": "A9",
+      "e_name": "E2",
+      "text_name": "A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio",
+      "old_group": 3,
+      "new_group": "I",
+      "date": "1618",
+      "text_length": 1924,
+      "word_count": 316,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius",
+            "Jacob Allstein"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": true,
+          "values": [
+            "Samen in Adamische Erde säen",
+            "Himmlischer Tau"
+          ]
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "Sonne im Sternbild Widder",
+            "Sonne im Sternbild Stier"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "knietief"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "mit Wasser"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Abrauchen"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": false,
+          "values": []
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": false,
+          "values": []
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": false,
+          "values": []
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": true,
+          "values": [
+            "Salz und Spiritus vereinigen",
+            "Spiritus wieder abziehen und wieder aufgiessen",
+            "7 mal wiederholen",
+            "Resultat: Salz"
+          ]
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": false,
+          "values": []
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": true,
+          "values": [
+            "Verhältnis Salz : Gold : Silber = 11 : 1 : 2",
+            "im Tiegel 7 Monate schmelzen",
+            "Resultat: lebendiges Gold"
+          ]
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "lebendiges Gold in 10 Teilen Tau auflösen",
+            "10 Monate kochen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": false,
+          "values": []
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": false,
+          "values": []
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Auflösung 1 Teil Tinktur in 10 Teilen Tau"
+          ]
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "1 Teil tingiert 864 Teile"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g2a11",
+      "text_num": 11,
+      "a_name": "A11",
+      "e_name": "E43",
+      "text_name": "A11 Dieser Kunst Praxis ist diese",
+      "old_group": 2,
+      "new_group": "III",
+      "date": "1674",
+      "text_length": 8750,
+      "word_count": 1398,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": false,
+          "values": []
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": false,
+          "values": []
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Nitro"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "keine Kugeln",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "Brunnenwasser",
+            "per Gradus destillieren",
+            "Spiritus geht über",
+            "Spiritus rektifizieren"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus calcinierter Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Triumphans Philosophicus",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein geschlagenes Gold",
+            "hochreines Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold und Menstruum Universale in Kolben",
+            "Gold löst sich auf",
+            "Abfiltrieren",
+            "Goldlösung in Phiole überführen",
+            "Phiole hermetisch sigillieren"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Eichenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-45 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "nach Pfauenschwanz grün",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30-50 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "Rubinkorn ist Erbsengroß",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Goldsamen",
+            "der Philosophen Gold"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": true,
+          "values": [
+            "auf glühendem Silberblech"
+          ]
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "in Phiole überführen",
+            "Phiole verschließen",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": true,
+          "values": [
+            "multiplizierte Tinktur und Gold",
+            "Qualität des Goldes",
+            "hochrein",
+            "Verhältnis Tinktur : Gold = 1 : 10",
+            "Gold und Tinktur in Schmelztiegel",
+            "Gold und Tinktur schmelzen",
+            "Gold wird brüchig"
+          ]
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "fermentiertes Goldpulver und Quecksilber",
+            "1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber",
+            "Resultat: bestes Gold"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g2a12",
+      "text_num": 12,
+      "a_name": "A12",
+      "e_name": "E45",
+      "text_name": "A12 Lapis Philosophorum Sendivogii",
+      "old_group": 2,
+      "new_group": "III",
+      "date": "1724",
+      "text_length": 8938,
+      "word_count": 1478,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "wie Salpetersieder"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Nitro"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "keine Kugeln",
+            "maximal 6 Pfund pro Ansatz",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "destilliertes Regenwasser",
+            "Spiritus geht über",
+            "Spiritus rot",
+            "Spiritus rektifizieren",
+            "Spiritus kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus frischer Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser",
+            "destilliertes warmes Regenwasser",
+            "Extrakt reinigen"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Optatus",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein geschlagenes Gold",
+            "hochreines Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold löst sich auf",
+            "Abfiltrieren",
+            "Goldlösung in Phiole überführen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Eichenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-44 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "nach Pfauenschwanz grün",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "Rubinkorn ist Linsengroß",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Goldsamen",
+            "der Philosophen Gold"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": true,
+          "values": [
+            "auf glühendem Silberblech"
+          ]
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "in Phiole überführen",
+            "Phiole verschließen",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": true,
+          "values": [
+            "multiplizierte Tinktur und Gold",
+            "Qualität des Goldes",
+            "fein",
+            "Verhältnis Tinktur : Gold = 1 : 10",
+            "Gold und Tinktur in Schmelztiegel",
+            "Gold und Tinktur schmelzen",
+            "Gold wird brüchig",
+            "Gold zu Pulver stoßen"
+          ]
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "fermentiertes Goldpulver und Quecksilber",
+            "1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel",
+            "Resultat: edelstes Gold"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g2a13",
+      "text_num": 13,
+      "a_name": "A13",
+      "e_name": "E42",
+      "text_name": "A13 Labor Universalis eines wahren Adepti",
+      "old_group": 2,
+      "new_group": "III",
+      "date": "1733",
+      "text_length": 6676,
+      "word_count": 1085,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": false,
+          "values": []
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": true,
+          "values": [
+            "die Erde ist aller Sachen Samen"
+          ]
+        },
+        "Datierung der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": true,
+          "values": [
+            "Chomutov",
+            "Thionville"
+          ]
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "wie Salpetersieder"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Salpeter"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "keine Kugeln",
+            "maximal 6 Pfund pro Ansatz",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "destilliertes Regenwasser",
+            "Spiritus geht über",
+            "Spiritus rot",
+            "Spiritus rektifizieren",
+            "Spiritus kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus frischer Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser",
+            "warmes Wasser",
+            "Extrakt reinigen"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Triumphans Philosophorum",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "reines Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold löst sich auf",
+            "Abfiltrieren",
+            "Goldlösung in Phiole überführen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Eichenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-48 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte glänzendes Wesen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": false,
+          "values": []
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": false,
+          "values": []
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    },
+    {
+      "text_id": "g1a15",
+      "text_num": 15,
+      "a_name": "A15",
+      "e_name": "E32b",
+      "text_name": "A15 Descriptio Tincturae Universalis",
+      "old_group": 1,
+      "new_group": "II",
+      "date": "1697",
+      "text_length": 19816,
+      "word_count": 3221,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": false,
+          "values": []
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "März",
+            "Vollmond",
+            "klarer Himmel",
+            "kein Wind",
+            "kein Regen",
+            "früh morgens",
+            "bei Sonnenaufgang"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": true,
+          "values": [
+            "schöne Wiese"
+          ]
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "rote Erde",
+            "bolarisch"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "halbe Elle tief"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": true,
+          "values": [
+            "FEHLT",
+            "(in den parallelen Oberservationes wird genannt: Chomutov",
+            ")"
+          ]
+        },
+        "Imprägnation der Erde": {
+          "present": true,
+          "values": [
+            "Erde ausbreiten",
+            "14 Tage",
+            "Einwirkung von Gestirn und Himmel",
+            "bei Regen abdecken",
+            "Nachts",
+            "bis Ende Mai",
+            "mit Maientau besprengen",
+            "bis Ende Juli"
+          ]
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "Fass",
+            "Fass mit Zapflöchern",
+            "mit Wasser",
+            "warmes Wasser",
+            "Regenwasser",
+            "Maientau",
+            "24 Stunden stehen lassen"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Kessel",
+            "Sieden",
+            "Nach Einsieden stehen lassen",
+            "Salz kristallisiert aus",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Sal Terrae",
+            "Nitrum Terrae",
+            "Nitrum nostri"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "mit etwas Maientau",
+            "Kugeln herstellen",
+            "Kugeln an Luft imprägnieren lassen",
+            "Mischung in Retorte geben",
+            "per Gradus destillieren",
+            "Spiritus geht über",
+            "Sal volatile geht über"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Kugeln calcinieren",
+            "Extraktion mit Wasser",
+            "destillierter warmer Maientau",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Ja"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben",
+            "Mischung digerieren",
+            "Digestion im Wasserbad",
+            "Digestion 40 Tage"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "trocken Wasser"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein gefeiltes Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 7",
+            "Gold und Menstruum Universale in Phiole",
+            "Digestion",
+            "Gold löst sich auf",
+            "Abgießen",
+            "Goldlösung in Phiole überführen",
+            "Phiole zu zwei Drittel leer",
+            "Phiole hermetisch sigillieren"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "nach Pfauenschwanz grün",
+            "2c: weitere 45 Tage im Aschebad: Weiß",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: 3 Tage im kompletten Sandbad",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Quintessenz"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 3",
+            "in Phiole überführen"
+          ]
+        },
+        "Fermentation": {
+          "present": true,
+          "values": [
+            "multiplizierte Tinktur und Gold",
+            "Verhältnis Tinktur : Gold = 1 : 3",
+            "3 Stunden schmelzen",
+            "Gold und Tinktur schmelzen",
+            "Gold wird brüchig",
+            "Gold zu Pulver stoßen"
+          ]
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "fermentiertes Goldpulver und Quecksilber",
+            "1 Teil fermentiertes Goldpulver und 100 Teile Quecksilber in Schmelztiegel",
+            "Resultat: Gold"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g1a16",
+      "text_num": 16,
+      "a_name": "A16",
+      "e_name": "E27",
+      "text_name": "A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea",
+      "old_group": 1,
+      "new_group": "II",
+      "date": "1638",
+      "text_length": 12024,
+      "word_count": 1879,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Alexander Sethonius"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "fette Erde"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "ohne Steine"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "Fass",
+            "wie Salpetersieder",
+            "Fass mit Stellhölzern",
+            "Fass mit Zapflöchern",
+            "Stroh auf die Stellhölzer",
+            "warmes Wasser",
+            "24 Stunden stehen lassen"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Kessel",
+            "Sieden",
+            "Eindampfen bis 50 Prozent",
+            "Wiederholung 8-10 Mal",
+            "Nach Einsieden stehen lassen",
+            "Salz kristallisiert aus",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Sal nitri terrae Philosophorum",
+            "Wasser, dass die Hände nicht netzt",
+            "Secretum omnium Philosophorum",
+            "Brunnquell Fontanam Naturae"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "mit Wasser",
+            "Kugeln herstellen",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "1 Maß Wasser",
+            "destilliertes Wasser",
+            "per Gradus destillieren",
+            "Spiritus geht über",
+            "Sal volatile geht über",
+            "Spiritus und Sal volatile vermischen"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": true,
+          "values": [
+            "Spiritus und Sal volatile in Retorte",
+            "Retorte = Glaskolben",
+            "1. Retorte in Wasserbad",
+            "im Wasserbad Phlegma abtrennen",
+            "2. Retorte in Aschebad oder Sandbad",
+            "2.1. Spiritus abdestillieren",
+            "2.2. Sal Volatile übersublimieren",
+            "3.1. wiederholtes Übersublimieren des Sal Volatile",
+            "3.2. wiederholtes Rektifizieren des Spiritus",
+            "Spiritus kühl lagern",
+            "Sal Volatile warm lagern"
+          ]
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Kugeln calcinieren",
+            "Extraktion mit Wasser",
+            "Extrakt reinigen"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile im Mörser fein reiben",
+            "Sal Fixum im Mörser fein reiben",
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben",
+            "Mischung digerieren",
+            "Filtration"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "der wahre rechte Hauptschlüssel",
+            "der Philosophische Stein",
+            "Menstruum Universale",
+            "das rechte Wasser des Lebens",
+            "die rechte Fontina"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein gefeiltes Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold und Menstruum Universale in Kolben",
+            "Gold löst sich auf",
+            "Abgießen",
+            "Goldlösung in Phiole überführen",
+            "Phiole zu zwei Drittel leer",
+            "Phiole zuschmelzen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-50 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 50 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: 40 Tage im kompletten Sandbad",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "der rechte König des Reichtums und der Gesundheit",
+            "Goldsamen",
+            "Quintum Esse"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "jede erneute Multiplikation ist schneller als die vorige",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    },
+    {
+      "text_id": "g3a21",
+      "text_num": 21,
+      "a_name": "A21",
+      "e_name": "E3",
+      "text_name": "A21 Ex ore D. Jac. Alst. Secretum Sedivojae",
+      "old_group": 3,
+      "new_group": "I",
+      "date": "1618",
+      "text_length": 1555,
+      "word_count": 253,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius",
+            "Jacob Allstein"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "Sonne im Sternbild Widder",
+            "Sonne im Sternbild Stier"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "knietief"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "mit Wasser"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Abrauchen"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": false,
+          "values": []
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": false,
+          "values": []
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": false,
+          "values": []
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": true,
+          "values": [
+            "Salz und Spiritus vereinigen",
+            "Spiritus wieder abziehen und wieder aufgiessen",
+            "7 mal wiederholen",
+            "Resultat: Salz"
+          ]
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": false,
+          "values": []
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": true,
+          "values": [
+            "Verhältnis Salz : Gold : Silber = 11 : 1 : 2",
+            "im Tiegel 7 Monate schmelzen",
+            "Resultat: lebendiges Gold"
+          ]
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "lebendiges Gold in 10 Teilen Tau auflösen",
+            "10 Monate kochen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": false,
+          "values": []
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": false,
+          "values": []
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Auflösung 1 Teil Tinktur in 10 Teilen Tau"
+          ]
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "1 Teil tingiert 864 Teile"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g3a22",
+      "text_num": 22,
+      "a_name": "A22",
+      "e_name": "E35",
+      "text_name": "A22 Proceßus Universalis per Spiritum universi M. Sendivogy",
+      "old_group": 3,
+      "new_group": "I",
+      "date": null,
+      "text_length": 13767,
+      "word_count": 2210,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Sendivogius"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": true,
+          "values": [
+            "die Erde ist aller Sachen Samen"
+          ]
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "früh morgens",
+            "bei Sonnenaufgang"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": true,
+          "values": [
+            "Wiese",
+            "Wiese mit Blumen",
+            "Wiese mit Kräutern"
+          ]
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "Erde durch Sonne, Mond und Sterne imprägniert",
+            "rote fette Erde"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "etliche Karren"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": true,
+          "values": [
+            "Erde in 2 Teile teilen"
+          ]
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": true,
+          "values": [
+            "Erde ausbreiten",
+            "Nachts"
+          ]
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "wie Salpetersieder"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Sieden",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Nitro"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "Verhältnis Erdsalz zu Erde 1:3",
+            "keine Kugeln",
+            "maximal 6 Pfund pro Ansatz",
+            "Mischung in Retorte geben",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "destilliertes Regenwasser",
+            "Spiritus geht über",
+            "Spiritus rot",
+            "Spiritus rektifizieren",
+            "Spiritus kühl lagern"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": true,
+          "values": [
+            "aus frischer Erde",
+            "6 Pfund Erde",
+            "aus Retorte destillieren",
+            "kein Wasser vorlegen"
+          ]
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde calcinieren",
+            "Extraktion mit Wasser",
+            "destilliertes warmes Wasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": true,
+          "values": [
+            "Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+          ]
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Mercurius Triumphans Philosophorum",
+            "Menstruum Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein geschlagenes Gold",
+            "natürliches Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 10",
+            "Gold löst sich auf",
+            "Abfiltrieren",
+            "Goldlösung in Phiole überführen",
+            "Phiole hermetisch sigillieren"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": true,
+          "values": [
+            "3 Kugeln",
+            "1. Kugel die größte",
+            "2. Kugel voller Löcher",
+            "3. Kugel Eichenholz"
+          ]
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40-45 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 40-50 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "nach Pfauenschwanz grün",
+            "3. Phiole in halben Sandbad",
+            "3a: Phiole schaut aus Sand heraus",
+            "3b: 30 Tage im halben Sandbad",
+            "3c: zuerst im halben Sandbad Weiß",
+            "3d: weitere 30 Tage im halben Sandbad",
+            "3e: im halben Sandbad jetzt Gelb",
+            "4: Phiole komplett im Sandbad",
+            "4a: Zeit unbestimmt",
+            "4b: im kompletten Sandbad Rot",
+            "4c: im kompletten Sandbad in der Mitte Rubinkorn",
+            "Rubinkorn ist Linsengroß",
+            "4d: im kompletten Sandbad außen rotes Pulver",
+            "5: rotes Rubinkorn entnehmen"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "das lebendige Gold der Philosophen"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": true,
+          "values": [
+            "Secunda Compositio"
+          ]
+        },
+        "Zwischenanalyse": {
+          "present": true,
+          "values": [
+            "auf glühendem Silberblech"
+          ]
+        },
+        "Multiplikation": {
+          "present": true,
+          "values": [
+            "Verhältnis Rubinkorn : Menstruum Universale 1 : 10",
+            "in Phiole überführen",
+            "Phiole verschließen",
+            "im Athanor durch alle Farben",
+            "schnellere Wiederholung der ersten Operation",
+            "mehrfache Multiplikation",
+            "nach 1. Multiplication kann die Tinktur 10 Teile tingieren",
+            "jede Multiplikation verzehnfacht die Kraft der Tinktur"
+          ]
+        },
+        "Fermentation": {
+          "present": true,
+          "values": [
+            "multiplizierte Tinktur und Gold",
+            "Qualität des Goldes",
+            "fein",
+            "Verhältnis Tinktur : Gold = 1 : 10",
+            "Gold und Tinktur schmelzen",
+            "Gold wird brüchig",
+            "Gold zu Pulver stoßen"
+          ]
+        },
+        "Projection": {
+          "present": true,
+          "values": [
+            "fermentiertes Goldpulver und Quecksilber",
+            "1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel",
+            "Resultat: Gold"
+          ]
+        }
+      }
+    },
+    {
+      "text_id": "g3a25",
+      "text_num": 25,
+      "a_name": "A25",
+      "e_name": "E22",
+      "text_name": "A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden",
+      "old_group": 3,
+      "new_group": "I",
+      "date": "1757",
+      "text_length": 6840,
+      "word_count": 1127,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": false,
+          "values": []
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "Frühjahr",
+            "bei Sonnenaufgang"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": true,
+          "values": [
+            "Wiese",
+            "fruchtbarer Acker"
+          ]
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "fette schwarze Erde",
+            "rote Erde",
+            "lehmig",
+            "bolarisch"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": true,
+          "values": [
+            "knietief",
+            "ohne Gras",
+            "ohne Wurzeln",
+            "24 Zentner"
+          ]
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Imprägnation der Erde": {
+          "present": true,
+          "values": [
+            "Erde ausbreiten",
+            "14 Tage",
+            "bei Regen abdecken",
+            "im Mai"
+          ]
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "Holzfass",
+            "wie Salpetersieder",
+            "Fass mit Stellhölzern",
+            "Fass mit Zapflöchern",
+            "mit Wasser",
+            "24 Stunden stehen lassen"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Kupferkessel",
+            "Sieden",
+            "Eindampfen bis 50 Prozent",
+            "Nach Einsieden stehen lassen",
+            "Salz kristallisiert aus",
+            "Salz wird gereinigt"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": true,
+          "values": [
+            "Wasser, dass die Hände nicht netzt",
+            "das wahre Salpeter"
+          ]
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": true,
+          "values": [
+            "ausgelaugte Erde calcinieren",
+            "Erdsalz und calcinierte Erde vermischen",
+            "mit etwas Regenwasser",
+            "Kugeln herstellen",
+            "Kugeln an Luft imprägnieren lassen",
+            "4 Wochen imprägnieren",
+            "Mischung in Retorte geben",
+            "Retorte zu 50 Prozent gefüllt",
+            "in Vorlage Wasser",
+            "2 Pfund Wasser",
+            "Regenwasser",
+            "Spiritus geht über",
+            "Sal volatile geht über",
+            "Spiritus und Sal volatile vermischen"
+          ]
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": true,
+          "values": [
+            "Spiritus und Sal volatile in Retorte",
+            "1. Retorte in Wasserbad",
+            "im Wasserbad Phlegma abtrennen",
+            "2. Retorte in Sandbad",
+            "2.1. Spiritus abdestillieren",
+            "2.2. Sal Volatile übersublimieren"
+          ]
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": true,
+          "values": [
+            "bereits verwendete Erde",
+            "Extraktion mit Wasser",
+            "destilliertes Regenwasser",
+            "Extrakt reinigen",
+            "Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+          ]
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": true,
+          "values": [
+            "Salz und Spiritus vereinigen",
+            "Digestion in Phiole"
+          ]
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Liquorem Universale"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Qualität des Goldes",
+            "klein geschlagenes Gold",
+            "reines Gold",
+            "Verhältnis Gold : Menstruum Universale 1 : 4",
+            "Gold und Menstruum Universale in Phiole",
+            "Digestion",
+            "Gold löst sich auf",
+            "Abgießen",
+            "Goldlösung in Phiole überführen",
+            "Phiole hermetisch sigillieren"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "gefüllte Phiole in Athanor",
+            "1. Phiole in Wasserdampf",
+            "1a. 40 Tage im Wasserdampf",
+            "1b. im Wasserdampf Putrefaction",
+            "2. Phiole in Aschebad",
+            "2a: 40 Tage im Aschebad",
+            "2b: im Aschebad Pfauenschwanz",
+            "2c: weitere 40 Tage im Aschebad: Weiß",
+            "2d: weitere 30-40 Tage im Aschebad: rötlich",
+            "2e: nach 50 Tagen im Aschebad: Blutrot mit Rubinkorn"
+          ]
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": true,
+          "values": [
+            "Quintessenz"
+          ]
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": false,
+          "values": []
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    },
+    {
+      "text_id": "g3a26",
+      "text_num": 26,
+      "a_name": "A26",
+      "e_name": "E11",
+      "text_name": "A26 Von der fetten Erde auf Adeptis",
+      "old_group": 3,
+      "new_group": "I",
+      "date": null,
+      "text_length": 3188,
+      "word_count": 546,
+      "annotations": {
+        "Zuschreibung der Vorschrift": {
+          "present": true,
+          "values": [
+            "Stadtschreiber Hertel"
+          ]
+        },
+        "Philosophische Vorbetrachtung": {
+          "present": false,
+          "values": []
+        },
+        "Datierung der Probenahme": {
+          "present": true,
+          "values": [
+            "Juni",
+            "Sonne im Sternbild Krebs",
+            "Vollmond"
+          ]
+        },
+        "Ort der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Art der Erde": {
+          "present": true,
+          "values": [
+            "fette Erde",
+            "gelbe Erde"
+          ]
+        },
+        "Art der Probenahme": {
+          "present": false,
+          "values": []
+        },
+        "Aufteilung der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Fundort der Erde": {
+          "present": true,
+          "values": [
+            "Freiberg",
+            "Annaberg",
+            "Clausthal"
+          ]
+        },
+        "Imprägnation der Erde": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion": {
+          "present": true,
+          "values": [
+            "mit Wasser"
+          ]
+        },
+        "Eindampfen": {
+          "present": true,
+          "values": [
+            "Eindampfen bis 50 Prozent",
+            "Nach Einsieden stehen lassen",
+            "Salz kristallisiert aus"
+          ]
+        },
+        "Bezeichnung des ausgelaugten Salzes": {
+          "present": false,
+          "values": []
+        },
+        "Weiterverarbeitung Erdsalz": {
+          "present": false,
+          "values": []
+        },
+        "Weiterverarbeitung der Mischung von Spiritus und Sal volatile": {
+          "present": false,
+          "values": []
+        },
+        "Sal Volatile extra gewinnen": {
+          "present": false,
+          "values": []
+        },
+        "Extraktion Sal Fixum": {
+          "present": false,
+          "values": []
+        },
+        "Nasser und trockener Weg": {
+          "present": true,
+          "values": [
+            "Nein"
+          ]
+        },
+        "Zusammenfügung von zwei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Zusammenfügung der drei Prinzipien": {
+          "present": false,
+          "values": []
+        },
+        "Bezeichnung des Lösungsmittels": {
+          "present": true,
+          "values": [
+            "Spiritus Universalis"
+          ]
+        },
+        "Salz mit Gold und Silber zusammenschmelzen": {
+          "present": false,
+          "values": []
+        },
+        "Auflösung von Gold": {
+          "present": true,
+          "values": [
+            "Gold löst sich auf",
+            "Abgießen"
+          ]
+        },
+        "Beschreibung des Athanors": {
+          "present": false,
+          "values": []
+        },
+        "Erzeugung des Rubinkorns": {
+          "present": false,
+          "values": []
+        },
+        "Bezeichnung des Rubinkorns": {
+          "present": false,
+          "values": []
+        },
+        "Weiterer Syntheseschritt": {
+          "present": false,
+          "values": []
+        },
+        "Zwischenanalyse": {
+          "present": false,
+          "values": []
+        },
+        "Multiplikation": {
+          "present": false,
+          "values": []
+        },
+        "Fermentation": {
+          "present": false,
+          "values": []
+        },
+        "Projection": {
+          "present": false,
+          "values": []
+        }
+      }
+    }
+  ]
+}

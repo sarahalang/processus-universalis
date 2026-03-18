@@ -1,0 +1,541 @@
+text_id,a_name,e_name,old_group,new_group,date,text_name,category,present,value_count,values
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Zuschreibung der Vorschrift,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Philosophische Vorbetrachtung,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Datierung der Probenahme,1,6,Mai; klarer Himmel; kein Wind; kein Regen; früh morgens; bei Sonnenaufgang
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Ort der Probenahme,1,2,schöne Wiese; Wiese mit Blumen
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Art der Erde,1,5,fette schwarze Erde; rote Erde; gelbe Erde; lehmig; bolarisch
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Art der Probenahme,1,5,knietief; ohne Gras; ohne Wurzeln; ohne Steine; 20-24 Zentner
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Aufteilung der Erde,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Fundort der Erde,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Imprägnation der Erde,1,4,Erde ausbreiten; 14 Tage; Einwirkung von Gestirn und Himmel; bei Regen abdecken
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Extraktion,1,7,Holzfass; wie Salpetersieder; Fass mit Stellhölzern; Fass mit Zapflöchern; Stroh auf die Stellhölzer; kaltes Wasser; 24 Stunden stehen lassen
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Eindampfen,1,8,Kupferkessel; Sieden; Eindampfen bis 50 Prozent; nach Eindampfen wieder Auffüllen; Wiederholung 8-10 Mal; Nach Einsieden stehen lassen; Salz kristallisiert aus; Salz wird gereinigt
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Bezeichnung des ausgelaugten Salzes,1,3,"Sal Terrae Virgineum; Nitrum Philosophicum; Wasser, dass die Hände nicht netzt"
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Weiterverarbeitung Erdsalz,1,18,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:2; mit etwas Regenwasser; Kugeln herstellen; Kugeln an Luft imprägnieren lassen; 4 Wochen imprägnieren; Mischung in Retorte geben; Retorte zu 50 Prozent gefüllt; in Vorlage Wasser; 1 Maß Wasser; destilliertes Regenwasser; per Gradus destillieren; Spiritus geht über; Sal volatile geht über; Spiritus und Sal volatile vermischen; vermischter Spiritus und Sal volatile in Gefäß gut verschlossen; Mischung aus Spiritus und Sal volatile kühl lagern
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,1,14,Spiritus und Sal volatile in Retorte; Retorte = Glaskolben; Retorte 50 Prozent gefüllt; 1. Retorte in Wasserbad; im Wasserbad Phlegma abtrennen; 2. Retorte in Aschebad oder Sandbad; 2.1. Spiritus abdestillieren; 2.2. Sal Volatile übersublimieren; 3.1. wiederholtes Übersublimieren des Sal Volatile; in Aschebad oder Sandbad; 3.2. wiederholtes Rektifizieren des Spiritus; in Aschebad oder Sandbad; Spiritus kühl lagern; Sal Volatile warm lagern
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Sal Volatile extra gewinnen,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Extraktion Sal Fixum,1,7,"bereits verwendete Kugeln calcinieren; calcinierte Kugeln zermörsern; Extraktion mit Wasser; destilliertes Regenwasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren; Sal Fixum warm lagern"
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Nasser und trockener Weg,1,1,Nein
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Zusammenfügung von zwei Prinzipien,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Zusammenfügung der drei Prinzipien,1,6,"Sal Volatile im Mörser fein reiben; Sal Fixum im Mörser fein reiben; Sal Volatile, Sal Fixum und Spiritus zusammengeben; Mischung digerieren; Digestion 8 Tage; Filtration"
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Bezeichnung des Lösungsmittels,1,6,der wahre rechte Hauptschlüssel; Menstruum Universale; das rechte Wasser des Lebens; die rechte Fontina; das Bad der Wiedergeburt; philosophisches Mercurialwasser
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Auflösung von Gold,1,16,Qualität des Goldes; klein gefeiltes Gold; hochreines Gold; durch Antimon gegossen; 6-7 mal durch Antimon gegossen; Verhältnis Gold : Menstruum Universale 1 : 10; 1 Lot : 10 Lot; Gold und Menstruum Universale in Kolben; Keramikkolben; Kolben in Aschebad; 24 Stunden im Aschebad; Gold löst sich auf; Abgießen; Goldlösung in Phiole überführen; Phiole zu zwei Drittel leer; Phiole zuschmelzen
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Beschreibung des Athanors,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Erzeugung des Rubinkorns,1,19,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-50 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: 40 Tage im kompletten Sandbad; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Bezeichnung des Rubinkorns,1,2,der rechte König des Reichtums und der Gesundheit; Goldsamen
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Weiterer Syntheseschritt,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Zwischenanalyse,0,0,
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Multiplikation,1,9,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; in Phiole überführen; Phiole verschließen; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; jede erneute Multiplikation ist schneller als die vorige; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Fermentation,1,14,multiplizierte Tinktur und Gold; multiplizierte Tinktur 1 Lot; Qualität des Goldes; hochrein; durch Antimon gegossen; 7 mal durch Antimon gegossen; Verhältnis Tinktur : Gold; Verhältnis 1 : 10; 1 Lot : 10 Lot; Gold und Tinktur in Schmelztiegel; im Ofen schmelzen; 6 Stunden schmelzen; Gold wird brüchig; Gold wird zu Rubinstein
+g1a1,A1,E16,1,II,,A1 Höchster Schatz und Kleinod der Welt,Projection,1,10,"Rubinstein und unedles Metall; Menge Rubinstein; 1 Gran Rubinstein; 0,5 Pfund unedles Metall; Rubinstein in Wachs gewickelt; Rubinstein in Wachs auf unedles Metall geworfen; Zusammenschmelzen; 1 Stunde zusammenschmelzen; Ausgießen; Resultat: allerfeinstes Dukatengold"
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Zuschreibung der Vorschrift,1,2,Sendivogius; Johann Podowsky
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Philosophische Vorbetrachtung,1,1,die Erde ist aller Sachen Samen
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Datierung der Probenahme,0,0,
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Ort der Probenahme,0,0,
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Art der Erde,1,1,"Erde durch Sonne, Mond und Sterne imprägniert"
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Art der Probenahme,0,0,
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Fundort der Erde,1,1,Chomutov
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Imprägnation der Erde,0,0,
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Extraktion,1,1,wie Salpetersieder
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Eindampfen,1,2,Sieden; Salz wird gereinigt
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Bezeichnung des ausgelaugten Salzes,1,1,Salpeter
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Weiterverarbeitung Erdsalz,1,13,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; keine Kugeln; maximal 6 Pfund pro Ansatz; Mischung in Retorte geben; in Vorlage Wasser; 2 Pfund Wasser; destilliertes Regenwasser; Spiritus geht über; Spiritus rot; Spiritus rektifizieren; Spiritus kühl lagern
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Sal Volatile extra gewinnen,1,4,aus frischer Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Extraktion Sal Fixum,1,5,"bereits verwendete Erde calcinieren; Extraktion mit Wasser; destilliertes Wasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Nasser und trockener Weg,1,1,Nein
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Zusammenfügung von zwei Prinzipien,0,0,
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Bezeichnung des Lösungsmittels,1,2,Mercurius Triumphans Philosophorus; Menstruum Universale
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Salz mit Gold und Silber zusammenschmelzen,0,0,
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Auflösung von Gold,1,6,Qualität des Goldes; natürliches Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold löst sich auf; Abfiltrieren; Goldlösung in Phiole überführen
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Eichenholz
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Erzeugung des Rubinkorns,1,20,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-45 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; Rubinkorn ist Linsengroß; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Bezeichnung des Rubinkorns,1,2,Goldsamen; das rechte philosophische lebendige Gold
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Weiterer Syntheseschritt,1,1,Secunda Compositio
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Zwischenanalyse,1,1,auf glühendem Silberblech
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Multiplikation,1,6,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Fermentation,0,0,
+g2a2,A2,E37,2,III,1690,"A2 Es ist erstlich zu wissen, daß die Erde aller sachen Saamen",Projection,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Zuschreibung der Vorschrift,1,1,Sendivogius
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Philosophische Vorbetrachtung,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Datierung der Probenahme,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Ort der Probenahme,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Art der Erde,1,1,"Erde durch Sonne, Mond und Sterne imprägniert"
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Art der Probenahme,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Fundort der Erde,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Imprägnation der Erde,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Extraktion,1,1,wie Salpetersieder
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Eindampfen,1,2,Sieden; Salz wird gereinigt
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Bezeichnung des ausgelaugten Salzes,1,1,Salpeter
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Weiterverarbeitung Erdsalz,1,12,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; keine Kugeln; maximal 6 Pfund pro Ansatz; Mischung in Retorte geben; in Vorlage Wasser; destilliertes Regenwasser; Spiritus geht über; Spiritus rot; Spiritus rektifizieren; Spiritus kühl lagern
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Sal Volatile extra gewinnen,1,4,aus frischer Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Extraktion Sal Fixum,1,5,"bereits verwendete Erde calcinieren; Extraktion mit Wasser; destilliertes Wasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Nasser und trockener Weg,1,1,Nein
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Zusammenfügung von zwei Prinzipien,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Bezeichnung des Lösungsmittels,1,2,Mercurius Triumphans Philosophicus; Menstruum Universale
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Auflösung von Gold,1,6,Qualität des Goldes; natürliches Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold löst sich auf; Abfiltrieren; Goldlösung in Phiole überführen
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Eichenholz
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Erzeugung des Rubinkorns,1,20,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-50 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; Rubinkorn ist Linsengroß; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Bezeichnung des Rubinkorns,1,2,Goldsamen; das rechte philosophische lebendige Gold
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Weiterer Syntheseschritt,1,1,Secunda Compositio
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Zwischenanalyse,1,1,auf glühendem Silberblech
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Multiplikation,1,6,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Fermentation,0,0,
+g2a3,A3,E38,2,III,,A3 Processus Michaelis Sendivogij equitis Poloni auf das Universal Wasser,Projection,0,0,
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Zuschreibung der Vorschrift,1,1,Sendivogius
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Philosophische Vorbetrachtung,1,1,die Erde ist aller Sachen Samen
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Datierung der Probenahme,1,2,März; Sonne im Sternbild Widder
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Ort der Probenahme,0,0,
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Art der Erde,1,2,"Erde durch Sonne, Mond und Sterne imprägniert; Tonerde"
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Art der Probenahme,0,0,
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Fundort der Erde,0,0,
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Imprägnation der Erde,0,0,
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Extraktion,1,1,wie Salpetersieder
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Eindampfen,1,2,Sieden; Salz wird gereinigt
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Bezeichnung des ausgelaugten Salzes,1,1,Nitro
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Weiterverarbeitung Erdsalz,1,13,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; keine Kugeln; maximal 6 Pfund pro Ansatz; Mischung in Retorte geben; in Vorlage Wasser; 2 Pfund Wasser; destilliertes Regenwasser; Spiritus geht über; Spiritus rot; Spiritus rektifizieren; Spiritus kühl lagern
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Sal Volatile extra gewinnen,1,4,aus frischer Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Extraktion Sal Fixum,1,5,"bereits verwendete Erde calcinieren; Extraktion mit Wasser; destilliertes Regenwasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Nasser und trockener Weg,1,1,Nein
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Zusammenfügung von zwei Prinzipien,0,0,
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Bezeichnung des Lösungsmittels,1,2,Mercurius Triumphans Philosophorum; Menstruum Universale
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Salz mit Gold und Silber zusammenschmelzen,0,0,
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Auflösung von Gold,1,7,Qualität des Goldes; natürliches Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold löst sich auf; Abfiltrieren; Goldlösung in Phiole überführen; Phiole hermetisch sigillieren
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Eichenholz
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Erzeugung des Rubinkorns,1,21,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-45 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 40 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; nach Pfauenschwanz grün; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 40-45 Tagen im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; Rubinkorn ist Linsengroß; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Bezeichnung des Rubinkorns,1,1,Goldsamen
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Weiterer Syntheseschritt,1,1,Secunda Compositio
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Zwischenanalyse,1,1,auf glühendem Silberblech
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Multiplikation,1,6,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Fermentation,1,5,multiplizierte Tinktur und Gold; Verhältnis Tinktur : Gold = 1 : 10; Gold und Tinktur schmelzen; Gold wird brüchig; Gold zu Pulver stoßen
+g2a4,A4,E44,2,III,1682,"A4 Processus D. Michaelis Sendivogii super centrum universi, seu Sal centrale",Projection,1,3,fermentiertes Goldpulver und Quecksilber; 1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel; Resultat: reines Gold
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Zuschreibung der Vorschrift,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Philosophische Vorbetrachtung,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Datierung der Probenahme,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Ort der Probenahme,1,1,Lehmgrube
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Art der Erde,1,1,fette Erde
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Art der Probenahme,1,1,ohne Steine
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Aufteilung der Erde,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Fundort der Erde,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Imprägnation der Erde,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Extraktion,1,7,Holzfass; wie Salpetersieder; Fass mit Stellhölzern; Fass mit Zapflöchern; Stroh auf die Stellhölzer; kaltes Wasser; 24 Tage stehen lassen
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Eindampfen,1,6,Kessel; Sieden; Wiederholung 8-10 Mal; Nach Einsieden stehen lassen; Salz kristallisiert aus; Salz wird gereinigt
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Bezeichnung des ausgelaugten Salzes,1,3,"Sal nitri terrae Philosophorum; Wasser, dass die Hände nicht netzt; Secretum omnium Philosophorum"
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Weiterverarbeitung Erdsalz,1,15,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; mit etwas destillierten Wasser; Kugeln herstellen; Mischung in Retorte geben; in Vorlage Wasser; 1 Pfund Wasser; destilliertes Wasser; per Gradus destillieren; Spiritus geht über; Sal volatile geht über; Spiritus und Sal volatile vermischen; vermischter Spiritus und Sal volatile in Gefäß gut verschlossen; Mischung aus Spiritus und Sal volatile warm lagern
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Sal Volatile extra gewinnen,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Extraktion Sal Fixum,1,6,"bereits verwendete Kugeln calcinieren; calcinierte Kugeln zermörsern; Extraktion mit Wasser; destilliertes warmes Wasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Nasser und trockener Weg,1,1,Nein
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Zusammenfügung von zwei Prinzipien,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Zusammenfügung der drei Prinzipien,1,3,"Sal Volatile im Mörser fein reiben; Sal Fixum im Mörser fein reiben; Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Bezeichnung des Lösungsmittels,1,4,Menstruum Universale; das rechte Wasser des Lebens; die rechte Fontina; unsere Philosophische Milch
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Auflösung von Gold,1,10,Qualität des Goldes; natürliches Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold und Menstruum Universale in Kolben; 24 Stunden Digestion; Gold löst sich auf; Abgießen; Goldlösung in Phiole überführen; Phiole zu zwei Drittel leer; Phiole hermetisch sigillieren
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Beschreibung des Athanors,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Erzeugung des Rubinkorns,1,19,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-50 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: 40 Tage im kompletten Sandbad; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Bezeichnung des Rubinkorns,1,1,Goldsamen
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Weiterer Syntheseschritt,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Zwischenanalyse,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Multiplikation,1,9,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; in Phiole überführen; Phiole verschließen; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; jede erneute Multiplikation ist schneller als die vorige; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Fermentation,0,0,
+g1a5,A5,E17,1,II,1682,A5 Praeparatio salis nitri ex terra virginea altera,Projection,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Zuschreibung der Vorschrift,1,1,David Beuther
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Philosophische Vorbetrachtung,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Datierung der Probenahme,1,6,Mai; klarer Himmel; kein Wind; kein Regen; früh morgens; bei Sonnenaufgang
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Ort der Probenahme,1,6,schöne Wiese; Wiese mit Blumen; Wiese mit Kräutern; Wiese mit Klee; Weinberge; Lehmgrube
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Art der Erde,1,5,fette schwarze Erde; rote Erde; gelbe Erde; lehmig; bolarisch
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Art der Probenahme,1,1,etliche Zentner
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Aufteilung der Erde,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Fundort der Erde,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Imprägnation der Erde,1,4,Erde ausbreiten; 14 Tage; Einwirkung von Gestirn und Himmel; bei Regen abdecken
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Extraktion,1,4,Fass; wie Seifensieder; kaltes Wasser; 24 Stunden stehen lassen
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Eindampfen,1,4,Sieden; Nach Einsieden stehen lassen; Salz kristallisiert aus; Salz wird gereinigt
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Bezeichnung des ausgelaugten Salzes,1,5,"Sal Terrae; Wasser, dass die Hände nicht netzt; Salpeter Philosophorum; Sal naturae virgineum; Secretum Philosophorum"
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Weiterverarbeitung Erdsalz,1,10,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; mit etwas Regenwasser; Kugeln herstellen; Mischung in Retorte geben; in Vorlage Wasser; per Gradus destillieren; Spiritus geht über; Sal volatile geht über; Spiritus und Sal volatile vermischen
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Weiterverarbeitung der Mischung von Spiritus und Sal volatile,1,9,Spiritus und Sal volatile in Retorte; Retorte = Glaskolben; 1. Retorte in Wasserbad; im Wasserbad Phlegma abtrennen; 2. Retorte in Sandbad; 2.1. Spiritus abdestillieren; 2.2. Sal Volatile übersublimieren; 3.1. wiederholtes Übersublimieren des Sal Volatile; 3.2. wiederholtes Rektifizieren des Spiritus
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Sal Volatile extra gewinnen,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Extraktion Sal Fixum,1,4,bereits verwendete Kugeln calcinieren; Extraktion mit Wasser; destilliertes Regenwasser; Extrakt reinigen
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Nasser und trockener Weg,1,1,Nein
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Zusammenfügung von zwei Prinzipien,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Zusammenfügung der drei Prinzipien,1,6,"Sal Volatile im Mörser fein reiben; Sal Fixum im Mörser fein reiben; Sal Volatile, Sal Fixum und Spiritus zusammengeben; Mischung digerieren; Digestion im Aschebad; Digestion 8 Tage"
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Bezeichnung des Lösungsmittels,1,5,Menstruum Universale; das rechte Wasser des Lebens; die rechte Fontina; das Bad der Wiedergeburt; unsere Philosophische Jungfern-Milch
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Salz mit Gold und Silber zusammenschmelzen,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Auflösung von Gold,1,13,Qualität des Goldes; klein gefeiltes Gold; hochreines Gold; durch Antimon gegossen; 7-8 mal durch Antimon gegossen; Verhältnis Gold : Menstruum Universale 1 : 10; Gold und Menstruum Universale in Kolben; Kolben in Aschebad; 24 Stunden im Aschebad; Gold löst sich auf; Abgießen; Goldlösung in Phiole überführen; Phiole zuschmelzen
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Beschreibung des Athanors,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Erzeugung des Rubinkorns,1,17,Erzeugung des Rubinkorns:: gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: 40 Tage im kompletten Sandbad; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Bezeichnung des Rubinkorns,1,1,roter Mercurius Coagulatus
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Weiterer Syntheseschritt,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Zwischenanalyse,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Multiplikation,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Fermentation,0,0,
+g1a6,A6,E19,1,II,1718,"A6 Praeparatio Salis Terrae, seu Salpetri nostri e Terra Virginea",Projection,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Zuschreibung der Vorschrift,1,3,Sendivogius; Johann Podowsky; Großschedel
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Philosophische Vorbetrachtung,1,1,die Erde ist aller Sachen Samen
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Datierung der Probenahme,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Ort der Probenahme,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Art der Erde,1,1,"Erde durch Sonne, Mond und Sterne imprägniert"
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Art der Probenahme,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Fundort der Erde,1,1,Chomutov
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Imprägnation der Erde,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Extraktion,1,1,wie Salpetersieder
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Eindampfen,1,2,Sieden; Salz wird gereinigt
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Bezeichnung des ausgelaugten Salzes,1,1,Salpeter
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Weiterverarbeitung Erdsalz,1,13,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; keine Kugeln; maximal 6 Pfund pro Ansatz; Mischung in Retorte geben; in Vorlage Wasser; 2 Pfund Wasser; Regenwasser; Spiritus geht über; Spiritus rot; Spiritus rektifizieren; Spiritus kühl lagern
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Sal Volatile extra gewinnen,1,4,aus frischer Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Extraktion Sal Fixum,1,5,"bereits verwendete Erde calcinieren; Extraktion mit Wasser; destilliertes warmes Wasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Nasser und trockener Weg,1,1,Nein
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Zusammenfügung von zwei Prinzipien,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Bezeichnung des Lösungsmittels,1,2,Mercurius Triumphans; Menstruum Universale
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Auflösung von Gold,1,6,Qualität des Goldes; natürliches Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold löst sich auf; Abfiltrieren; Goldlösung in Phiole überführen
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Buchenholz
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Erzeugung des Rubinkorns,1,20,Erzeugung des Rubinkorns:: gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-48 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; Rubinkorn ist Linsengroß; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Bezeichnung des Rubinkorns,1,2,Goldsamen; das rechte philosophische Gold
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Weiterer Syntheseschritt,1,1,Secunda Compositio
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Zwischenanalyse,1,1,auf glühendem Silberblech
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Multiplikation,1,6,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Fermentation,0,0,
+g2a7,A7,E39,2,III,,A7 Labor et praxis Michaelis Sendivogi Poloni,Projection,0,0,
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Zuschreibung der Vorschrift,1,1,Sendivogius
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Philosophische Vorbetrachtung,1,1,die Erde ist aller Sachen Samen
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Datierung der Probenahme,1,2,früh morgens; bei Sonnenaufgang
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Ort der Probenahme,1,2,Wiese mit Blumen; Wiese mit Kräutern
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Art der Erde,1,2,"Erde durch Sonne, Mond und Sterne imprägniert; rote fette Erde"
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Art der Probenahme,1,1,etliche Karren
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Fundort der Erde,0,0,
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Imprägnation der Erde,1,2,Erde ausbreiten; Nachts
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Extraktion,1,1,wie Salpetersieder
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Eindampfen,1,2,Sieden; Salz wird gereinigt
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Bezeichnung des ausgelaugten Salzes,1,1,Nitro
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Weiterverarbeitung Erdsalz,1,13,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; keine Kugeln; maximal 6 Pfund pro Ansatz; Mischung in Retorte geben; in Vorlage Wasser; 2 Pfund Wasser; destilliertes Regenwasser; Spiritus geht über; Spiritus rot; Spiritus rektifizieren; Spiritus kühl lagern
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Sal Volatile extra gewinnen,1,4,aus frischer Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Extraktion Sal Fixum,1,5,"bereits verwendete Erde calcinieren; Extraktion mit Wasser; destilliertes warmes Regenwasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Nasser und trockener Weg,1,1,Nein
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Zusammenfügung von zwei Prinzipien,0,0,
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Bezeichnung des Lösungsmittels,1,2,Mercurius Triumphans Philosophorum; Menstruum Universale
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Auflösung von Gold,1,7,Qualität des Goldes; klein geschlagenes Gold; natürliches Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold löst sich auf; Abgießen; Goldlösung in Phiole überführen
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Eichenholz
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Erzeugung des Rubinkorns,1,21,Erzeugung des Rubinkorns:: gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-45 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; nach Pfauenschwanz grün; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 30 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; Rubinkorn ist Linsengroß; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Bezeichnung des Rubinkorns,1,2,Goldsamen; das lebendige Gold der Philosophen
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Weiterer Syntheseschritt,1,1,Secunda Compositio
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Zwischenanalyse,1,1,auf glühendem Silberblech
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Multiplikation,1,8,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; in Phiole überführen; Phiole verschließen; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Fermentation,1,5,multiplizierte Tinktur und Gold; Verhältnis Tinktur : Gold = 1 : 10; Gold und Tinktur schmelzen; Gold wird brüchig; Gold zu Pulver stoßen
+g2a8,A8,E34,2,III,,A8 Processus Universalis per Spiritum Universi Sendivogij Poloni,Projection,1,3,fermentiertes Goldpulver und Quecksilber; 1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel; Resultat: Gold
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Zuschreibung der Vorschrift,1,2,Sendivogius; Jacob Allstein
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Philosophische Vorbetrachtung,1,2,Samen in Adamische Erde säen; Himmlischer Tau
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Datierung der Probenahme,1,2,Sonne im Sternbild Widder; Sonne im Sternbild Stier
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Ort der Probenahme,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Art der Erde,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Art der Probenahme,1,1,knietief
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Aufteilung der Erde,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Fundort der Erde,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Imprägnation der Erde,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Extraktion,1,1,mit Wasser
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Eindampfen,1,1,Abrauchen
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Bezeichnung des ausgelaugten Salzes,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Weiterverarbeitung Erdsalz,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Sal Volatile extra gewinnen,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Extraktion Sal Fixum,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Nasser und trockener Weg,1,1,Nein
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Zusammenfügung von zwei Prinzipien,1,4,Salz und Spiritus vereinigen; Spiritus wieder abziehen und wieder aufgiessen; 7 mal wiederholen; Resultat: Salz
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Zusammenfügung der drei Prinzipien,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Bezeichnung des Lösungsmittels,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Salz mit Gold und Silber zusammenschmelzen,1,3,Verhältnis Salz : Gold : Silber = 11 : 1 : 2; im Tiegel 7 Monate schmelzen; Resultat: lebendiges Gold
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Auflösung von Gold,1,2,lebendiges Gold in 10 Teilen Tau auflösen; 10 Monate kochen
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Beschreibung des Athanors,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Erzeugung des Rubinkorns,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Bezeichnung des Rubinkorns,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Weiterer Syntheseschritt,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Zwischenanalyse,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Multiplikation,1,1,Auflösung 1 Teil Tinktur in 10 Teilen Tau
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Fermentation,0,0,
+g3a9,A9,E2,3,I,1618,A9 Das grosse Geheimnuß Sendivogij eben von diesen Allsteinio,Projection,1,1,1 Teil tingiert 864 Teile
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Zuschreibung der Vorschrift,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Philosophische Vorbetrachtung,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Datierung der Probenahme,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Ort der Probenahme,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Art der Erde,1,1,"Erde durch Sonne, Mond und Sterne imprägniert"
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Art der Probenahme,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Fundort der Erde,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Imprägnation der Erde,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Extraktion,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Eindampfen,1,1,Salz wird gereinigt
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Bezeichnung des ausgelaugten Salzes,1,1,Nitro
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Weiterverarbeitung Erdsalz,1,8,ausgelaugte Erde calcinieren; keine Kugeln; in Vorlage Wasser; 2 Pfund Wasser; Brunnenwasser; per Gradus destillieren; Spiritus geht über; Spiritus rektifizieren
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Sal Volatile extra gewinnen,1,4,aus calcinierter Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Extraktion Sal Fixum,1,2,bereits verwendete Erde calcinieren; Extraktion mit Wasser
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Nasser und trockener Weg,1,1,Nein
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Zusammenfügung von zwei Prinzipien,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Bezeichnung des Lösungsmittels,1,2,Mercurius Triumphans Philosophicus; Menstruum Universale
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Auflösung von Gold,1,9,Qualität des Goldes; klein geschlagenes Gold; hochreines Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold und Menstruum Universale in Kolben; Gold löst sich auf; Abfiltrieren; Goldlösung in Phiole überführen; Phiole hermetisch sigillieren
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Eichenholz
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Erzeugung des Rubinkorns,1,21,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-45 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; nach Pfauenschwanz grün; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30-50 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; Rubinkorn ist Erbsengroß; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Bezeichnung des Rubinkorns,1,2,Goldsamen; der Philosophen Gold
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Weiterer Syntheseschritt,1,1,Secunda Compositio
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Zwischenanalyse,1,1,auf glühendem Silberblech
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Multiplikation,1,8,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; in Phiole überführen; Phiole verschließen; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Fermentation,1,7,multiplizierte Tinktur und Gold; Qualität des Goldes; hochrein; Verhältnis Tinktur : Gold = 1 : 10; Gold und Tinktur in Schmelztiegel; Gold und Tinktur schmelzen; Gold wird brüchig
+g2a11,A11,E43,2,III,1674,A11 Dieser Kunst Praxis ist diese,Projection,1,3,fermentiertes Goldpulver und Quecksilber; 1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber; Resultat: bestes Gold
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Zuschreibung der Vorschrift,1,1,Sendivogius
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Philosophische Vorbetrachtung,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Datierung der Probenahme,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Ort der Probenahme,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Art der Erde,1,1,"Erde durch Sonne, Mond und Sterne imprägniert"
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Art der Probenahme,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Fundort der Erde,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Imprägnation der Erde,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Extraktion,1,1,wie Salpetersieder
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Eindampfen,1,2,Sieden; Salz wird gereinigt
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Bezeichnung des ausgelaugten Salzes,1,1,Nitro
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Weiterverarbeitung Erdsalz,1,13,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; keine Kugeln; maximal 6 Pfund pro Ansatz; Mischung in Retorte geben; in Vorlage Wasser; 2 Pfund Wasser; destilliertes Regenwasser; Spiritus geht über; Spiritus rot; Spiritus rektifizieren; Spiritus kühl lagern
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Sal Volatile extra gewinnen,1,4,aus frischer Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Extraktion Sal Fixum,1,4,bereits verwendete Erde calcinieren; Extraktion mit Wasser; destilliertes warmes Regenwasser; Extrakt reinigen
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Nasser und trockener Weg,1,1,Nein
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Zusammenfügung von zwei Prinzipien,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Bezeichnung des Lösungsmittels,1,2,Mercurius Optatus; Menstruum Universale
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Auflösung von Gold,1,7,Qualität des Goldes; klein geschlagenes Gold; hochreines Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold löst sich auf; Abfiltrieren; Goldlösung in Phiole überführen
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Eichenholz
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Erzeugung des Rubinkorns,1,21,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-44 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; nach Pfauenschwanz grün; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; Rubinkorn ist Linsengroß; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Bezeichnung des Rubinkorns,1,2,Goldsamen; der Philosophen Gold
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Weiterer Syntheseschritt,1,1,Secunda Compositio
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Zwischenanalyse,1,1,auf glühendem Silberblech
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Multiplikation,1,8,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; in Phiole überführen; Phiole verschließen; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Fermentation,1,8,multiplizierte Tinktur und Gold; Qualität des Goldes; fein; Verhältnis Tinktur : Gold = 1 : 10; Gold und Tinktur in Schmelztiegel; Gold und Tinktur schmelzen; Gold wird brüchig; Gold zu Pulver stoßen
+g2a12,A12,E45,2,III,1724,A12 Lapis Philosophorum Sendivogii,Projection,1,3,fermentiertes Goldpulver und Quecksilber; 1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel; Resultat: edelstes Gold
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Zuschreibung der Vorschrift,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Philosophische Vorbetrachtung,1,1,die Erde ist aller Sachen Samen
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Datierung der Probenahme,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Ort der Probenahme,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Art der Erde,1,1,"Erde durch Sonne, Mond und Sterne imprägniert"
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Art der Probenahme,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Fundort der Erde,1,2,Chomutov; Thionville
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Imprägnation der Erde,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Extraktion,1,1,wie Salpetersieder
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Eindampfen,1,2,Sieden; Salz wird gereinigt
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Bezeichnung des ausgelaugten Salzes,1,1,Salpeter
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Weiterverarbeitung Erdsalz,1,13,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; keine Kugeln; maximal 6 Pfund pro Ansatz; Mischung in Retorte geben; in Vorlage Wasser; 2 Pfund Wasser; destilliertes Regenwasser; Spiritus geht über; Spiritus rot; Spiritus rektifizieren; Spiritus kühl lagern
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Sal Volatile extra gewinnen,1,4,aus frischer Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Extraktion Sal Fixum,1,4,bereits verwendete Erde calcinieren; Extraktion mit Wasser; warmes Wasser; Extrakt reinigen
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Nasser und trockener Weg,1,1,Nein
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Zusammenfügung von zwei Prinzipien,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Bezeichnung des Lösungsmittels,1,2,Mercurius Triumphans Philosophorum; Menstruum Universale
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Auflösung von Gold,1,6,Qualität des Goldes; reines Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold löst sich auf; Abfiltrieren; Goldlösung in Phiole überführen
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Eichenholz
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Erzeugung des Rubinkorns,1,17,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-48 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte glänzendes Wesen
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Bezeichnung des Rubinkorns,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Weiterer Syntheseschritt,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Zwischenanalyse,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Multiplikation,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Fermentation,0,0,
+g2a13,A13,E42,2,III,1733,A13 Labor Universalis eines wahren Adepti,Projection,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Zuschreibung der Vorschrift,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Philosophische Vorbetrachtung,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Datierung der Probenahme,1,7,März; Vollmond; klarer Himmel; kein Wind; kein Regen; früh morgens; bei Sonnenaufgang
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Ort der Probenahme,1,1,schöne Wiese
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Art der Erde,1,2,rote Erde; bolarisch
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Art der Probenahme,1,1,halbe Elle tief
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Aufteilung der Erde,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Fundort der Erde,1,3,FEHLT; (in den parallelen Oberservationes wird genannt: Chomutov; )
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Imprägnation der Erde,1,8,Erde ausbreiten; 14 Tage; Einwirkung von Gestirn und Himmel; bei Regen abdecken; Nachts; bis Ende Mai; mit Maientau besprengen; bis Ende Juli
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Extraktion,1,7,Fass; Fass mit Zapflöchern; mit Wasser; warmes Wasser; Regenwasser; Maientau; 24 Stunden stehen lassen
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Eindampfen,1,5,Kessel; Sieden; Nach Einsieden stehen lassen; Salz kristallisiert aus; Salz wird gereinigt
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Bezeichnung des ausgelaugten Salzes,1,3,Sal Terrae; Nitrum Terrae; Nitrum nostri
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Weiterverarbeitung Erdsalz,1,9,Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; mit etwas Maientau; Kugeln herstellen; Kugeln an Luft imprägnieren lassen; Mischung in Retorte geben; per Gradus destillieren; Spiritus geht über; Sal volatile geht über
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Sal Volatile extra gewinnen,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Extraktion Sal Fixum,1,4,"bereits verwendete Kugeln calcinieren; Extraktion mit Wasser; destillierter warmer Maientau; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Nasser und trockener Weg,1,1,Ja
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Zusammenfügung von zwei Prinzipien,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Zusammenfügung der drei Prinzipien,1,4,"Sal Volatile, Sal Fixum und Spiritus zusammengeben; Mischung digerieren; Digestion im Wasserbad; Digestion 40 Tage"
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Bezeichnung des Lösungsmittels,1,1,trocken Wasser
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Auflösung von Gold,1,10,Qualität des Goldes; klein gefeiltes Gold; Verhältnis Gold : Menstruum Universale 1 : 7; Gold und Menstruum Universale in Phiole; Digestion; Gold löst sich auf; Abgießen; Goldlösung in Phiole überführen; Phiole zu zwei Drittel leer; Phiole hermetisch sigillieren
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Beschreibung des Athanors,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Erzeugung des Rubinkorns,1,16,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2b: im Aschebad Pfauenschwanz; nach Pfauenschwanz grün; 2c: weitere 45 Tage im Aschebad: Weiß; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: 3 Tage im kompletten Sandbad; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; 5: rotes Rubinkorn entnehmen
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Bezeichnung des Rubinkorns,1,1,Quintessenz
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Weiterer Syntheseschritt,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Zwischenanalyse,0,0,
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Multiplikation,1,2,Verhältnis Rubinkorn : Menstruum Universale 1 : 3; in Phiole überführen
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Fermentation,1,6,multiplizierte Tinktur und Gold; Verhältnis Tinktur : Gold = 1 : 3; 3 Stunden schmelzen; Gold und Tinktur schmelzen; Gold wird brüchig; Gold zu Pulver stoßen
+g1a15,A15,E32b,1,II,1697,A15 Descriptio Tincturae Universalis,Projection,1,3,fermentiertes Goldpulver und Quecksilber; 1 Teil fermentiertes Goldpulver und 100 Teile Quecksilber in Schmelztiegel; Resultat: Gold
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Zuschreibung der Vorschrift,1,1,Alexander Sethonius
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Philosophische Vorbetrachtung,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Datierung der Probenahme,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Ort der Probenahme,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Art der Erde,1,1,fette Erde
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Art der Probenahme,1,1,ohne Steine
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Aufteilung der Erde,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Fundort der Erde,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Imprägnation der Erde,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Extraktion,1,7,Fass; wie Salpetersieder; Fass mit Stellhölzern; Fass mit Zapflöchern; Stroh auf die Stellhölzer; warmes Wasser; 24 Stunden stehen lassen
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Eindampfen,1,7,Kessel; Sieden; Eindampfen bis 50 Prozent; Wiederholung 8-10 Mal; Nach Einsieden stehen lassen; Salz kristallisiert aus; Salz wird gereinigt
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Bezeichnung des ausgelaugten Salzes,1,4,"Sal nitri terrae Philosophorum; Wasser, dass die Hände nicht netzt; Secretum omnium Philosophorum; Brunnquell Fontanam Naturae"
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Weiterverarbeitung Erdsalz,1,13,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; mit Wasser; Kugeln herstellen; Mischung in Retorte geben; in Vorlage Wasser; 1 Maß Wasser; destilliertes Wasser; per Gradus destillieren; Spiritus geht über; Sal volatile geht über; Spiritus und Sal volatile vermischen
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,1,11,Spiritus und Sal volatile in Retorte; Retorte = Glaskolben; 1. Retorte in Wasserbad; im Wasserbad Phlegma abtrennen; 2. Retorte in Aschebad oder Sandbad; 2.1. Spiritus abdestillieren; 2.2. Sal Volatile übersublimieren; 3.1. wiederholtes Übersublimieren des Sal Volatile; 3.2. wiederholtes Rektifizieren des Spiritus; Spiritus kühl lagern; Sal Volatile warm lagern
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Sal Volatile extra gewinnen,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Extraktion Sal Fixum,1,3,bereits verwendete Kugeln calcinieren; Extraktion mit Wasser; Extrakt reinigen
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Nasser und trockener Weg,1,1,Nein
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Zusammenfügung von zwei Prinzipien,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Zusammenfügung der drei Prinzipien,1,5,"Sal Volatile im Mörser fein reiben; Sal Fixum im Mörser fein reiben; Sal Volatile, Sal Fixum und Spiritus zusammengeben; Mischung digerieren; Filtration"
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Bezeichnung des Lösungsmittels,1,5,der wahre rechte Hauptschlüssel; der Philosophische Stein; Menstruum Universale; das rechte Wasser des Lebens; die rechte Fontina
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Auflösung von Gold,1,9,Qualität des Goldes; klein gefeiltes Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold und Menstruum Universale in Kolben; Gold löst sich auf; Abgießen; Goldlösung in Phiole überführen; Phiole zu zwei Drittel leer; Phiole zuschmelzen
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Beschreibung des Athanors,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Erzeugung des Rubinkorns,1,19,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-50 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 50 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: 40 Tage im kompletten Sandbad; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Bezeichnung des Rubinkorns,1,3,der rechte König des Reichtums und der Gesundheit; Goldsamen; Quintum Esse
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Weiterer Syntheseschritt,1,1,Secunda Compositio
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Zwischenanalyse,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Multiplikation,1,7,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; jede erneute Multiplikation ist schneller als die vorige; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Fermentation,0,0,
+g1a16,A16,E27,1,II,1638,A16 Processus Praeparationis Salis Nitri Nostri e Terrae Virginea,Projection,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Zuschreibung der Vorschrift,1,2,Sendivogius; Jacob Allstein
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Philosophische Vorbetrachtung,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Datierung der Probenahme,1,2,Sonne im Sternbild Widder; Sonne im Sternbild Stier
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Ort der Probenahme,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Art der Erde,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Art der Probenahme,1,1,knietief
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Aufteilung der Erde,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Fundort der Erde,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Imprägnation der Erde,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Extraktion,1,1,mit Wasser
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Eindampfen,1,1,Abrauchen
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Bezeichnung des ausgelaugten Salzes,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Weiterverarbeitung Erdsalz,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Sal Volatile extra gewinnen,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Extraktion Sal Fixum,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Nasser und trockener Weg,1,1,Nein
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Zusammenfügung von zwei Prinzipien,1,4,Salz und Spiritus vereinigen; Spiritus wieder abziehen und wieder aufgiessen; 7 mal wiederholen; Resultat: Salz
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Zusammenfügung der drei Prinzipien,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Bezeichnung des Lösungsmittels,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Salz mit Gold und Silber zusammenschmelzen,1,3,Verhältnis Salz : Gold : Silber = 11 : 1 : 2; im Tiegel 7 Monate schmelzen; Resultat: lebendiges Gold
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Auflösung von Gold,1,2,lebendiges Gold in 10 Teilen Tau auflösen; 10 Monate kochen
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Beschreibung des Athanors,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Erzeugung des Rubinkorns,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Bezeichnung des Rubinkorns,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Weiterer Syntheseschritt,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Zwischenanalyse,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Multiplikation,1,1,Auflösung 1 Teil Tinktur in 10 Teilen Tau
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Fermentation,0,0,
+g3a21,A21,E3,3,I,1618,A21 Ex ore D. Jac. Alst. Secretum Sedivojae,Projection,1,1,1 Teil tingiert 864 Teile
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Zuschreibung der Vorschrift,1,1,Sendivogius
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Philosophische Vorbetrachtung,1,1,die Erde ist aller Sachen Samen
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Datierung der Probenahme,1,2,früh morgens; bei Sonnenaufgang
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Ort der Probenahme,1,3,Wiese; Wiese mit Blumen; Wiese mit Kräutern
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Art der Erde,1,2,"Erde durch Sonne, Mond und Sterne imprägniert; rote fette Erde"
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Art der Probenahme,1,1,etliche Karren
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Aufteilung der Erde,1,1,Erde in 2 Teile teilen
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Fundort der Erde,0,0,
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Imprägnation der Erde,1,2,Erde ausbreiten; Nachts
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Extraktion,1,1,wie Salpetersieder
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Eindampfen,1,2,Sieden; Salz wird gereinigt
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Bezeichnung des ausgelaugten Salzes,1,1,Nitro
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Weiterverarbeitung Erdsalz,1,13,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; Verhältnis Erdsalz zu Erde 1:3; keine Kugeln; maximal 6 Pfund pro Ansatz; Mischung in Retorte geben; in Vorlage Wasser; 2 Pfund Wasser; destilliertes Regenwasser; Spiritus geht über; Spiritus rot; Spiritus rektifizieren; Spiritus kühl lagern
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Sal Volatile extra gewinnen,1,4,aus frischer Erde; 6 Pfund Erde; aus Retorte destillieren; kein Wasser vorlegen
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Extraktion Sal Fixum,1,5,"bereits verwendete Erde calcinieren; Extraktion mit Wasser; destilliertes warmes Wasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Nasser und trockener Weg,1,1,Nein
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Zusammenfügung von zwei Prinzipien,0,0,
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Zusammenfügung der drei Prinzipien,1,1,"Sal Volatile, Sal Fixum und Spiritus zusammengeben"
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Bezeichnung des Lösungsmittels,1,2,Mercurius Triumphans Philosophorum; Menstruum Universale
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Auflösung von Gold,1,8,Qualität des Goldes; klein geschlagenes Gold; natürliches Gold; Verhältnis Gold : Menstruum Universale 1 : 10; Gold löst sich auf; Abfiltrieren; Goldlösung in Phiole überführen; Phiole hermetisch sigillieren
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Beschreibung des Athanors,1,4,3 Kugeln; 1. Kugel die größte; 2. Kugel voller Löcher; 3. Kugel Eichenholz
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Erzeugung des Rubinkorns,1,21,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40-45 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 40-50 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; nach Pfauenschwanz grün; 3. Phiole in halben Sandbad; 3a: Phiole schaut aus Sand heraus; 3b: 30 Tage im halben Sandbad; 3c: zuerst im halben Sandbad Weiß; 3d: weitere 30 Tage im halben Sandbad; 3e: im halben Sandbad jetzt Gelb; 4: Phiole komplett im Sandbad; 4a: Zeit unbestimmt; 4b: im kompletten Sandbad Rot; 4c: im kompletten Sandbad in der Mitte Rubinkorn; Rubinkorn ist Linsengroß; 4d: im kompletten Sandbad außen rotes Pulver; 5: rotes Rubinkorn entnehmen
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Bezeichnung des Rubinkorns,1,1,das lebendige Gold der Philosophen
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Weiterer Syntheseschritt,1,1,Secunda Compositio
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Zwischenanalyse,1,1,auf glühendem Silberblech
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Multiplikation,1,8,Verhältnis Rubinkorn : Menstruum Universale 1 : 10; in Phiole überführen; Phiole verschließen; im Athanor durch alle Farben; schnellere Wiederholung der ersten Operation; mehrfache Multiplikation; nach 1. Multiplication kann die Tinktur 10 Teile tingieren; jede Multiplikation verzehnfacht die Kraft der Tinktur
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Fermentation,1,7,multiplizierte Tinktur und Gold; Qualität des Goldes; fein; Verhältnis Tinktur : Gold = 1 : 10; Gold und Tinktur schmelzen; Gold wird brüchig; Gold zu Pulver stoßen
+g3a22,A22,E35,3,I,,A22 Proceßus Universalis per Spiritum universi M. Sendivogy,Projection,1,3,fermentiertes Goldpulver und Quecksilber; 1 Teil fermentiertes Goldpulver und 10 Teile Quecksilber in Schmelztiegel; Resultat: Gold
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Zuschreibung der Vorschrift,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Philosophische Vorbetrachtung,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Datierung der Probenahme,1,2,Frühjahr; bei Sonnenaufgang
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Ort der Probenahme,1,2,Wiese; fruchtbarer Acker
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Art der Erde,1,4,fette schwarze Erde; rote Erde; lehmig; bolarisch
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Art der Probenahme,1,4,knietief; ohne Gras; ohne Wurzeln; 24 Zentner
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Aufteilung der Erde,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Fundort der Erde,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Imprägnation der Erde,1,4,Erde ausbreiten; 14 Tage; bei Regen abdecken; im Mai
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Extraktion,1,6,Holzfass; wie Salpetersieder; Fass mit Stellhölzern; Fass mit Zapflöchern; mit Wasser; 24 Stunden stehen lassen
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Eindampfen,1,6,Kupferkessel; Sieden; Eindampfen bis 50 Prozent; Nach Einsieden stehen lassen; Salz kristallisiert aus; Salz wird gereinigt
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Bezeichnung des ausgelaugten Salzes,1,2,"Wasser, dass die Hände nicht netzt; das wahre Salpeter"
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Weiterverarbeitung Erdsalz,1,14,ausgelaugte Erde calcinieren; Erdsalz und calcinierte Erde vermischen; mit etwas Regenwasser; Kugeln herstellen; Kugeln an Luft imprägnieren lassen; 4 Wochen imprägnieren; Mischung in Retorte geben; Retorte zu 50 Prozent gefüllt; in Vorlage Wasser; 2 Pfund Wasser; Regenwasser; Spiritus geht über; Sal volatile geht über; Spiritus und Sal volatile vermischen
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,1,6,Spiritus und Sal volatile in Retorte; 1. Retorte in Wasserbad; im Wasserbad Phlegma abtrennen; 2. Retorte in Sandbad; 2.1. Spiritus abdestillieren; 2.2. Sal Volatile übersublimieren
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Sal Volatile extra gewinnen,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Extraktion Sal Fixum,1,5,"bereits verwendete Erde; Extraktion mit Wasser; destilliertes Regenwasser; Extrakt reinigen; Reinigen mit mehrmaligem Lösen, Filtrieren, Koagulieren und Auskristallisieren"
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Nasser und trockener Weg,1,1,Nein
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Zusammenfügung von zwei Prinzipien,1,2,Salz und Spiritus vereinigen; Digestion in Phiole
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Zusammenfügung der drei Prinzipien,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Bezeichnung des Lösungsmittels,1,1,Liquorem Universale
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Auflösung von Gold,1,10,Qualität des Goldes; klein geschlagenes Gold; reines Gold; Verhältnis Gold : Menstruum Universale 1 : 4; Gold und Menstruum Universale in Phiole; Digestion; Gold löst sich auf; Abgießen; Goldlösung in Phiole überführen; Phiole hermetisch sigillieren
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Beschreibung des Athanors,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Erzeugung des Rubinkorns,1,10,gefüllte Phiole in Athanor; 1. Phiole in Wasserdampf; 1a. 40 Tage im Wasserdampf; 1b. im Wasserdampf Putrefaction; 2. Phiole in Aschebad; 2a: 40 Tage im Aschebad; 2b: im Aschebad Pfauenschwanz; 2c: weitere 40 Tage im Aschebad: Weiß; 2d: weitere 30-40 Tage im Aschebad: rötlich; 2e: nach 50 Tagen im Aschebad: Blutrot mit Rubinkorn
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Bezeichnung des Rubinkorns,1,1,Quintessenz
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Weiterer Syntheseschritt,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Zwischenanalyse,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Multiplikation,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Fermentation,0,0,
+g3a25,A25,E22,3,I,1757,A25 Wie aus dem primordialischen Chaos das hylealische Salz kan gefunden werden,Projection,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Zuschreibung der Vorschrift,1,1,Stadtschreiber Hertel
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Philosophische Vorbetrachtung,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Datierung der Probenahme,1,3,Juni; Sonne im Sternbild Krebs; Vollmond
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Ort der Probenahme,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Art der Erde,1,2,fette Erde; gelbe Erde
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Art der Probenahme,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Aufteilung der Erde,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Fundort der Erde,1,3,Freiberg; Annaberg; Clausthal
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Imprägnation der Erde,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Extraktion,1,1,mit Wasser
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Eindampfen,1,3,Eindampfen bis 50 Prozent; Nach Einsieden stehen lassen; Salz kristallisiert aus
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Bezeichnung des ausgelaugten Salzes,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Weiterverarbeitung Erdsalz,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Weiterverarbeitung der Mischung von Spiritus und Sal volatile,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Sal Volatile extra gewinnen,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Extraktion Sal Fixum,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Nasser und trockener Weg,1,1,Nein
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Zusammenfügung von zwei Prinzipien,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Zusammenfügung der drei Prinzipien,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Bezeichnung des Lösungsmittels,1,1,Spiritus Universalis
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Salz mit Gold und Silber zusammenschmelzen,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Auflösung von Gold,1,2,Gold löst sich auf; Abgießen
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Beschreibung des Athanors,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Erzeugung des Rubinkorns,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Bezeichnung des Rubinkorns,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Weiterer Syntheseschritt,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Zwischenanalyse,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Multiplikation,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Fermentation,0,0,
+g3a26,A26,E11,3,I,,A26 Von der fetten Erde auf Adeptis,Projection,0,0,
