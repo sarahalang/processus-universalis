@@ -1,0 +1,578 @@
+{
+  "texts": {
+    "E11": {
+      "gruppe": "I",
+      "n_tokens": 545,
+      "pct_copied": 0.0,
+      "stylo_nn": "E16"
+    },
+    "E16": {
+      "gruppe": "II",
+      "n_tokens": 3311,
+      "pct_copied": 8.124433705829055,
+      "stylo_nn": "E27"
+    },
+    "E17": {
+      "gruppe": "II",
+      "n_tokens": 1741,
+      "pct_copied": 7.983917288914417,
+      "stylo_nn": "E44"
+    },
+    "E19": {
+      "gruppe": "II",
+      "n_tokens": 1489,
+      "pct_copied": 10.61114842175957,
+      "stylo_nn": "E16"
+    },
+    "E2": {
+      "gruppe": "I",
+      "n_tokens": 310,
+      "pct_copied": 2.2580645161290325,
+      "stylo_nn": "E3"
+    },
+    "E22": {
+      "gruppe": "I",
+      "n_tokens": 1136,
+      "pct_copied": 1.1443661971830985,
+      "stylo_nn": "E16"
+    },
+    "E27": {
+      "gruppe": "II",
+      "n_tokens": 1875,
+      "pct_copied": 15.146666666666667,
+      "stylo_nn": "E16"
+    },
+    "E3": {
+      "gruppe": "I",
+      "n_tokens": 256,
+      "pct_copied": 2.734375,
+      "stylo_nn": "E2"
+    },
+    "E32b": {
+      "gruppe": "II",
+      "n_tokens": 3158,
+      "pct_copied": 0.0,
+      "stylo_nn": "E16"
+    },
+    "E34": {
+      "gruppe": "III",
+      "n_tokens": 2215,
+      "pct_copied": 62.16704288939052,
+      "stylo_nn": "E35"
+    },
+    "E35": {
+      "gruppe": "I",
+      "n_tokens": 2193,
+      "pct_copied": 62.01550387596899,
+      "stylo_nn": "E34"
+    },
+    "E37": {
+      "gruppe": "III",
+      "n_tokens": 1246,
+      "pct_copied": 43.41894060995185,
+      "stylo_nn": "E39"
+    },
+    "E38": {
+      "gruppe": "III",
+      "n_tokens": 1031,
+      "pct_copied": 42.289039767216295,
+      "stylo_nn": "E37"
+    },
+    "E39": {
+      "gruppe": "III",
+      "n_tokens": 1581,
+      "pct_copied": 14.800759013282732,
+      "stylo_nn": "E37"
+    },
+    "E42": {
+      "gruppe": "III",
+      "n_tokens": 1064,
+      "pct_copied": 23.778195488721803,
+      "stylo_nn": "E39"
+    },
+    "E44": {
+      "gruppe": "III",
+      "n_tokens": 2066,
+      "pct_copied": 9.09970958373669,
+      "stylo_nn": "E17"
+    },
+    "E45": {
+      "gruppe": "III",
+      "n_tokens": 1453,
+      "pct_copied": 9.153475567790778,
+      "stylo_nn": "E34"
+    }
+  },
+  "pair_reports": [
+    {
+      "file": "E11_E22.html",
+      "textA": "E11",
+      "textB": "E22",
+      "gruppeA": "I",
+      "gruppeB": "I",
+      "n_matches": 0,
+      "total_words": 0,
+      "stylo_dist": 1.5201308945260985,
+      "gram4_sim": 0.0,
+      "tm_score": 0.0
+    },
+    {
+      "file": "E16_E17.html",
+      "textA": "E16",
+      "textB": "E17",
+      "gruppeA": "II",
+      "gruppeB": "II",
+      "n_matches": 1,
+      "total_words": 26,
+      "stylo_dist": 1.3134501908003153,
+      "gram4_sim": 0.006423123243677238,
+      "tm_score": 0.014933946008041356
+    },
+    {
+      "file": "E16_E19.html",
+      "textA": "E16",
+      "textB": "E19",
+      "gruppeA": "II",
+      "gruppeB": "II",
+      "n_matches": 9,
+      "total_words": 112,
+      "stylo_dist": 1.1189152745944508,
+      "gram4_sim": 0.01818181818181818,
+      "tm_score": 0.07521826729348556
+    },
+    {
+      "file": "E16_E27.html",
+      "textA": "E16",
+      "textB": "E27",
+      "gruppeA": "II",
+      "gruppeB": "II",
+      "n_matches": 16,
+      "total_words": 170,
+      "stylo_dist": 1.0369276039924709,
+      "gram4_sim": 0.02655750798722045,
+      "tm_score": 0.09066666666666667
+    },
+    {
+      "file": "E17_E19.html",
+      "textA": "E17",
+      "textB": "E19",
+      "gruppeA": "II",
+      "gruppeB": "II",
+      "n_matches": 1,
+      "total_words": 19,
+      "stylo_dist": 1.3183180861120158,
+      "gram4_sim": 0.00471253534401508,
+      "tm_score": 0.012760241773002015
+    },
+    {
+      "file": "E17_E27.html",
+      "textA": "E17",
+      "textB": "E27",
+      "gruppeA": "II",
+      "gruppeB": "II",
+      "n_matches": 8,
+      "total_words": 101,
+      "stylo_dist": 1.2821933856965577,
+      "gram4_sim": 0.02374141876430206,
+      "tm_score": 0.058012636415852956
+    },
+    {
+      "file": "E19_E22.html",
+      "textA": "E19",
+      "textB": "E22",
+      "gruppeA": "II",
+      "gruppeB": "I",
+      "n_matches": 1,
+      "total_words": 7,
+      "stylo_dist": 1.4527018510703078,
+      "gram4_sim": 0.003500583430571762,
+      "tm_score": 0.006161971830985915
+    },
+    {
+      "file": "E19_E27.html",
+      "textA": "E19",
+      "textB": "E27",
+      "gruppeA": "II",
+      "gruppeB": "II",
+      "n_matches": 5,
+      "total_words": 50,
+      "stylo_dist": 1.1683006396932416,
+      "gram4_sim": 0.01619804400977995,
+      "tm_score": 0.0335795836131632
+    },
+    {
+      "file": "E19_E32b.html",
+      "textA": "E19",
+      "textB": "E32b",
+      "gruppeA": "II",
+      "gruppeB": "II",
+      "n_matches": 0,
+      "total_words": 0,
+      "stylo_dist": 1.3706502326162038,
+      "gram4_sim": 0.001983252534156016,
+      "tm_score": 0.0
+    },
+    {
+      "file": "E2_E3.html",
+      "textA": "E2",
+      "textB": "E3",
+      "gruppeA": "I",
+      "gruppeB": "I",
+      "n_matches": 1,
+      "total_words": 7,
+      "stylo_dist": 1.2996611748023852,
+      "gram4_sim": 0.013084112149532711,
+      "tm_score": 0.02734375
+    },
+    {
+      "file": "E34_E35.html",
+      "textA": "E34",
+      "textB": "E35",
+      "gruppeA": "III",
+      "gruppeB": "I",
+      "n_matches": 64,
+      "total_words": 1690,
+      "stylo_dist": 0.6466635799635488,
+      "gram4_sim": 0.15496688741721854,
+      "tm_score": 0.7706338349293206
+    },
+    {
+      "file": "E34_E37.html",
+      "textA": "E34",
+      "textB": "E37",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 5,
+      "total_words": 69,
+      "stylo_dist": 1.2037734354524705,
+      "gram4_sim": 0.014000595770032768,
+      "tm_score": 0.05537720706260032
+    },
+    {
+      "file": "E34_E38.html",
+      "textA": "E34",
+      "textB": "E38",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 3,
+      "total_words": 35,
+      "stylo_dist": 1.3268329426761214,
+      "gram4_sim": 0.00914826498422713,
+      "tm_score": 0.03394762366634336
+    },
+    {
+      "file": "E34_E39.html",
+      "textA": "E34",
+      "textB": "E39",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 5,
+      "total_words": 69,
+      "stylo_dist": 1.1679743429943548,
+      "gram4_sim": 0.011853448275862068,
+      "tm_score": 0.04364326375711575
+    },
+    {
+      "file": "E34_E42.html",
+      "textA": "E34",
+      "textB": "E42",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 5,
+      "total_words": 46,
+      "stylo_dist": 1.256893814034334,
+      "gram4_sim": 0.015341264871634314,
+      "tm_score": 0.043233082706766915
+    },
+    {
+      "file": "E34_E44.html",
+      "textA": "E34",
+      "textB": "E44",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 9,
+      "total_words": 145,
+      "stylo_dist": 1.0232616949921165,
+      "gram4_sim": 0.01975427607805348,
+      "tm_score": 0.0701839303000968
+    },
+    {
+      "file": "E34_E45.html",
+      "textA": "E34",
+      "textB": "E45",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 6,
+      "total_words": 74,
+      "stylo_dist": 1.2114791315813314,
+      "gram4_sim": 0.02388399203866932,
+      "tm_score": 0.05092911218169305
+    },
+    {
+      "file": "E35_E37.html",
+      "textA": "E35",
+      "textB": "E37",
+      "gruppeA": "I",
+      "gruppeB": "III",
+      "n_matches": 6,
+      "total_words": 61,
+      "stylo_dist": 1.1754866342907628,
+      "gram4_sim": 0.01680672268907563,
+      "tm_score": 0.048956661316211875
+    },
+    {
+      "file": "E35_E38.html",
+      "textA": "E35",
+      "textB": "E38",
+      "gruppeA": "I",
+      "gruppeB": "III",
+      "n_matches": 2,
+      "total_words": 27,
+      "stylo_dist": 1.3293350788529354,
+      "gram4_sim": 0.007597340930674264,
+      "tm_score": 0.026188166828322017
+    },
+    {
+      "file": "E35_E39.html",
+      "textA": "E35",
+      "textB": "E39",
+      "gruppeA": "I",
+      "gruppeB": "III",
+      "n_matches": 3,
+      "total_words": 30,
+      "stylo_dist": 1.1354250781308757,
+      "gram4_sim": 0.008629989212513484,
+      "tm_score": 0.018975332068311195
+    },
+    {
+      "file": "E35_E42.html",
+      "textA": "E35",
+      "textB": "E42",
+      "gruppeA": "I",
+      "gruppeB": "III",
+      "n_matches": 4,
+      "total_words": 31,
+      "stylo_dist": 1.2403157407089618,
+      "gram4_sim": 0.010648293141246476,
+      "tm_score": 0.02913533834586466
+    },
+    {
+      "file": "E35_E44.html",
+      "textA": "E35",
+      "textB": "E44",
+      "gruppeA": "I",
+      "gruppeB": "III",
+      "n_matches": 10,
+      "total_words": 113,
+      "stylo_dist": 1.0665713441612639,
+      "gram4_sim": 0.019091348477525374,
+      "tm_score": 0.05469506292352372
+    },
+    {
+      "file": "E35_E45.html",
+      "textA": "E35",
+      "textB": "E45",
+      "gruppeA": "I",
+      "gruppeB": "III",
+      "n_matches": 2,
+      "total_words": 33,
+      "stylo_dist": 1.3080812525588676,
+      "gram4_sim": 0.01702127659574468,
+      "tm_score": 0.022711631108052306
+    },
+    {
+      "file": "E37_E38.html",
+      "textA": "E37",
+      "textB": "E38",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 25,
+      "total_words": 556,
+      "stylo_dist": 1.1074649318375605,
+      "gram4_sim": 0.09273797841020609,
+      "tm_score": 0.539282250242483
+    },
+    {
+      "file": "E37_E39.html",
+      "textA": "E37",
+      "textB": "E39",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 9,
+      "total_words": 89,
+      "stylo_dist": 1.076180536006472,
+      "gram4_sim": 0.023153252480705624,
+      "tm_score": 0.07142857142857142
+    },
+    {
+      "file": "E37_E42.html",
+      "textA": "E37",
+      "textB": "E42",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 8,
+      "total_words": 80,
+      "stylo_dist": 1.2835880482929742,
+      "gram4_sim": 0.029931972789115645,
+      "tm_score": 0.07518796992481203
+    },
+    {
+      "file": "E37_E44.html",
+      "textA": "E37",
+      "textB": "E44",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 1,
+      "total_words": 10,
+      "stylo_dist": 1.296390226163134,
+      "gram4_sim": 0.006792219820932387,
+      "tm_score": 0.008025682182985553
+    },
+    {
+      "file": "E37_E45.html",
+      "textA": "E37",
+      "textB": "E45",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 1,
+      "total_words": 10,
+      "stylo_dist": 1.4523725229650717,
+      "gram4_sim": 0.011542901115813775,
+      "tm_score": 0.008025682182985553
+    },
+    {
+      "file": "E38_E39.html",
+      "textA": "E38",
+      "textB": "E39",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 3,
+      "total_words": 29,
+      "stylo_dist": 1.2715252843512563,
+      "gram4_sim": 0.017758484609313337,
+      "tm_score": 0.028128031037827354
+    },
+    {
+      "file": "E38_E42.html",
+      "textA": "E38",
+      "textB": "E42",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 4,
+      "total_words": 35,
+      "stylo_dist": 1.4470940499677363,
+      "gram4_sim": 0.015233415233415233,
+      "tm_score": 0.03394762366634336
+    },
+    {
+      "file": "E38_E45.html",
+      "textA": "E38",
+      "textB": "E45",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 2,
+      "total_words": 24,
+      "stylo_dist": 1.4788280267203573,
+      "gram4_sim": 0.010842368640533779,
+      "tm_score": 0.023278370514064017
+    },
+    {
+      "file": "E39_E42.html",
+      "textA": "E39",
+      "textB": "E42",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 10,
+      "total_words": 106,
+      "stylo_dist": 1.1607864769155989,
+      "gram4_sim": 0.031864673485444535,
+      "tm_score": 0.09962406015037593
+    },
+    {
+      "file": "E39_E44.html",
+      "textA": "E39",
+      "textB": "E44",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 1,
+      "total_words": 10,
+      "stylo_dist": 1.2792279057806446,
+      "gram4_sim": 0.006406685236768802,
+      "tm_score": 0.006325110689437065
+    },
+    {
+      "file": "E39_E45.html",
+      "textA": "E39",
+      "textB": "E45",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 1,
+      "total_words": 11,
+      "stylo_dist": 1.362805271279713,
+      "gram4_sim": 0.00914014895057549,
+      "tm_score": 0.007570543702684102
+    },
+    {
+      "file": "E42_E44.html",
+      "textA": "E42",
+      "textB": "E44",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 3,
+      "total_words": 34,
+      "stylo_dist": 1.3472926291073613,
+      "gram4_sim": 0.013734466971877043,
+      "tm_score": 0.03195488721804511
+    },
+    {
+      "file": "E42_E45.html",
+      "textA": "E42",
+      "textB": "E45",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 5,
+      "total_words": 54,
+      "stylo_dist": 1.4375151177687921,
+      "gram4_sim": 0.018992568125516102,
+      "tm_score": 0.05075187969924812
+    },
+    {
+      "file": "E44_E45.html",
+      "textA": "E44",
+      "textB": "E45",
+      "gruppeA": "III",
+      "gruppeB": "III",
+      "n_matches": 1,
+      "total_words": 11,
+      "stylo_dist": 1.452248857782829,
+      "gram4_sim": 0.010224948875255624,
+      "tm_score": 0.007570543702684102
+    }
+  ],
+  "tree_evaluation": {
+    "stylo_only": {
+      "r": 0.732097646953303,
+      "rho": 0.764386590768421,
+      "nn": 8
+    },
+    "4gram_only": {
+      "r": 0.5852640156166651,
+      "rho": 0.7769252295449696,
+      "nn": 10
+    },
+    "combined_rho": {
+      "r": 0.6019604591628642,
+      "rho": 0.8436960678077521,
+      "nn": 10,
+      "weight_stylo": 0.03,
+      "weight_4gram": 0.97
+    },
+    "combined_nn": {
+      "r": 0.6019604591628642,
+      "rho": 0.8436960678077521,
+      "nn": 10,
+      "weight_stylo": 0.03,
+      "weight_4gram": 0.97
+    }
+  }
+}

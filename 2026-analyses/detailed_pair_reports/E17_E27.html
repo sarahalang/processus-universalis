@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>E17 ↔ E27 — Detailed Comparison</title>
+<style>
+    body { font-family: 'Georgia', serif; max-width: 1400px; margin: 0 auto;
+           padding: 20px; background: #fafafa; color: #333; }
+    h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+    h2 { color: #34495e; margin-top: 2em; }
+    h3 { color: #7f8c8d; }
+    .summary { background: white; border: 1px solid #ddd; border-radius: 8px;
+                padding: 20px; margin: 20px 0; }
+    .summary table { border-collapse: collapse; width: 100%; }
+    .summary td, .summary th { padding: 8px 12px; text-align: left; border-bottom: 1px solid #eee; }
+    .summary th { background: #f7f9fc; font-weight: bold; }
+    .gruppe-I { color: #e74c3c; font-weight: bold; }
+    .gruppe-II { color: #3498db; font-weight: bold; }
+    .gruppe-III { color: #2ecc71; font-weight: bold; }
+    .text-panel { display: flex; gap: 20px; margin: 20px 0; }
+    .text-box { flex: 1; background: white; border: 1px solid #ddd; border-radius: 8px;
+                 padding: 20px; max-height: 600px; overflow-y: auto;
+                 font-size: 14px; line-height: 1.8; }
+    .text-box h3 { position: sticky; top: 0; background: white; padding: 5px 0;
+                    border-bottom: 1px solid #eee; margin-top: 0; }
+    mark.shared { background: #fff3cd; border: 1px solid #ffc107; border-radius: 2px;
+                   padding: 0 2px; }
+    .passage-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    .passage-table th { background: #34495e; color: white; padding: 10px;
+                         text-align: left; font-size: 13px; }
+    .passage-table td { padding: 8px 10px; border-bottom: 1px solid #eee;
+                         font-size: 13px; vertical-align: top; }
+    .passage-table tr:hover { background: #f5f5f5; }
+    .passage { font-family: monospace; font-size: 12px; max-width: 350px;
+                word-break: break-word; }
+    .neighbor-table { width: 100%; border-collapse: collapse; }
+    .neighbor-table th { background: #f7f9fc; padding: 8px; text-align: left;
+                          border-bottom: 2px solid #ddd; }
+    .neighbor-table td { padding: 6px 8px; border-bottom: 1px solid #eee; }
+    .stats { display: flex; gap: 20px; flex-wrap: wrap; }
+    .stat-box { background: white; border: 1px solid #ddd; border-radius: 8px;
+                 padding: 15px 20px; text-align: center; min-width: 150px; }
+    .stat-value { font-size: 28px; font-weight: bold; color: #2c3e50; }
+    .stat-label { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+    .nav { background: #34495e; color: white; padding: 10px 20px; border-radius: 8px;
+            margin-bottom: 20px; }
+    .nav a { color: #3498db; text-decoration: none; }
+    .nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="nav">
+    <a href="../EXPLORATION_REPORT.md">← Back to overview</a> |
+    Pair report: <strong>E17 ↔ E27</strong>
+</div>
+
+<h1>E17 <span class="gruppe-II">(II)</span> ↔
+    E27 <span class="gruppe-II">(II)</span></h1>
+
+<div class="stats">
+    <div class="stat-box">
+        <div class="stat-value">8</div>
+        <div class="stat-label">Shared passages</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value">101</div>
+        <div class="stat-label">Total shared words</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value">6% / 5%</div>
+        <div class="stat-label">% of E17 / E27 that is shared</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value">1.282</div>
+        <div class="stat-label">Stylometric distance</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value">0.0237</div>
+        <div class="stat-label">4-gram Jaccard</div>
+    </div>
+</div>
+
+<h2>Full Texts with Shared Passages Highlighted</h2>
+<p>Yellow highlighted regions are passages shared between the two texts
+   (found by text-matcher with fuzzy matching). Scroll to compare.</p>
+
+<div class="text-panel">
+    <div class="text-box">
+        <h3>E17 <span class="gruppe-II">Gruppe II</span>
+            — 1741 words, 6% shared</h3>
+        a5 praeparatio salis nitri ex terra virginea altera 1682 a5 praeparatio salis nitri ex terra virginea altera 236 [...] praeparatio salis nitri ex terra virginea altera lasset euch machen etliche fässer wie die salpetersieder haben und mit stöckhölzern und zapffen lasset auch einer hand hoch fein rein und saubers strohe fest übereinander auff die stöckhöltzer legen schüttet die wasser-fässer voll reiner erden auß einer reinen feisten laim-gruben die nicht steinig sondern fein fett ist geust oben darauff rein kaltes wasser allerdings wie es die salpetersieder machen lasset es 24. t. u. n. darauff stehen damit es das reine [cz: salz] auß der erden in sich ziehe darnach lasset das saltz-wasser unden beym auffgemachten zapffen langsam abtreiffen in ein anders höltzenes gefäß und machet solcher erden-laugen eine gute quantität. wann nun der selben laugen eine gute quantität vorhanden so lasset sie in einem eingemauerten kessel einsieden biß der kessel 8. oder 10. mahl wol eingesotten. notandum, damit niemahlen über den halben theil des kessels gute laugen übrig zu verletzen so schöpffet man die laug herauß in einen andern kessel der in die frische kalte erden soll eingegraben seyn und lästs also etlich tag kühl und unbewegt stehen so wächst das reine erd-salz im kessel an wie ein anders nitrum; dasselbige muß man folgends mit solviren coaguliren und so offt reinigen und läutern biß es schön durchsichtig und cristallisch worden das heisset dann sal nitri terrae philosophorum [cz: salpeter] nostrum, welches in mari der welt schwebet das wasser so die händ nicht netzet ohne welches in der welt nichts gebohren oder gezeuget werden kan. und also <mark class="shared">habt ihr das secretum omnium philosophorum in</mark> euren händen und die brunnquell oder arcam in naturae, darinnen der obengemeldete spiritus naturae und mundi universalis <mark class="shared">häuffig verborgen stecket darauß leben und gesundheit</mark> herfleust; proinde, ut inferius latius. modo intrabimus laboratorium chymicum. dieses unser [cz: salz] nitri, terrae virgineae, ob es wol dem ansehen nach nur ein ding zu seyn scheinet hat es 3. unterschiedliche salia in sich dann vor sich selbsten ist es ein köstlich und philosophisches [cz: salpeter] darinnen der spiritus mundi steckt nicht gar fix sondern mittelmäßiger natur. zum <mark class="shared">andern hat es in sich ein sal armoniacum oder</mark> vola- 237 tile. zum dritten steckt auch in ihm ein sal alcali oder sal fixum. also ist es dreyerley und imitirt seinen schöpffer in diesem puncto, welches alles mediante [cz: feuer]te in praeparatione sequenti modo instituenda manifestatur. praeparatio spiritus und salis volatilis e sale nitri nostro. [recipe]. salis nostro lib un pulveriza subtiliter, tenere, und misch darunter 3 thl. vel libras propriae suae terrae, exqua sal extractum fuit: haec porro terra post salis extractionem debet in furno figuli bene calcinari, macht hernach aus der erden und dem saltz kügelein darauß cum inspersione tantillum aquae destillatae purissimae, desiccentur bene, imponantus retortae forti fictili per gradus ignis in recipientem, in quo prius sit imposita aquae destillatae libra una, quando spiritus transiverint, sub finem vigorabis ignem vehementius, und sublimabitur sal volatile partim in recepiente, partim in collo retortae. sine refrigescere vasa und fornacem. misce spiritus, und sal volatile, quod sublimatum est in recepientem. iterato accipe nitro nostri lib. un. und terrae nostrae desiccatae, und bene calcinatae lib. tres. iterum destillata, und repete also viel bränd als du wilt. et collige spiritum destillatum, und sal volatile insimul dilligenter. capita mortua similiter, serva ad partem omnia pro ulteriori usu. spiritus omnes und totum sal volatile permixta impone in cucurbita salis capaci: separa phlegma in balneo leni a spiritibus: phlegma serva ad partem: deinde cucurbitam pone in cineribus, vel arena, rectificata distillando spiritus per alembicum, und hanc rectificationem in cineribus reitera aliquotes: conserva spiritus rectificatos in vase amplo tantum ad medietatem pleno, und bene orificio occluso pone ad locum frigidum. sal volatile, quod in fundo remansit cucurbitae, in qua rectificationes sunt factae, sublimetur igne fortiore in cineribus, vel arena; sublimatio per se reiteretur aliquotes, usque dum nullas post se faeces derelinquat. hunc salem sublimatum in vitro probe occluso serva in loco calido. praeparatio [cz: salz] fixi. accipe capita mortua omnia, calcinentur iterum valido igne in furno figuli vellaterum, usque dum redacta sint in cineres. exinde per [cz: wasser] distillatam calidam extrahe totum [cz: salz] fixum, purificetur solvendo, filtrando, coagulando ad summum puritatis gradum. sequitur conjunctio trium principiorum philosophice praeparatorum hactenus habuistis corpus animam, und spiritum benedicti nostri lapidis, separata, und unumquodque horum seorsim per se in tali gradu tam perfecto, und eminente, ad quem in praevia hacce praeparatione per artem pyrotechniae potuit perduci, und a suis heterogeneis, und annexis maledictionibus primordiablibus liberari. in subquentibus 238 laboribus tria principa depurata perfectissime reunietur; und ex tribus unum denuo per artem constituetur, hoc modo: in nomine domine jehova; [recipe] tuum volatilem und fixum salem, quantum hujus confectisti, con ungantur, und misceantur, und pulverizentur in minutissimum pulverem; deinde pone in cucurbita ampla satis und alta, und guttatim superaffunde purificatum superius spiritum nitri nostri paulatim, obduretur optime imposito caeco alembico orificium, und juncturae cucurbitae,und ponatur ad digestionem lenem, und haec tria principia amicabiliter reunietur, und efficientur una aqua. quodsi in hac aqua 3 principiorum resolutorum faeces adhuc quaepiam, vel terra albicans ad vasis fundum dimisisse conspicerentur, hanc terram faecesque cum diligentia magna ab [cz: wasser] separabis. tunc in secreto cordis tui laetere, und benedic altissimum noctu diuque, quod ad ralem terminum labores tuos deducere benigne voluerit. quia profecto habes veram und secretissimam totius philosophiae und naturae clavem, in tua potestate manibusque tuis; cum qua clave omnes portas, und seras occlusas omnium metallorum, mineralium, gemmarumque, und lapidum, und intrinsecum arcanissimum reconditorium, thesaurumque naturae reservare, und aperire pro lubitu poteris. dann dieses [cz: wasser] ist das warhaffte menstruum universale, vera aqua vitae cum qua omnia metalla, und specialiter, aurum lubentissime se uniunt, und conjungunt. aurum enim in hac aqua renovatur, und rejuvenescit ad instat aquilae. hac est illa aqua, welches alle metall qui in sua compacta als ohnmächtig und halb todt seynd wiederumb erquicket und lebendig machet. haec aqua est vera fontina bernhardi trevisani, darinn sich alle metalla, absonderlich aber der könig gern badet. es ist ihr rechte mutter von dem sie anfänglich alle herkommen und in dero leib sie wiederumben mit freuden eingehen und also zum andern leben wiederumb gebohren werden. haec aqua est basilii, unum, in quo omnia in omnibus, <mark class="shared">alles in allem dann es ist alles weil alles in ihm steckt und alles auß ihm herkommt</mark>; und weilen es das esse allen dingen gibt <mark class="shared">und auch das verum esse aller dinge ist also ist es billich alles. es ist unsere philosophische milch welche durch das metallische coagulum</mark> [cz: gold] solis dick gemacht und zu einem hartem philos. käse wird. conjunctio fermenti [cz: gold]is cum [cz: wasser] nostra dictum est, rex noster [cz: gold] se libenter cum [cz: wasser] nostra uniat, und in eadem rejuvenescat sicuti aquila. modus, quo id fieri oportet, in sequentibus exponitur. [recipe] auri purgati und mundi part. un. nostrae autem superbened. aquae mercurialis part. x. imponantur simul conjuncta in cucurbita competentis magnatudinis, und confestim aqua nostra [cz: gold]em suaviter und naturaliter resolvet. ponatur per unam diem und noctem bene obdurato vitro ad digestionem per se: deinde separa terram, quae in fundo vitri confedit. reliquam solutionem immitte in phiolam vitream fortem tam magnam, uttres partes ejusdem vacuae remaneant, und unica solum a materia occupetur, sigille- tur hermetice, und in dei nomine pone in athanor oder digerir-offen. et sub principium administra ignem vaporosum per totum tempus putrefactionis, quod intra 40. und 50. dies fieri in opere solet. deinde mitte phiolam cum materia in cineres, und da ignem paulo fortiorem, ut imitetur calorem solis in aestate, und per 50. dies hujus gradus diversi colores apparebunt. dein mitte vitrum in arenam, ita tamen ne totum omnino vas arena contegatur, sed paulo minus medietate, und ignis augeatur per alios 50. dies circa quorum finem apparebit diana philos. vel luna albicans. sed pulchritudo hujus deae non tantum tibi placeat, ut a labore cesses, quimimo continua hunc gradum ignis, und intra 30. dies materia tota flavescet. postea phiolam sepeli, und cooperias in fundum arenae, und magis vigora ignem per 40. dies, und materia tota rubescet. in cujus medio videbitur, und invenietur lapis lucidus, rubini forma, qui est phaenix noster philosophicus ignem superans, und in illo gaudens, qui ex pulvere circumjacente tanquam pullus tenelius ex testa ovi sui prodit, und in forma grani rubini lapilli se conspiciendum exhibebit, und natus erit rex sanctitatis und thesaurorum. [recipe] dein hoc granum rubinum und separa illud a residuo pulvere rubeo circumjacente, tanquam a suis excrementis, quae in interiore sua radice haeserant, latebanque. und hat sie in dieser pur lautern nacharbeit die natur selber (weilen es der kunst unmöglich gewesen) per minima separirt und geschieden. und habt ihr allhier augenscheinlich zu sehen daß es nicht alles lauter lapis oder tinctur wird was man in der nacharbeit <mark class="shared">einsetzet sondern die verständige natur scheidet nur das</mark> allerreineste quintum esse davon und lässet die faeces und die sulphura heterogena ligen dieselbe must du hinweg thun das reine rubine granum aber verwahre wol als einen theuren schatz dann es ist das warhaffte höchst-gereinigte <mark class="shared">quintum esse, und semen auri: das rechte tingirende gold-körnlein und ein solches liebliches kräfftiges füncklein mit welchem ihr ein unaußlöschliches</mark> [cz: feuer] und immerwärenden reichthumb und gesundheit auch reinen verstandes anzünden könnet und vermittels wiederholter imbibition und coagulation vermehren möget ut sequitur. sequitur multiplicatio [recipe], hujus tuae medicinae partam unam, aquae nostrae partes x. impone phiolae sigillatae, und solutum transeat per colores ut supra usque dum sit fixissimum und rubicundissimum. haec multiplicatio potest repeti, quam diu placuerit, und semper lapis in virtute augmentatur. es ist einerley <mark class="shared">composition, einerley process und arbeit einmahl wie das ander</mark> nur daß es an der zeit allemahl kürzer wird und viel ehender absolvirt wird wie öffter ihr ihn mit seinem eygenen wasser begiesset solvirt und coagulirt und wanns also weit gebracht so ists hernach ein kurtzweil und kinderspiel: semper tamen tibi reserva partem tincturae pro multiplicatione, und sic poteris in infinitum operari, und non opus habebis opus ab initio repetere. in prima multiplicatione (post nb. factam debitam fermentationem,) prima una pars tingit x, in 2da, 100, in 3tia, 1000, in 4ta, x.mille, und sic consequenter in infinitum. nur jedesmahl unam partem tincturae cum x. partibus menstrui solvirt und coagulirt. conclusio also habt ihr den gantzen process der wahrhafften universal-tinctur, ohne einigen defect, vom anfang biß zu dem ende deutlich und teulich geoffenbahret. utamini illo ad dei gloriam, ad misericordiam proximo faciendam, ad propriam conservationem, und in secreto cordis und oris conserva magnum dei und naturae hocce mysterium: cui sit laus, honor, benedicto und imperium in aeterna secula. amen.
+    </div>
+    <div class="text-box">
+        <h3>E27 <span class="gruppe-II">Gruppe II</span>
+            — 1875 words, 5% shared</h3>
+        a16 processus praeparationis salis nitri nostri e terrae virginea 1638 a16 processus praeparationis salis nitri nostri e terrae virginea 25 processus praeparationis salis nitri nostri e terrae virginea laßet euch machen etzliche fäßer wie die salpeter-sieder haben, unten mit stellhöltzern und zapffen, laßet einer zwerchen hand hoch rein stroh fest auf einander auf die stell-höltzer legen, schüttet die fäßer fest voll reiner erde, auß einer leichen-gruben, die nicht steinicht, und fein fett ist, gießet oben darauf rein warm wasser, allerdings wie es die salpeter-sieder machen, laß es 24 stunden stehen, daß es das reine saltz auß der erden in sich ziehen, darnach laßt untten zapffenloch fein sacht abtrieffen in ein ander höltzern gefäß, und machet solcher erde laugen eine gutte quantität, wenn nun derselben eine gutte nohtdurfft vorhanden, so laßet solche in einen eingemauerten keßel einsieden, biß der keßel ein 8 oder 10 eingesotten. darbey aber ist inacht zunehmen, daß es keinmahl über die helffte einsiede. wenn nun letzlich ein halber keßel voll gutter starcker lauge übrig, so schlaget oder thut sie heraus in einen sonderlichen keßel, der in der frischen erden stehet, und laßets also etzliche tage kühl und unbedecket stehen, so wächset das reine erdensaltz im keßel an, wie anderer salpeter, daßelbe müst ihr hernach mit solviren und coaguliren so offt reinigen und läutteren, biß es gantz schön durchsichtig und cristallinisch worden. das heißet dann sal nitri terra philosophicum, welches im meer der welt schwebet, das waßer welches die hände nicht naß macht, ohne welches in der gantzen welt nichts gebohren noch gezeuget werden kann. und alßdann <mark class="shared">habt ihr das secretum omnium philosophorum in</mark> händen, und den brunnquell fontanam naturae, darinnen der gedachte spiritus naturae <mark class="shared">häuffig verborgen stecket, darauß leben und gesundheit</mark> herfließet, wie ferner wird angezeuget werden. jetzo wollen wier nun ins laboratorium chimicum kommen. dieses unser sal nitri terrae, ob es wohl dem ansehen nach, nur ein einig ding zue seyn scheinet, hatt es doch drey untterschiedliche salia in sich, denn vor sich selbst ist es erstlich unser philosophisch sal nitri, darinnen der spiritus mundi stecket, nicht gar flüchtig, auch nicht gar fix, sondern einer mittelmäßigen natur. fürs <mark class="shared">andere hatt es in sich ein sal armoniacum, oder</mark> volatile. fürs dritte stecket auch in ihme ein sal alkali oder fixum. also ist es drey einig und imitiret seinen schöpfer in diesem puncto welches alles durch die bereitung des feuers, auf nachfolgende weise, offenbahr gemacht wird. praeparatio spiritus et salis volatilis 26 volatilis e nostro sale nitri nehmet von gedachten unsern schönen erden-saltz 1 lb stoßet es klein, und mischet daruntter 3 lb seiner eigenen erden daraus es gezogen worden. (dieselbe erde aber muß zuvor in einem töpffers offen wohl calciniret seyn) machet runde kugeln daraus, mit ein wenig waßers, last sie trocknen, und destilliret sie in einer gutten irdenen retorte per gradus [cz: feuer] herüber in eine vorlage, darin ein maaß rein destilliret waßer sey, treibts zuletzt wenn die spiritus herüber, mit starcken [cz: feuer], so sublimiret sich das flüchtige saltz, theils in der vorlage, theils im halße der retorten, lasts gemachsam erkaltten, den spiritum und das sal volatile waschet beydes zusammen in der vorlage, nehmet nun wieder ein neu lb salis nitri, und 3 lb seiner calcinirten erden, thut wieder einen brand, also den dritten, vierten oder so viel ihr wollet, und sammlet den spiritum sambt dem [cz: salz] volatili, fleißig zusammen, ingleichen auch alle capita mortua, den spiritum und das sal volatile thut zusammen in eine gläßerne kolben, so darzu groß genung, separiret das phlegma in mb davon, alß dann setzet es in die cineres oder arenam, ziehet den spiritum auch besonders herüber, und rectificiret solchen etzliche mahl in cineribus, und verwahrets in einem weitten geraumen glaß, in loco frigido, dem sali volatili aber, so noch in fundo, gebet starck feuer, so erhebet sich daßelbe auch in die höhe, solch sublimiren wiederholt so offt, biß es keine feces mehr hinter sich läst, daßelbe verwahret dann wohl zuegebunden in loco calido. praeparatio salis fixi jetzt nehmet nun die capita mortua von allen bränden vor die hand calciniret sie noch einmahl mit starcken feuer in einen töpffer- oder ziegel- offen, ziehet alß denn das sal fixum heraus, und purificiret solches auf den höchsten grad. nun nun folget die wiederzusammensetzung der drey principiorum unsers opusculi bißher habt leib, seele und geist unsers gebenedeyten steines von einander geschieden, und ein jedes absonderlich, so hoch ihrs in dieser arbeit, durch die edle pyrotechniam, bringen können, von seinen heterogeneribus und anhangenden flucht gereiniget; jetzo wollen wir nun solche drey gereinigte stücke wieder zusammen setzen, und in eines bringen. nehmet derowegen im nahmen des herrn euer flüchtig und ander fixes saltz, so viel ihr deßen überahl bekommen, alles zusammen, reibet es in einer kleinen glaß-schalen zum subtilen pulver, thut es in ein hoch und weit kolben-glaß, und gißet alleintzelich andere gereinigten spiritum e nostro sale nitri gemachsamb darauf, setze es dann wohl verwahret hin, in eine gelinde digestion, so werden sich diese 3. principia gar lieblich wieder mit einander vereinigen, und alle 3 zue einen eigenen waßer werden. wäre es aber sache, daß es noch etzliche feces oder weißliche terram gen boden fallen ließe, so separiret dieselbe davon, und freut euch in dem herrn mit hertzlicher freude, dancket ihm tag und nacht, wenn ihr so weit gebracht habt, denn jetzt habt ihr den rechten wahren haupt-schlüssel oder philosophischen stein in händen, mit welchen ihr alle verschloßene thüren und thore aller metallen und mineralien auch edelgesteine aufschließen und in das aller geheimste quartum robur der natur kommen könnt. denn dieses waßer ist das wahrhaftte menstruum universale, das rechte waßer des leebens, mit welchem sich alle metalla gerne vereinigen insonderheit aber das gold, welches sich darinne verjünget wie ein adler. es ist das waßer, welches alle metallen die gleichsam ohnmächtig und tod sind, wieder erquicket und impregniret, lebendig, und fruchtbahr machet; es ist die rechte fontana, darinnen sich alle, in sonderheit aber der könig, gerne baaden. es ist ihre rechte mutter von der sie alle anfänglich herkommen, und in deren leib sie wieder gebohren werden. es ist des basilij <mark class="shared">alles in allem. denn es ist alles weil 27 alles in ihm stecket, und alles auß ihm herkommet</mark>; und weil es das esse allen dingen giebet, <mark class="shared">und auch das verum esse aller dinge ist, also ists nicht unbillig alles in allen. es ist unsere philosophische milch, welche durch das metallische coagulum</mark>, nemlich [cz: gold]iche gemachet und zue einem steinhartten philosophischen käße wird. die zusammensetzung des ferments oder [cz: gold] mitt unserem waßer. ich habe gesagt, daß sich der könig oder das gold mit unserm waßer gerne vereinige, und sich darinnen verjüngere wie ein adler. jetzo will ich euch daßelbe zue machen auch lehren. nehmet einen theil klein gefeilt gold, und unsers [cz: quecksilber] waßers 10 theil, thuts zuesammen in ein rein scheide kölblein, so wird unser waßer von stund an das gold gantz lieblich und natürlich auflösen. stellet es eine nacht hinn, scheidet alßdenn die erden so sich gesetzet hatt, davon, das andere aber gißet in ein rein und starck phiol-gläßlein, daß 2 theil deßelben lehr bleiben, verschmeltzets aufs beste, und setzet es im nahmen des herrn in euren digerir-offen gebet ihm erstlich ein vaporisch feuer, in währender putrefaction und schwärtze, welches genungsamb zwischen 40 und 50 tagen geschiehet. alßdenn setzet es in die asche, und gebet ihm etwas stärcker feuer, daß euer glaß so warm sey, alß die sonne mitten im sommer auf die schieffer scheinet, so werden sich die folgenden 50. tage über allerley farben sehen laßen. hernach setze es in den sand so tief, daß es gutten thalers breit bloß stehet, so werdet ihr abermahl in 50 tagen den hellen philosophischen monden-schein, oder die edle dianam in einen schönen weißen kleyd zuschauen bekommen, laßet euch aber solche der diana schönheit nicht zu sehr gefallen, und laßet deßwegen noch nicht ab, sondern continuiret einen gradum ignis, so wirds in 30 tagen alles gelbe werden. alß denn vergrabet das glaß gantz hinnuntter in sand, und gebt ihm ein ziemlich starck feuer, so wirds in 40 tagen gantz roht werden, und und in der mitten ein hell leuchtend rubin roht körnlein sehen laßen, und also endlich der könig des reichs, und feuer-beständige-phönix-vogel gleich alß ein junges hünlein auß seinen schalen herfür kriechen, u. sich ingestalt eines rubinrothen körnleins sehen laßen, und wird alßo endlich der könig des reichthums und der gesundheit gebohren werden. daßelbe körnlein nehmet nun heraus und sondert es von seinen andern rothen pulver, alß von seinen excrementis ab, denn solche sind in seiner innersten wurtzel gestecket, und hatt sie in dieser zu erläuttern. die natur selber, weil es der kunst nicht möglich gewesen, per minima davon geschieden. und habt ihr alhier augenscheinlich zu ersehen, daß es nicht alles lautter lapis, oder tinctur wird, was mann in der macht arbeit <mark class="shared">einsetzt, sondern die verständige natur scheidet nur das</mark> 5tum esse davon, und läßet die feces ut sulphura, alß heterogenea liegen dieselben thut hinweg, das reine körnlein aber verwahret alß einen hochtheueren und königlichen schatz, denn es ist das wahrhaftte, höchstgereingte <mark class="shared">quintum esse und semen auri das rechte tingirende gold-körnlein, und ein solch lebens kräfttiges füncklein, mit welchem ihr ein unaußlöschliches</mark> feuer, immerwehrendes reichtum, euch anzünden könnet, vermittelst oftt wiederholter imbibition und coagulation auf folgende weise. die zusammensetzung des lapidis mit seinem eigenen liquore weil die philosophi sagen: lapis noster non tingit, nisi prius tingatus liquore proprio, so mehret dieses; nehmet euern neugebohrenen phoenicem, und setzet ihm seines eigenen waßers (menstrui philosophici) 10 theil zue, und procediret allermaßen wie in der ersten arbeit, biß es wieder auf die höchste und vollkommene röthe gebracht, und ohne rauch ferner gantz beständig gemachet worden. sequitur multiplicatio nehmet euerer medicin einen theil, unsers waßers 10 theil setzet es 28 es ein, und laßets durch die farben gehen, biß zur fixen röthe. also möget ihr mit unserm waßer multipliciren so oftt und viel ihr wollet. es die <mark class="shared">composition einerley process und arbeit, einmahl wie das andere</mark>, nur alleine daß es an der zeit immer kürtzer, und so viel eher zue ende gehet, je öftter ihr ihn mit seinem eigenen waßer begießet und coaguliret. und wenn ihrs so weit gebracht, so ists hernach nur eine kurtzweil und kinderspiel, und behalttet euch allezeit einen theil der tinctur zurück zur multiplication, so könnet immer in würcken bleiben und dörftt das werck nicht wieder von fornen anfangen. in der ersten multiplication bringt ihr den tinctur theil auf 10. theil in der andern auf 100, in der dritten auf 1000, in der viertten auf 10000 und also consequenter jede multiplication auf 10 höher in infinitum hinein, nur jedesmahl menstruum 10 theil zue einem theil tinctur genommen. conclusio also habt ihr nun den gantzen process der warhafftigen universal-tinctur ohne einigen defect von anfang biß zue ende, gantz deutlich und treulich eröffnet, brauchts zum lobe gottes, zur nutz eures nechsten und aller armen nothleidenden menschen, auch euch selber zue euerer zeitlichen wohlfahrt. und was ich forne in praefatione erinnert und gebeten habe, deßwegen vergeßet ja meiner nicht, sondern halttet euch stehts darnach, und laßet dießes ja in keine unreine hände kommen, meldet mich auch hinfort gegen niemand. der allerhöchste und allein weise gott aber regiere euch stehtiglich mit seinem gutten geist, daß ihr alles wohl anfanget, glücklich mittelten und frelig vollenden möget. dem ich euch auch, und dieses hiermit hertzlich will befohlen haben. datum vlißingen in seeland den 14. may 1638. alexander sethonius philosophus anglicus
+    </div>
+</div>
+
+<h2>Shared Passages (sorted by length)</h2>
+<table class="passage-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Words</th>
+            <th>Pos in E17</th>
+            <th>Pos in E27</th>
+            <th>Passage in E17</th>
+            <th>Passage in E27</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>1</td>
+            <td>23</td>
+            <td>61%</td>
+            <td>55%</td>
+            <td class="passage">und auch das verum esse aller dinge ist also ist es billich alles. es ist unsere philosophische milch welche durch das metallische coagulum</td>
+            <td class="passage">und auch das verum esse aller dinge ist, also ists nicht unbillig alles in allen. es ist unsere philosophische milch, welche durch das metallische coagulum</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>21</td>
+            <td>86%</td>
+            <td>80%</td>
+            <td class="passage">quintum esse, und semen auri: das rechte tingirende gold-körnlein und ein solches liebliches kräfftiges füncklein mit welchem ihr ein unaußlöschliches</td>
+            <td class="passage">quintum esse und semen auri das rechte tingirende gold-körnlein, und ein solch lebens kräfttiges füncklein, mit welchem ihr ein unaußlöschliches</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>17</td>
+            <td>60%</td>
+            <td>54%</td>
+            <td class="passage">alles in allem dann es ist alles weil alles in ihm steckt und alles auß ihm herkommt</td>
+            <td class="passage">alles in allem. denn es ist alles weil 27 alles in ihm stecket, und alles auß ihm herkommet</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>9</td>
+            <td>20%</td>
+            <td>19%</td>
+            <td class="passage">andern hat es in sich ein sal armoniacum oder</td>
+            <td class="passage">andere hatt es in sich ein sal armoniacum, oder</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>9</td>
+            <td>91%</td>
+            <td>87%</td>
+            <td class="passage">composition, einerley process und arbeit einmahl wie das ander</td>
+            <td class="passage">composition einerley process und arbeit, einmahl wie das andere</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>8</td>
+            <td>83%</td>
+            <td>78%</td>
+            <td class="passage">einsetzet sondern die verständige natur scheidet nur das</td>
+            <td class="passage">einsetzt, sondern die verständige natur scheidet nur das</td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>7</td>
+            <td>15%</td>
+            <td>14%</td>
+            <td class="passage">habt ihr das secretum omnium philosophorum in</td>
+            <td class="passage">habt ihr das secretum omnium philosophorum in</td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>7</td>
+            <td>17%</td>
+            <td>15%</td>
+            <td class="passage">häuffig verborgen stecket darauß leben und gesundheit</td>
+            <td class="passage">häuffig verborgen stecket, darauß leben und gesundheit</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Context: Nearest Neighbors</h2>
+<p>Where do E17 and E27 sit relative to the rest of the corpus?</p>
+
+<div class="text-panel">
+    <div style="flex:1">
+        <h3>E17's closest neighbors (by stylometry)</h3>
+        <table class="neighbor-table">
+            <tr><th>Text</th><th>Stylo dist</th><th>4-gram sim</th><th>text-matcher</th></tr>
+            <tr><td>E44 (III)</td><td>0.927</td><td>0.0000</td><td>0.0000</td></tr>
+<tr><td>E27 (II)</td><td>1.282</td><td>0.0237</td><td>0.0580</td></tr>
+<tr><td>E34 (III)</td><td>1.302</td><td>0.0003</td><td>0.0000</td></tr>
+<tr><td>E3 (I)</td><td>1.309</td><td>0.0000</td><td>0.0000</td></tr>
+<tr><td>E16 (II)</td><td>1.313</td><td>0.0064</td><td>0.0149</td></tr>
+        </table>
+    </div>
+    <div style="flex:1">
+        <h3>E27's closest neighbors (by stylometry)</h3>
+        <table class="neighbor-table">
+            <tr><th>Text</th><th>Stylo dist</th><th>4-gram sim</th><th>text-matcher</th></tr>
+            <tr><td>E16 (II)</td><td>1.037</td><td>0.0266</td><td>0.0907</td></tr>
+<tr><td>E19 (II)</td><td>1.168</td><td>0.0162</td><td>0.0336</td></tr>
+<tr><td>E17 (II)</td><td>1.282</td><td>0.0237</td><td>0.0580</td></tr>
+<tr><td>E32b (II)</td><td>1.306</td><td>0.0010</td><td>0.0000</td></tr>
+<tr><td>E35 (I)</td><td>1.354</td><td>0.0007</td><td>0.0000</td></tr>
+        </table>
+    </div>
+</div>
+
+<h2>How to Read This Report</h2>
+<ul>
+    <li><strong>Shared passages</strong> (yellow highlights) are regions where text-matcher found
+        near-verbatim agreement between the two manuscripts. These represent likely copying
+        or derivation from a shared source.</li>
+    <li><strong>Non-highlighted text</strong> is the scribe's original composition — material
+        unique to this manuscript within the corpus.</li>
+    <li><strong>Position</strong> is given as a percentage of the total text (0% = beginning,
+        100% = end). Shared passages at corresponding positions (e.g., both at 70%) suggest
+        structural preservation during copying.</li>
+    <li><strong>Stylometric distance</strong> measures overall writing-style similarity
+        (lower = more similar). <strong>4-gram Jaccard</strong> measures phrasal overlap.
+        <strong>text-matcher score</strong> measures verbatim copying.</li>
+</ul>
+
+<p style="color: #999; font-size: 12px; margin-top: 40px;">
+    Generated by exploratory_pipeline.py | Processus Universalis corpus analysis
+</p>
+
+</body>
+</html>
