@@ -22,6 +22,7 @@
           lxml
           nltk
           scikit-learn
+          openai
         ]);
       in
       {
@@ -29,9 +30,9 @@
           buildInputs = [ pythonEnv ];
 
           shellHook = ''
-            echo "✅ Python environment ready for XML analysis and embedding evaluation"
+            echo "✅ Python environment ready for XML analysis, embeddings, and knowledge extraction"
             echo "   Model: paraphrase-multilingual-MiniLM-L12-v2"
-            echo "   Run: python embedding_analysis.py"
+            echo "   Run: python 2026-analyses-summary/extract_opac_knowledge.py"
             python --version
           '';
         };
