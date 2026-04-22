@@ -8,6 +8,7 @@ Once the text is segmented into logical process steps, this phase handles the ex
 
 ```text
 02-knowledge-extraction/
-├── extract_opac_knowledge.py      # LLM engine to extract SVEK patterns
+├── extract_opac_knowledge.py      # LLM engine to extract SVEK patterns (legacy)
+├── extract_atomic_knowledge.py    # Refined engine for dual-mode atomic step extraction
 └── ie_reconstruction.py           # Rebuilds procedural sequences from entities
 ```
