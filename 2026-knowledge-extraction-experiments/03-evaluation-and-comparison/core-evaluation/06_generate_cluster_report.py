@@ -1,5 +1,6 @@
 import json
 import os
+import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
 import collections
@@ -9,7 +10,6 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_JSON = os.path.join(SCRIPT_DIR, "../data/atomic_extraction_results.json")
 OUTPUT_HTML = os.path.join(SCRIPT_DIR, "../data/cluster_report.html")
 MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
-THRESHOLD = 0.5
 
 def generate_report():
     if not os.path.exists(INPUT_JSON):
@@ -54,8 +54,21 @@ def generate_report():
                 n_clusters=None, distance_threshold=t, metric='cosine', linkage='average'
             ).fit(embeddings)
             
+            # Calculate cluster purity for this threshold
+            temp_df = pd.DataFrame({'label': clustering.labels_, 'type': [u['type'] for u in units]})
+            composition = temp_df.groupby('label')['type'].value_counts().unstack(fill_value=0)
+            if 'procedural' not in composition.columns: composition['procedural'] = 0
+            if 'descriptive' not in composition.columns: composition['descriptive'] = 0
+
             for i, label in enumerate(clustering.labels_):
-                report_data[mode_name][t][int(label)].append(units[i])
+                proc_c = composition.loc[label, 'procedural']
+                desc_c = composition.loc[label, 'descriptive']
+                purity_str = f"({int(proc_c)}P / {int(desc_c)}D)"
+                
+                # We need to store a COPY of the unit because labels change per threshold
+                unit_copy = units[i].copy()
+                unit_copy['purity_info'] = purity_str
+                report_data[mode_name][t][int(label)].append(unit_copy)
 
     # Build HTML with nested details
     html_body = "<h1>Atomic Cluster Hierarchy (All Configs)</h1>"
@@ -65,17 +78,17 @@ def generate_report():
             html_body += f"<details><summary><b>Threshold {t}</b> ({len(clusters)} clusters)</summary>"
             # Sort clusters by size
             for cid, steps in sorted(clusters.items(), key=lambda x: len(x[1]), reverse=True):
-                html_body += f"<details><summary>Cluster {cid} ({len(steps)} steps)</summary><ul>"
+                purity = steps[0]['purity_info']
+                html_body += f"<details><summary>Cluster {cid} ({len(steps)} steps) <small style='color:#666'>{purity}</small></summary><ul>"
                 for s in steps:
                     html_body += f"<li>[{s['text_id']}] <i>{s['type']}</i>: {s['intent']} <br><small><b>Context:</b> {s['context']}</small><br><small>Source: {s['raw']}</small></li>"
                 html_body += "</ul></details>"
-
             html_body += "</details>"
         html_body += "</details>"
             
     with open(OUTPUT_HTML, 'w', encoding='utf-8') as f:
         f.write(f"<html><head><style>details{{margin:10px; padding:10px; border:1px solid #ccc; border-radius:5px;}} summary{{cursor:pointer; padding:5px;}} ul{{list-style-type:none;}} li{{margin-bottom:10px; padding-bottom:5px; border-bottom:1px solid #eee;}}</style></head><body>{html_body}</body></html>")
-    print(f"Interactive hierarchical report saved to {OUTPUT_HTML}")
+    print(f"Interactive hierarchical report with purity saved to {OUTPUT_HTML}")
 
 if __name__ == "__main__":
     generate_report()
