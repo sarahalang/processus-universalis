@@ -13,8 +13,8 @@ from scipy.spatial.distance import pdist, squareform
 
 # --- CONFIGURATION ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_JSON = os.path.join(SCRIPT_DIR, "../data/atomic_extraction_results.json")
-XML_PATH = os.path.join(SCRIPT_DIR, "../../sammlung_aller_texte.xml")
+INPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/atomic_extraction_results.json")
+XML_PATH = os.path.join(SCRIPT_DIR, "../../../sammlung_aller_texte.xml")
 MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 
 # Thresholds to test
@@ -53,6 +53,20 @@ def jaccard_sim(set1, set2):
     if not set1 and not set2: return 0.0
     u = len(set1.union(set2))
     return len(set1.intersection(set2)) / u if u > 0 else 0.0
+
+def evaluate_nn(derived_sim, expert_sim, k=1):
+    n = derived_sim.shape[0]
+    hits = 0
+    d_sim = derived_sim.copy()
+    e_sim = expert_sim.copy()
+    np.fill_diagonal(d_sim, -1)
+    np.fill_diagonal(e_sim, -1)
+    for i in range(n):
+        llm_neighbor = np.argmax(d_sim[i])
+        expert_neighbors = np.argsort(e_sim[i])[-k:]
+        if llm_neighbor in expert_neighbors:
+            hits += 1
+    return hits
 
 def run_evaluation():
     if not os.path.exists(INPUT_JSON):
@@ -106,12 +120,10 @@ def run_evaluation():
             labels = clustering.labels_
             n_raw_clusters = len(set(labels))
 
-            # Filter logic: Identify clusters with count < 3
             counts = collections.Counter(labels)
             valid_cids = {cid for cid, count in counts.items() if count >= 3}
             n_filtered_clusters = len(valid_cids)
 
-            # Build similarity matrices
             n_docs = len(common_tids)
             sim_raw = np.zeros((n_docs, n_docs))
             sim_filtered = np.zeros((n_docs, n_docs))
@@ -132,23 +144,35 @@ def run_evaluation():
             np.fill_diagonal(sim_raw, 1.0)
             np.fill_diagonal(sim_filtered, 1.0)
 
+            # Metrics for Raw
             rho_raw, _ = spearmanr(sim_raw[np.triu_indices(n_docs, k=1)], expert_upper)
+            nn1_raw = evaluate_nn(sim_raw, expert_sim_filtered, k=1)
+            nn3_raw = evaluate_nn(sim_raw, expert_sim_filtered, k=3)
+
+            # Metrics for Filtered
             rho_filt, _ = spearmanr(sim_filtered[np.triu_indices(n_docs, k=1)], expert_upper)
+            nn1_filt = evaluate_nn(sim_filtered, expert_sim_filtered, k=1)
+            nn3_filt = evaluate_nn(sim_filtered, expert_sim_filtered, k=3)
             
-            print(f"  T {t:.1f} | Raw: {rho_raw:.3f} ({n_raw_clusters}c) | Filtered: {rho_filt:.3f} ({n_filtered_clusters}c)")
+            print(f"  T {t:.1f} | Raw Rho: {rho_raw:.3f} ({n_raw_clusters}c) | Filt Rho: {rho_filt:.3f} ({n_filtered_clusters}c)")
             
             all_results.append({
                 "Mode": mode_name,
                 "Threshold": t,
-                "Clusters (Filt)": n_filtered_clusters,
-                "Spearman rho (Raw)": rho_raw,
-                "Spearman rho (Filt)": rho_filt
+                "C(Raw)": n_raw_clusters,
+                "C(Filt)": n_filtered_clusters,
+                "Rho(Raw)": rho_raw,
+                "Rho(Filt)": rho_filt,
+                "NN1(R)": f"{nn1_raw}/{n_docs}",
+                "NN3(R)": f"{nn3_raw}/{n_docs}",
+                "NN1(F)": f"{nn1_filt}/{n_docs}",
+                "NN3(F)": f"{nn3_filt}/{n_docs}"
             })
 
-    print("\n" + "#"*75)
-    print("COMPARISON: RAW VS SPARSE-FILTERED (MIN 3)")
-    print("#"*75)
-    df = pd.DataFrame(all_results).sort_values("Spearman rho (Filt)", ascending=False)
+    print("\n" + "#"*110)
+    print("DETAILED EXTRACTION COMPARISON: RAW VS SPARSE-FILTERED (MIN 3)")
+    print("#"*110)
+    df = pd.DataFrame(all_results).sort_values("Rho(Raw)", ascending=False)
     print(df.to_string(index=False))
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ import re
 
 # --- CONFIGURATION ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_JSON = os.path.join(SCRIPT_DIR, "../data/labeled_segments.json")
+INPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/labeled_segments.json")
 
 # Mappings from Capstone Analysis
 A_TO_E = {

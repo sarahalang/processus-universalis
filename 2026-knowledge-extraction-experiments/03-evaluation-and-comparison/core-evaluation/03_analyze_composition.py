@@ -5,7 +5,7 @@ import collections
 
 # --- CONFIGURATION ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_JSON = os.path.join(SCRIPT_DIR, "../data/labeled_segments.json")
+INPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/labeled_segments.json")
 
 def analyze_composition():
     if not os.path.exists(INPUT_JSON):
@@ -57,7 +57,7 @@ def analyze_composition():
         print(mixed[['procedural', 'descriptive', 'Total']].head(15))
 
     # Save detailed CSV for further plotting
-    output_csv = os.path.join(SCRIPT_DIR, "../data/cluster_composition.csv")
+    output_csv = os.path.join(SCRIPT_DIR, "../../data/cluster_composition.csv")
     composition.to_csv(output_csv)
     print(f"\nDetailed composition report saved to {output_csv}")
 

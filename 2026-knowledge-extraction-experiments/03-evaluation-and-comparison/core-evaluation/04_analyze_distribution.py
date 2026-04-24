@@ -5,7 +5,7 @@ import collections
 
 # --- CONFIGURATION ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_JSON = os.path.join(SCRIPT_DIR, "../data/labeled_segments.json")
+INPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/labeled_segments.json")
 
 def analyze_distribution():
     if not os.path.exists(INPUT_JSON):
@@ -52,7 +52,7 @@ def analyze_distribution():
         print(f"Found in {doc_count:2} documents: {cluster_count:3} concepts")
 
     # Save to CSV
-    output_csv = os.path.join(SCRIPT_DIR, "../data/concept_distribution_stats.csv")
+    output_csv = os.path.join(SCRIPT_DIR, "../../data/concept_distribution_stats.csv")
     concept_stats.to_csv(output_csv)
     print(f"\nFull distribution stats saved to {output_csv}")
 

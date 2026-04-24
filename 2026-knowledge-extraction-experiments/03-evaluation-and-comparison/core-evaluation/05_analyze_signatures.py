@@ -7,7 +7,7 @@ from scipy.stats import pointbiserialr
 
 # --- CONFIGURATION ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_JSON = os.path.join(SCRIPT_DIR, "../data/labeled_segments.json")
+INPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/labeled_segments.json")
 
 # Mapping data from previous analysis
 A_TO_E = {
