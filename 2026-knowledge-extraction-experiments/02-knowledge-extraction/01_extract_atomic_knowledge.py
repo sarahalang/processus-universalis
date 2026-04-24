@@ -60,38 +60,27 @@ Start the response immediately with '{'.
 def repair_json(raw_content):
     """Attempt to fix common JSON errors from LLMs."""
     content = raw_content.strip()
-    
-    # Remove potential markdown wrappers
     if content.startswith("```"):
         content = re.sub(r'^```(?:json)?\n', '', content)
         content = re.sub(r'\n```$', '', content)
-    
-    # Try to find the JSON object if there's preamble
     match = re.search(r'\{.*\}', content, re.DOTALL)
-    if match:
-        content = match.group(0)
-    
-    # Fix missing closing braces (very common on truncation)
+    if match: content = match.group(0)
     open_braces = content.count('{')
     close_braces = content.count('}')
     if open_braces > close_braces:
         content += '}' * (open_braces - close_braces)
-        
-    # Fix missing closing brackets
     open_brackets = content.count('[')
     close_brackets = content.count(']')
     if open_brackets > close_brackets:
         content += ']' * (open_brackets - close_brackets)
-        
     return content
 
 def main():
     if API_KEY == "YOUR_API_KEY_HERE":
-        print("Error: OpenAI API Key not found. Check your .env file.")
+        print("Error: OpenAI API Key not found.")
         return
 
     client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
-    
     if not os.path.exists(INPUT_CSV):
         print(f"Error: Input file {INPUT_CSV} not found.")
         return
@@ -100,11 +89,10 @@ def main():
         reader = csv.DictReader(f)
         segments = list(reader)
 
-    print(f"Loaded {len(segments)} segments for atomic extraction.")
+    print(f"Loaded {len(segments)} segments for extraction.")
     
     all_results = []
     processed_ids = set()
-    
     if os.path.exists(OUTPUT_JSON):
         try:
             with open(OUTPUT_JSON, 'r', encoding='utf-8') as f:
@@ -122,57 +110,54 @@ def main():
         sid = seg['segment_id']
         text = seg['full_text']
 
-        print(f"[{i+1}/{len(remaining_segments)}] Processing {tid} (Seg {sid})...")
-
-        try:
-            response = client.chat.completions.create(
-                model=MODEL,
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": f"Transform this segment into atomic units:\n\n{text}"}
-                ],
-                response_format={"type": "text"},
-                max_tokens=8192, 
-                temperature=0.1
-            )
-
-            raw_content = response.choices[0].message.content
-            if raw_content is None:
-                print(f"Error: Model returned None content. Finish reason: {response.choices[0].finish_reason}")
-                continue
-            
-            # Use the repair utility
-            json_str = repair_json(raw_content)
-            
-            try:
-                result_json = json.loads(json_str)
-            except json.JSONDecodeError as e:
-                # One last attempt: find the last valid '}' and cut off there
-                last_brace = json_str.rfind('}')
-                if last_brace != -1:
-                    try:
-                        result_json = json.loads(json_str[:last_brace+1])
-                    except:
-                        print(f"Error: Failed to parse JSON even after repair. Preview:\n{json_str[:200]}...")
-                        continue
-                else:
-                    print(f"Error: Failed to parse JSON. Preview:\n{json_str[:200]}...")
-                    continue
-
-            steps = result_json.get('extracted_units', [])
-            
-            all_results.append({
-                "text_id": tid,
-                "segment_id": sid,
-                "extracted_units": steps
-            })
-
-            with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
-                json.dump(all_results, f, indent=2, ensure_ascii=False)
-
-        except Exception as e:
-            print(f"Error at {tid}-{sid}: {e}")
+        # Skip very short noise segments
+        if len(text.split()) < 10:
+            print(f"[{i+1}/{len(remaining_segments)}] Skipping noise segment {tid}-{sid}")
             continue
+
+        while True: # Persistent Retry Loop
+            try:
+                print(f"[{i+1}/{len(remaining_segments)}] Processing {tid} (Seg {sid})...")
+                response = client.chat.completions.create(
+                    model=MODEL,
+                    messages=[
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": f"Transform this segment into atomic units:\n\n{text}"}
+                    ],
+                    response_format={"type": "text"},
+                    max_tokens=8192, 
+                    temperature=0.1
+                )
+
+                raw_content = response.choices[0].message.content
+                if raw_content is None:
+                    raise ValueError("Model returned None content")
+                
+                json_str = repair_json(raw_content)
+                try:
+                    result_json = json.loads(json_str)
+                except json.JSONDecodeError:
+                    last_brace = json_str.rfind('}')
+                    if last_brace != -1:
+                        result_json = json.loads(json_str[:last_brace+1])
+                    else:
+                        raise ValueError("Unparseable JSON")
+
+                steps = result_json.get('extracted_units', [])
+                all_results.append({
+                    "text_id": tid,
+                    "segment_id": sid,
+                    "extracted_units": steps
+                })
+
+                with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+                    json.dump(all_results, f, indent=2, ensure_ascii=False)
+                
+                break # Success! Move to next segment
+
+            except Exception as e:
+                print(f"Error at {tid}-{sid}: {e}. Retrying in 1 second...")
+                time.sleep(1)
 
     print(f"\nExtraction complete. Results saved to {OUTPUT_JSON}")
 
