@@ -7,14 +7,14 @@ import collections
 
 # --- CONFIGURATION ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_JSON = os.path.join(SCRIPT_DIR, "../data/atomic_extraction_results.json")
-OUTPUT_JSON = os.path.join(SCRIPT_DIR, "../data/labeled_segments.json")
+INPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/atomic_extraction_results.json")
+OUTPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/labeled_segments.json")
 MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 THRESHOLD = 0.5
 
 # Setup OpenAI client for labeling
 def load_env():
-    script_env = os.path.join(SCRIPT_DIR, "../../.env")
+    script_env = os.path.join(SCRIPT_DIR, "../../../.env")
     if os.path.exists(script_env):
         with open(script_env, "r") as f:
             for line in f:

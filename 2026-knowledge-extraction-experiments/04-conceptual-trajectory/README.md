@@ -4,8 +4,7 @@ This phase focuses on labeling the discovered alchemical concepts and visualizin
 
 ### Execution Workflow
 
-1.  **`01_label_clusters.py`**: Performs batch labeling of all discovered clusters using the LLM (qwen3.5-122b-a10b). It generates concise 2-4 word concept names (e.g., "Calcining the Earth") for every cluster and saves them in `labeled_segments.json`.
-2.  **`02_visualize_trajectories.py`**: Compiles the final interactive HTML application. It maps the atomic labels back to the original TextTiling segments and verbatim German snippets.
+1.  **`02_visualize_trajectories.py`**: Compiles the interactive HTML application. It maps the atomic labels back to the original TextTiling segments and verbatim German snippets.
 
 ---
 
@@ -29,6 +28,6 @@ The final output of this phase is a dual-pane web application designed for compa
 
 ```text
 04-conceptual-trajectory/
-├── 01_label_clusters.py           # LLM-based summarization of semantic clusters
 └── 02_visualize_trajectories.py    # Generates the interactive Annotated Reader application
 ```
+
