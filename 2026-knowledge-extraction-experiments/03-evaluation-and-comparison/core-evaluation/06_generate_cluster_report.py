@@ -7,8 +7,8 @@ import collections
 
 # --- CONFIGURATION ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_JSON = os.path.join(SCRIPT_DIR, "../data/atomic_extraction_results.json")
-OUTPUT_HTML = os.path.join(SCRIPT_DIR, "../data/cluster_report.html")
+INPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/atomic_extraction_results.json")
+OUTPUT_HTML = os.path.join(SCRIPT_DIR, "../../data/cluster_report.html")
 MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 
 def generate_report():

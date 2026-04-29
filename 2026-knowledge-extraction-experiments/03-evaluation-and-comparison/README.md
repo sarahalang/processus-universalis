@@ -14,18 +14,18 @@ We compared three ways of representing alchemical knowledge for the clustering a
 - **Intent Only**: Standardized English summaries of the action/concept (`normalized_intent`).
 - **Hybrid (Intent + Context)**: A combination of the English summary and the qualitative conditions/justifications (`context_and_theory`).
 
-| Mode | Threshold | Rho(Raw) | Rho(Filt) | NN1(R) | NN3(R) | C(Raw) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Hybrid** | 0.4 | **0.888** | 0.886 | 12/18 | 17/18 | 464 |
-| **Hybrid** | 0.5 | 0.885 | 0.870 | 12/18 | 15/18 | 257 |
-| **Intent Only** | 0.3 | 0.883 | 0.845 | 11/18 | 11/18 | 650 |
-| **Intent Only** | 0.4 | 0.863 | 0.831 | 7/18 | 10/18 | 413 |
-| **Intent Only** | 0.5 | 0.842 | 0.822 | 9/18 | 12/18 | 218 |
-| **Hybrid** | 0.6 | 0.840 | 0.786 | 10/18 | 11/18 | 129 |
-| **Raw Source** | 0.4 | 0.794 | 0.783 | 13/18 | 16/18 | 306 |
-| **Hybrid** | 0.3 | 0.788 | 0.729 | 13/18 | 16/18 | 747 |
-| **Raw Source** | 0.5 | 0.778 | 0.784 | 10/18 | 11/18 | 132 |
-| **Intent Only** | 0.6 | 0.773 | 0.768 | 8/18 | 11/18 | 115 |
+| Mode            | Threshold | Rho(Raw)  | Rho(Filt) | NN1(R) | NN3(R) | C(Raw) |
+| :-------------- | :-------- | :-------- | :-------- | :----- | :----- | :----- |
+| **Hybrid**      | 0.5       | **0.885** | 0.868     | 13/17  | 14/17  | 252    |
+| **Hybrid**      | 0.4       | **0.878** | 0.882     | 13/17  | 16/17  | 448    |
+| **Intent Only** | 0.3       | 0.864     | 0.824     | 10/17  | 11/17  | 634    |
+| **Intent Only** | 0.4       | 0.864     | 0.835     | 9/17   | 11/17  | 401    |
+| **Hybrid**      | 0.6       | 0.839     | 0.794     | 11/17  | 13/17  | 123    |
+| **Intent Only** | 0.5       | 0.809     | 0.801     | 9/17   | 10/17  | 213    |
+| **Raw Source**  | 0.5       | 0.803     | 0.795     | 9/17   | 11/17  | 128    |
+| **Raw Source**  | 0.4       | 0.782     | 0.784     | 12/17  | 15/17  | 293    |
+| **Intent Only** | 0.6       | 0.762     | 0.752     | 6/17   | 10/17  | 118    |
+| **Hybrid**      | 0.3       | 0.761     | 0.708     | 12/17  | 14/17  | 717    |
 
 ### 2. Tradition Predictability (`02_analyze_predictability.py`)
 This experiment tests whether the conceptual clusters successfully capture the "Phylogenetic Signal" of the alchemical tradition.
@@ -69,10 +69,11 @@ Audit of the 257 conceptual clusters (Threshold 0.5) to determine the balance be
 - **Complexity**: On average, each manuscript contains **47.67** unique conceptual steps.
 
 ### 5. Diagnostic Group Signatures (`05_analyze_signatures.py`)
-Highest Point-Biserial correlations per tradition:
-- **Group I**: Zodiacal Earth Sourcing, Sunlight Precipitation, Silver Dissolution.
-- **Group II**: Straw and Earth Layering (corr=1.0), Athanor Putrefaction Phase.
-- **Group III**: Athanor Structure Theory, Coloration Phase Initiation, Earth Celestial Impregnation.
+Point-Biserial correlation identifies clusters that are most statistically diagnostic for specific traditions. 
+
+- **Group I**: Zodiacal Earth Sourcing (0.566), Sunlight Precipitation (0.566), Silver Dissolution Capability (0.566), Extended Cooking Cycle (0.533), Dissolution Ratio Specifics (0.432).
+- **Group II**: Straw and Earth Layering (1.000), Athanor Putrefaction Phase (0.859), Philosophical Water Union (0.859), Product Mixing and Storage (0.859), Gold Mercury Mixing (0.803).
+- **Group III**: Athanor Structure Theory (0.757), Coloration Phase Initiation (0.703), Earth Celestial Impregnation (0.661), Second Spirit Purification (0.650), Red Grain Significance (0.639).
 
 ### 6. Interactive Cluster Synthesis (`06_generate_cluster_report.py`)
 **Report Location**: `2026-knowledge-extraction-experiments/data/cluster_report.html`

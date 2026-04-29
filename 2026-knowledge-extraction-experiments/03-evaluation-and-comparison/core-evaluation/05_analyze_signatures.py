@@ -64,9 +64,9 @@ def analyze_signatures():
         sig_df = pd.DataFrame(signatures).sort_values('corr', ascending=False)
         print(f"\nSIGNATURES FOR GROUP {group}:")
         # Show top 5 positive (diagnostic) and bottom 5 negative (absent)
-        print(sig_df.head(5).to_string(index=False))
-        print("...")
-        print(sig_df.tail(5).to_string(index=False))
+        print(sig_df.head(20).to_string(index=False))
+        #print("...")
+        #print(sig_df.tail(7).to_string(index=False))
 
 if __name__ == "__main__":
     analyze_signatures()
