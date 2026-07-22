@@ -1,0 +1,258 @@
+cluster_label,descriptive,procedural,Total,Proc%,Desc%,Category
+Alchemical Transformation Description,1,0,1,0.0,100.0,Pure Descriptive
+Alembic Attachment Process,0,1,1,100.0,0.0,Pure Procedural
+Application Scope Definition,1,0,1,0.0,100.0,Pure Descriptive
+Aqua Basilii Ontology,2,0,2,0.0,100.0,Pure Descriptive
+Ash Bath Heating,0,3,3,100.0,0.0,Pure Procedural
+Ash Rectification Repetition,0,1,1,100.0,0.0,Pure Procedural
+Astrological Harvesting Conditions,1,1,2,50.0,50.0,Balanced Mixed
+Athanor Putrefaction Phase,0,4,4,100.0,0.0,Pure Procedural
+Athanor Sealing Process,0,17,17,100.0,0.0,Pure Procedural
+Athanor Structure Theory,8,0,8,0.0,100.0,Pure Descriptive
+Ball Formation Process,1,1,2,50.0,50.0,Balanced Mixed
+Balneo Justification Theory,1,0,1,0.0,100.0,Pure Descriptive
+Balneum Conversion Method,0,2,2,100.0,0.0,Pure Procedural
+Barrel Preparation and Filling,0,5,5,100.0,0.0,Pure Procedural
+Black Coloration Observation,3,1,4,25.0,75.0,Mostly Descriptive
+Bolus Source Location,2,0,2,0.0,100.0,Pure Descriptive
+Brittle Product Crushing,0,1,1,100.0,0.0,Pure Procedural
+Brittleness Transmutation Claim,2,0,2,0.0,100.0,Pure Descriptive
+Broth Transformation Prediction,1,0,1,0.0,100.0,Pure Descriptive
+Caput Mortuum Transfer,0,3,3,100.0,0.0,Pure Procedural
+Celestial Exposure Theory,2,1,3,33.3,66.7,Balanced Mixed
+Charge Quantity Limits,0,3,3,100.0,0.0,Pure Procedural
+Chemical Transformation Prediction,1,0,1,0.0,100.0,Pure Descriptive
+Coagulation Observation,1,0,1,0.0,100.0,Pure Descriptive
+Cold Place Storage,0,2,2,100.0,0.0,Pure Procedural
+Color Process Solution,0,2,2,100.0,0.0,Pure Procedural
+Color Progression Expectation,5,1,6,16.7,83.3,Mostly Descriptive
+Coloration Phase Initiation,23,4,27,14.8,85.2,Mostly Descriptive
+Composition Detail Reference,1,0,1,0.0,100.0,Pure Descriptive
+Composition Repetition Procedure,0,3,3,100.0,0.0,Pure Procedural
+Concentration Evaporation,0,2,2,100.0,0.0,Pure Procedural
+Covered Standing Period,0,1,1,100.0,0.0,Pure Procedural
+Crucible Fusion Process,0,5,5,100.0,0.0,Pure Procedural
+Cursed Earth Disposal,2,2,4,50.0,50.0,Balanced Mixed
+Dew Multiplication Method,0,2,2,100.0,0.0,Pure Procedural
+Dissolution Prediction Claim,2,0,2,0.0,100.0,Pure Descriptive
+Dissolution Ratio Specifics,0,4,4,100.0,0.0,Pure Procedural
+Distillate Collection Setup,0,6,6,100.0,0.0,Pure Procedural
+Divine Gratitude Expression,5,1,6,16.7,83.3,Mostly Descriptive
+Dosage Administration Instruction,0,2,2,100.0,0.0,Pure Procedural
+Drainage Tap Opening,0,1,1,100.0,0.0,Pure Procedural
+Dry Water Confirmation,1,0,1,0.0,100.0,Pure Descriptive
+Dry Wet Path Comparison,2,0,2,0.0,100.0,Pure Descriptive
+Dyeing Potency Claim,1,0,1,0.0,100.0,Pure Descriptive
+Earth Barrel Transfer,0,2,2,100.0,0.0,Pure Procedural
+Earth Celestial Impregnation,11,7,18,38.9,61.1,Balanced Mixed
+Earth Collection Site Prep,3,7,10,70.0,30.0,Balanced Mixed
+Earth Division Theory,5,3,8,37.5,62.5,Balanced Mixed
+Earth Excavation and Refill,0,4,4,100.0,0.0,Pure Procedural
+Earth Impregnation Intro,2,0,2,0.0,100.0,Pure Descriptive
+Earth Lye Preparation,0,9,9,100.0,0.0,Pure Procedural
+Earth Material Requirements,1,0,1,0.0,100.0,Pure Descriptive
+Earth Measurement and Filter,1,8,9,88.9,11.1,Mostly Procedural
+Earth Protection and Exposure,0,5,5,100.0,0.0,Pure Procedural
+Earth Purification Method,6,8,14,57.1,42.9,Balanced Mixed
+Earth Residue Separation,1,2,3,66.7,33.3,Balanced Mixed
+Earth Residue Sublimation,0,2,2,100.0,0.0,Pure Procedural
+Earth Weathering Duration,0,3,3,100.0,0.0,Pure Procedural
+Elemental Deposition Theory,2,0,2,0.0,100.0,Pure Descriptive
+Ethical Usage Guidelines,2,0,2,0.0,100.0,Pure Descriptive
+Excrement Separation Justification,1,0,1,0.0,100.0,Pure Descriptive
+Extended Cooking Cycle,0,3,3,100.0,0.0,Pure Procedural
+Faeces Separation Step,0,1,1,100.0,0.0,Pure Procedural
+Fat Earth Nature,1,0,1,0.0,100.0,Pure Descriptive
+Fermentation Identity Limits,4,0,4,0.0,100.0,Pure Descriptive
+Filtration and Placement,0,2,2,100.0,0.0,Pure Procedural
+Final Gold Product,1,0,1,0.0,100.0,Pure Descriptive
+Final Product Coagulation,0,3,3,100.0,0.0,Pure Procedural
+Final Product Status,1,0,1,0.0,100.0,Pure Descriptive
+Fire Degree Progression,0,4,4,100.0,0.0,Pure Procedural
+Fire Increase Warning,0,5,5,100.0,0.0,Pure Procedural
+Fixation Condition Check,2,4,6,66.7,33.3,Balanced Mixed
+Fixation Volatilization Claim,1,0,1,0.0,100.0,Pure Descriptive
+Fixed Gold Preparation,15,18,33,54.5,45.5,Balanced Mixed
+Glass Storage Warning,1,0,1,0.0,100.0,Pure Descriptive
+Gold Application Warning,3,3,6,50.0,50.0,Balanced Mixed
+Gold Mercury Mixing,2,4,6,66.7,33.3,Balanced Mixed
+Gold Sulfur Oil Mix,0,1,1,100.0,0.0,Pure Procedural
+Gradual Heating Distillation,0,13,13,100.0,0.0,Pure Procedural
+Grain Nature and Utility,3,1,4,25.0,75.0,Mostly Descriptive
+Grain Separation Process,1,5,6,83.3,16.7,Mostly Procedural
+Great Work Intro,1,0,1,0.0,100.0,Pure Descriptive
+Green Coloration Stage,1,4,5,80.0,20.0,Mostly Procedural
+Growth Allegorical Conditions,1,0,1,0.0,100.0,Pure Descriptive
+Health Dosage Administration,0,3,3,100.0,0.0,Pure Procedural
+Heat Color Prediction,1,2,3,66.7,33.3,Balanced Mixed
+Heat Regulation Placement,0,8,8,100.0,0.0,Pure Procedural
+Heat Type Justification,1,0,1,0.0,100.0,Pure Descriptive
+Imbibition Cycle Process,0,1,1,100.0,0.0,Pure Procedural
+Impregnation Stirring,0,2,2,100.0,0.0,Pure Procedural
+Infinite Augmentation Claim,1,0,1,0.0,100.0,Pure Descriptive
+Infusion Period Duration,0,6,6,100.0,0.0,Pure Procedural
+Joint Luting Process,0,1,1,100.0,0.0,Pure Procedural
+King's Purification Metaphor,1,0,1,0.0,100.0,Pure Descriptive
+Labor Completion Confirmation,4,0,4,0.0,100.0,Pure Descriptive
+Labor Continuation Warning,1,0,1,0.0,100.0,Pure Descriptive
+Lapis Ferment Definition,2,0,2,0.0,100.0,Pure Descriptive
+Luna Appearance Phase,1,0,1,0.0,100.0,Pure Descriptive
+Lute Drying Process,0,1,1,100.0,0.0,Pure Procedural
+Lye Concentration Process,0,2,2,100.0,0.0,Pure Procedural
+Lye Concentration and Evaporation,0,9,9,100.0,0.0,Pure Procedural
+Lye Draining Process,0,3,3,100.0,0.0,Pure Procedural
+Magnet Dissolution Theory,2,1,3,33.3,66.7,Balanced Mixed
+Materia Collection Timing,2,1,3,33.3,66.7,Balanced Mixed
+Material Division Step,0,1,1,100.0,0.0,Pure Procedural
+Matter Yellowing Phase,1,0,1,0.0,100.0,Pure Descriptive
+Medical Application Claim,1,0,1,0.0,100.0,Pure Descriptive
+Medical Dosage Application,1,2,3,66.7,33.3,Balanced Mixed
+Medicinal Utility ID,2,0,2,0.0,100.0,Pure Descriptive
+Medicine Multiplication Method,0,2,2,100.0,0.0,Pure Procedural
+Mercury Gold Injection,1,8,9,88.9,11.1,Mostly Procedural
+Metal Projection Preparation,0,1,1,100.0,0.0,Pure Procedural
+Moon Rise White Stage,0,2,2,100.0,0.0,Pure Procedural
+Mother Liquor Decantation,1,3,4,75.0,25.0,Mostly Procedural
+Mother Lye Selection,0,1,1,100.0,0.0,Pure Procedural
+Multiplication Color Timeline,6,1,7,14.3,85.7,Mostly Descriptive
+Multiplication Efficiency Theory,2,1,3,33.3,66.7,Balanced Mixed
+Multiplication Preparation,1,31,32,96.9,3.1,Mostly Procedural
+Multiplication Repeatability,2,0,2,0.0,100.0,Pure Descriptive
+Multiplication Repetition Rule,3,8,11,72.7,27.3,Balanced Mixed
+Multiplication Reserve Ratio,8,5,13,38.5,61.5,Balanced Mixed
+Nitre Distillation Process,0,5,5,100.0,0.0,Pure Procedural
+Nitrum Quality Standard,2,0,2,0.0,100.0,Pure Descriptive
+Non-Fermentation Reserve,0,1,1,100.0,0.0,Pure Procedural
+Oak Vessel Placement,0,6,6,100.0,0.0,Pure Procedural
+Oil Harvesting Step,0,1,1,100.0,0.0,Pure Procedural
+Open Sky Exposure,0,1,1,100.0,0.0,Pure Procedural
+Optimal Atmospheric Conditions,2,0,2,0.0,100.0,Pure Descriptive
+Ore Growth Observation,1,0,1,0.0,100.0,Pure Descriptive
+Oven Placement Instruction,0,2,2,100.0,0.0,Pure Procedural
+Paracelsus Reference Note,1,0,1,0.0,100.0,Pure Descriptive
+Partial Barrel Filling,0,1,1,100.0,0.0,Pure Procedural
+Perforated Ball Transfer,0,3,3,100.0,0.0,Pure Procedural
+Phial Removal Sign,0,1,1,100.0,0.0,Pure Procedural
+Phial Sealing and Heating,0,6,6,100.0,0.0,Pure Procedural
+Philosopher's Stone Identification,5,0,5,0.0,100.0,Pure Descriptive
+Philosophical Egg Digestion,0,2,2,100.0,0.0,Pure Procedural
+Philosophical Gran Standard,1,0,1,0.0,100.0,Pure Descriptive
+Philosophical Milk Coagulation,1,1,2,50.0,50.0,Balanced Mixed
+Philosophical Nitrum Description,2,0,2,0.0,100.0,Pure Descriptive
+Philosophical Procedure Continuation,0,3,3,100.0,0.0,Pure Procedural
+Philosophical Stone Addition,0,2,2,100.0,0.0,Pure Procedural
+Philosophical Water Union,4,0,4,0.0,100.0,Pure Descriptive
+Phlegma Distillation Bath,0,5,5,100.0,0.0,Pure Procedural
+Phlegma Separation Process,0,1,1,100.0,0.0,Pure Procedural
+Phoenix First Multiplication,0,1,1,100.0,0.0,Pure Procedural
+Phoenix Transformation Phase,2,0,2,0.0,100.0,Pure Descriptive
+Post-Putrefaction Removal,0,4,4,100.0,0.0,Pure Procedural
+Potable Gold Identification,2,1,3,33.3,66.7,Balanced Mixed
+Powder Grinding Process,0,3,3,100.0,0.0,Pure Procedural
+Prima Materia Definition,3,0,3,0.0,100.0,Pure Descriptive
+Principle Conjunction Summary,4,5,9,55.6,44.4,Balanced Mixed
+Process Authentication Claim,2,0,2,0.0,100.0,Pure Descriptive
+Process Completion Confirmation,1,0,1,0.0,100.0,Pure Descriptive
+Process Continuation Advisory,1,0,1,0.0,100.0,Pure Descriptive
+Process Definition Statement,1,1,2,50.0,50.0,Balanced Mixed
+Process Endpoint Condition,2,0,2,0.0,100.0,Pure Descriptive
+Process Rejection History,2,0,2,0.0,100.0,Pure Descriptive
+Process Warning Note,1,0,1,0.0,100.0,Pure Descriptive
+Product Cooling Preservation,0,1,1,100.0,0.0,Pure Procedural
+Product Mixing and Storage,0,4,4,100.0,0.0,Pure Procedural
+Product Storage Protection,0,2,2,100.0,0.0,Pure Procedural
+Projection Requirement Definition,1,0,1,0.0,100.0,Pure Descriptive
+Purification Justification Theory,2,0,2,0.0,100.0,Pure Descriptive
+Purified Spirit Storage,0,2,2,100.0,0.0,Pure Procedural
+Purity Endpoint Definition,1,0,1,0.0,100.0,Pure Descriptive
+Purity Standard Definition,2,0,2,0.0,100.0,Pure Descriptive
+Purity Sublimation Repetition,0,2,2,100.0,0.0,Pure Procedural
+Putrefaction Duration,1,1,2,50.0,50.0,Balanced Mixed
+Putrefaction Theory Basis,4,2,6,33.3,66.7,Balanced Mixed
+Putrefaction Transition Phase,0,12,12,100.0,0.0,Pure Procedural
+Putrefaction Water Refill,1,5,6,83.3,16.7,Mostly Procedural
+Quantity Accumulation,0,1,1,100.0,0.0,Pure Procedural
+Rainwater Dissolution Process,2,8,10,80.0,20.0,Mostly Procedural
+Receiver Liquid Instruction,1,2,3,66.7,33.3,Balanced Mixed
+Receiver Sealing Process,2,9,11,81.8,18.2,Mostly Procedural
+Receiver Setup Constraint,1,1,2,50.0,50.0,Balanced Mixed
+Receiver Volume Calibration,1,5,6,83.3,16.7,Mostly Procedural
+Recipe Instruction Intro,1,1,2,50.0,50.0,Balanced Mixed
+Red Grain Significance,9,5,14,35.7,64.3,Balanced Mixed
+Red Powder Extraction,0,2,2,100.0,0.0,Pure Procedural
+Red Stage Formation,1,21,22,95.5,4.5,Mostly Procedural
+Repeated Earth Distillation,0,37,37,100.0,0.0,Pure Procedural
+Repeated Standing Period,0,1,1,100.0,0.0,Pure Procedural
+Residual Earth Calcination,0,21,21,100.0,0.0,Pure Procedural
+Residue Storage Process,0,4,4,100.0,0.0,Pure Procedural
+Residue Transformation Limit,1,0,1,0.0,100.0,Pure Descriptive
+Retort Loading Process,0,3,3,100.0,0.0,Pure Procedural
+Retort Weight Scaling,1,2,3,66.7,33.3,Balanced Mixed
+Sal Terrae Properties,2,0,2,0.0,100.0,Pure Descriptive
+Salt Ball Formation,1,7,8,87.5,12.5,Mostly Procedural
+Salt Extraction and Leaching,1,25,26,96.2,3.8,Mostly Procedural
+Salt Purification and Crystallization,25,95,120,79.2,20.8,Mostly Procedural
+Saltpeter Purification Standard,1,9,10,90.0,10.0,Mostly Procedural
+Sand Bath Transfer,0,13,13,100.0,0.0,Pure Procedural
+Sand Burial Process,0,2,2,100.0,0.0,Pure Procedural
+Sand Heating Redness,0,3,3,100.0,0.0,Pure Procedural
+Sealed Digestion Process,2,12,14,85.7,14.3,Mostly Procedural
+Second Spirit Purification,8,2,10,20.0,80.0,Mostly Descriptive
+Secrecy Instruction Note,1,0,1,0.0,100.0,Pure Descriptive
+Secret Weight Justification,1,0,1,0.0,100.0,Pure Descriptive
+Secure Substance Storage,0,3,3,100.0,0.0,Pure Procedural
+Sediment Filtration Process,0,5,5,100.0,0.0,Pure Procedural
+Separation Justification Theory,4,1,5,20.0,80.0,Mostly Descriptive
+Sharpness Extraction Purpose,1,0,1,0.0,100.0,Pure Descriptive
+Silver Dissolution Capability,1,1,2,50.0,50.0,Balanced Mixed
+Silver Plate Testing,0,7,7,100.0,0.0,Pure Procedural
+Slow Drying Process,0,1,1,100.0,0.0,Pure Procedural
+Solution Filtration Phial,0,3,3,100.0,0.0,Pure Procedural
+Solution Filtration Seal,0,2,2,100.0,0.0,Pure Procedural
+Solution Strength Explanation,1,0,1,0.0,100.0,Pure Descriptive
+Solvent Substitution Rule,1,2,3,66.7,33.3,Balanced Mixed
+Spirit Addition Distillation,0,8,8,100.0,0.0,Pure Procedural
+Spirit Distillation Setup,13,31,44,70.5,29.5,Balanced Mixed
+Spirit Distillation Theory,5,3,8,37.5,62.5,Balanced Mixed
+Spirit Rectification Bath,0,2,2,100.0,0.0,Pure Procedural
+Spirit and Salt Storage,4,28,32,87.5,12.5,Mostly Procedural
+State Transformation Description,1,0,1,0.0,100.0,Pure Descriptive
+Stone Purification Process,0,2,2,100.0,0.0,Pure Procedural
+Straw and Earth Layering,0,5,5,100.0,0.0,Pure Procedural
+Sublimation Cooling Down,0,3,3,100.0,0.0,Pure Procedural
+Sublimation Storage Process,0,2,2,100.0,0.0,Pure Procedural
+Substance Identity Claim,1,0,1,0.0,100.0,Pure Descriptive
+Sunlight Precipitation,0,2,2,100.0,0.0,Pure Procedural
+Sunrise Meadow Travel,0,2,2,100.0,0.0,Pure Procedural
+Terra Bowl Placement,0,1,1,100.0,0.0,Pure Procedural
+Terra Precipitation Step,1,0,1,0.0,100.0,Pure Descriptive
+Theoretical Component ID,1,0,1,0.0,100.0,Pure Descriptive
+Therapeutic Effects Description,1,0,1,0.0,100.0,Pure Descriptive
+Three Parts Reunion,0,1,1,100.0,0.0,Pure Procedural
+Tincture Purity Observation,2,6,8,75.0,25.0,Mostly Procedural
+Tincture Reserve Justification,2,4,6,66.7,33.3,Balanced Mixed
+Tinging Power Claim,1,0,1,0.0,100.0,Pure Descriptive
+Tinging Power Progression,3,0,3,0.0,100.0,Pure Descriptive
+Tinging Ratio Execution,0,1,1,100.0,0.0,Pure Procedural
+Tinging Ratio Limit,0,1,1,100.0,0.0,Pure Procedural
+Total Work Duration,1,0,1,0.0,100.0,Pure Descriptive
+Transformation Scaling Power,1,0,1,0.0,100.0,Pure Descriptive
+Transmutation Potency Description,2,0,2,0.0,100.0,Pure Descriptive
+Tripartite Salt Composition,18,5,23,21.7,78.3,Mostly Descriptive
+Universal Menstruum Definition,13,0,13,0.0,100.0,Pure Descriptive
+Universal Solvent Capability,2,1,3,33.3,66.7,Balanced Mixed
+Virgin Earth Purification,1,2,3,66.7,33.3,Balanced Mixed
+Volatile Salt Sublimation,2,11,13,84.6,15.4,Mostly Procedural
+Volatility Fixation Test,0,1,1,100.0,0.0,Pure Procedural
+Warm Ash Dissolution,1,2,3,66.7,33.3,Balanced Mixed
+Warm Place Storage,0,1,1,100.0,0.0,Pure Procedural
+Waste Disposal and Preservation,1,9,10,90.0,10.0,Mostly Procedural
+Water Addition Prohibition,0,2,2,100.0,0.0,Pure Procedural
+Water Draining Step,0,1,1,100.0,0.0,Pure Procedural
+Weathered Earth Storage,0,2,2,100.0,0.0,Pure Procedural
+Weight Accuracy Justification,6,0,6,0.0,100.0,Pure Descriptive
+White Precipitate Separation,0,1,1,100.0,0.0,Pure Procedural
+White Stage Development,2,3,5,60.0,40.0,Balanced Mixed
+White Stage Heating,0,3,3,100.0,0.0,Pure Procedural
+Yellowing Phase Process,2,10,12,83.3,16.7,Mostly Procedural
+Zodiacal Earth Sourcing,1,1,2,50.0,50.0,Balanced Mixed

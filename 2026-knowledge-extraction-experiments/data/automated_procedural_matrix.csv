@@ -1,0 +1,19 @@
+text_id,Theoretische Erläuterung,Probenahme / Materialgewinnung,Mazeration / Extraktion,Filtration,Sieden / Konzentration,Destillation / Rektifikation,Sublimation,Calcination / Rösten,Mischen / Vorbereitung,Lagerung / Reifung,Multiplikation / Projektion,total_steps,completeness_score
+g1a1,1,1,1,1,0,1,1,1,1,1,1,10,0.909
+g1a15,1,1,1,1,0,1,1,1,1,1,1,10,0.909
+g1a16,1,1,1,1,1,1,0,0,1,0,1,8,0.727
+g1a5,1,0,1,1,1,1,1,1,1,1,1,10,0.909
+g1a6,1,1,1,1,1,1,1,1,1,1,1,11,1.0
+g2a11,1,1,1,1,1,1,1,1,1,1,1,11,1.0
+g2a12,1,1,1,1,0,1,0,1,1,1,0,8,0.727
+g2a13,1,1,1,1,0,1,1,0,0,0,0,6,0.545
+g2a2,1,1,1,0,0,0,1,0,1,1,1,7,0.636
+g2a3,0,1,1,1,0,1,0,1,1,1,1,8,0.727
+g2a4,1,1,1,1,0,1,1,1,0,1,1,9,0.818
+g2a7,0,1,1,1,0,1,1,0,1,1,0,7,0.636
+g2a8,1,1,1,1,1,1,1,1,1,1,1,11,1.0
+g3a21,0,1,1,0,1,1,0,0,0,1,0,5,0.455
+g3a22,1,1,1,1,1,1,1,1,1,1,1,11,1.0
+g3a25,1,1,1,0,0,0,1,0,1,1,1,7,0.636
+g3a26,0,1,1,1,0,0,0,0,0,0,1,4,0.364
+g3a9,1,1,1,0,1,0,0,0,1,0,1,6,0.545

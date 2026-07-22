@@ -1,0 +1,296 @@
+import json
+import os
+import re
+import csv
+import numpy as np
+import pandas as pd
+import xml.etree.ElementTree as ET
+import collections
+from sentence_transformers import SentenceTransformer
+from sklearn.cluster import AgglomerativeClustering
+from scipy.stats import spearmanr
+from scipy.spatial.distance import pdist, squareform
+
+# --- CONFIGURATION ---
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_JSON = os.path.join(SCRIPT_DIR, "../../data/atomic_extraction_results.json")
+XML_PATH = os.path.join(SCRIPT_DIR, "../../../sammlung_aller_texte.xml")
+MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
+
+# Thresholds to test
+THRESHOLDS = [0.3, 0.4, 0.5, 0.6, 0.7]
+
+# ============================================================
+# EXACT CAPSTONE ANALYSIS MAPPING
+# ============================================================
+
+A_TO_E = {
+    'a1': 'E16',
+    'a2': 'E37',
+    'a3': 'E38',
+    'a4': 'E44',
+    'a5': 'E17',
+    'a6': 'E19',
+    'a7': 'E39',
+    'a8': 'E34',
+    'a9': 'E2',
+    'a12': 'E45',
+    'a13': 'E42',
+    'a15': 'E32b',
+    'a16': 'E27',
+    'a21': 'E3',
+    'a22': 'E35',
+    'a25': 'E22',
+    'a26': 'E11',
+}
+
+def canonicalize(raw_id):
+    """
+    g1a1 -> E16
+    g2a12 -> E45
+    g3a26 -> E11
+    a11 intentionally ignored (not mapped)
+    """
+    m = re.search(r'(a\d+)', str(raw_id))
+    if not m:
+        return None
+    return A_TO_E.get(m.group(1))
+
+
+def load_expert_ground_truth_from_xml():
+    tree = ET.parse(XML_PATH)
+    root = tree.getroot()
+
+    doc_features = {}
+
+    for div in root.findall('.//div'):
+        tid_raw = div.get('type', 'unknown')
+        tid = canonicalize(tid_raw)
+
+        # only keep mapped texts
+        if not tid:
+            continue
+
+        features = set()
+
+        for keys_el in div.findall('.//keys'):
+            vals = keys_el.get('n', '')
+            ktype = keys_el.get('type', '')
+
+            if vals and 'FEHLT' not in vals:
+                for v in vals.split(';'):
+                    v = v.strip()
+                    if v:
+                        features.add(f"{ktype}::{v}")
+
+        if features:
+            doc_features[tid] = features
+
+    tids = sorted(list(doc_features.keys()))
+    n = len(tids)
+
+    sim_matrix = np.zeros((n, n))
+
+    def jaccard(s1, s2):
+        if not s1 and not s2:
+            return 0.0
+        return len(s1 & s2) / len(s1 | s2)
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            s = jaccard(doc_features[tids[i]], doc_features[tids[j]])
+            sim_matrix[i, j] = sim_matrix[j, i] = s
+
+    np.fill_diagonal(sim_matrix, 1.0)
+    return tids, sim_matrix
+
+
+def jaccard_sim(set1, set2):
+    if not set1 and not set2:
+        return 0.0
+    u = len(set1.union(set2))
+    return len(set1.intersection(set2)) / u if u > 0 else 0.0
+
+
+def evaluate_nn(derived_sim, expert_sim, k=1):
+    n = derived_sim.shape[0]
+    hits = 0
+
+    d_sim = derived_sim.copy()
+    e_sim = expert_sim.copy()
+
+    np.fill_diagonal(d_sim, -1)
+    np.fill_diagonal(e_sim, -1)
+
+    for i in range(n):
+        llm_neighbor = np.argmax(d_sim[i])
+        expert_neighbors = np.argsort(e_sim[i])[-k:]
+
+        if llm_neighbor in expert_neighbors:
+            hits += 1
+
+    return hits
+
+
+def run_evaluation():
+    if not os.path.exists(INPUT_JSON):
+        print(f"Error: {INPUT_JSON} not found.")
+        return
+
+    with open(INPUT_JSON, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    print(f"Loading expert ground truth from {XML_PATH}...")
+    expert_ids, expert_sim = load_expert_ground_truth_from_xml()
+
+    # --------------------------------------------------------
+    # Apply mapping to JSON ids
+    # --------------------------------------------------------
+    available_tids = set()
+
+    for entry in data:
+        cid = canonicalize(entry['text_id'])
+        if cid:
+            available_tids.add(cid)
+
+    common_tids = sorted(list(available_tids.intersection(set(expert_ids))))
+
+    if not common_tids:
+        print("No common text IDs found.")
+        return
+
+    print(f"Evaluating {len(common_tids)} texts.")
+
+    text_to_idx = {tid: i for i, tid in enumerate(expert_ids)}
+    indices = [text_to_idx[tid] for tid in common_tids]
+
+    expert_sim_filtered = expert_sim[np.ix_(indices, indices)]
+    expert_upper = expert_sim_filtered[np.triu_indices(len(common_tids), k=1)]
+
+    print(f"Loading model {MODEL_NAME}...")
+    model = SentenceTransformer(MODEL_NAME)
+
+    modes = {
+        "Intent Only": lambda step: step.get('normalized_intent', ''),
+        "Raw Source Only": lambda step: step.get('raw_source', ''),
+        "Hybrid": lambda step: f"{step.get('normalized_intent', '')} {step.get('context_and_theory', '')}"
+    }
+
+    all_results = []
+
+    for mode_name, text_func in modes.items():
+        print(f"\n[Mode: {mode_name}]")
+
+        all_units = []
+
+        for entry in data:
+            cid = canonicalize(entry['text_id'])
+
+            if cid not in common_tids:
+                continue
+
+            for step in entry['extracted_units']:
+                all_units.append({
+                    'tid': cid,
+                    'text': text_func(step)
+                })
+
+        if not all_units:
+            continue
+
+        embeddings = model.encode(
+            [u['text'] for u in all_units],
+            show_progress_bar=True
+        )
+
+        for t in THRESHOLDS:
+            clustering = AgglomerativeClustering(
+                n_clusters=None,
+                distance_threshold=t,
+                metric='cosine',
+                linkage='average'
+            ).fit(embeddings)
+
+            labels = clustering.labels_
+            n_raw_clusters = len(set(labels))
+
+            counts = collections.Counter(labels)
+            valid_cids = {cid for cid, count in counts.items() if count >= 3}
+            n_filtered_clusters = len(valid_cids)
+
+            n_docs = len(common_tids)
+
+            sim_raw = np.zeros((n_docs, n_docs))
+            sim_filtered = np.zeros((n_docs, n_docs))
+
+            doc_sets_raw = {tid: set() for tid in common_tids}
+            doc_sets_filtered = {tid: set() for tid in common_tids}
+
+            for i, label in enumerate(labels):
+                doc_sets_raw[all_units[i]['tid']].add(label)
+
+                if label in valid_cids:
+                    doc_sets_filtered[all_units[i]['tid']].add(label)
+
+            for i in range(n_docs):
+                for j in range(i + 1, n_docs):
+                    sim_raw[i, j] = sim_raw[j, i] = jaccard_sim(
+                        doc_sets_raw[common_tids[i]],
+                        doc_sets_raw[common_tids[j]]
+                    )
+
+                    sim_filtered[i, j] = sim_filtered[j, i] = jaccard_sim(
+                        doc_sets_filtered[common_tids[i]],
+                        doc_sets_filtered[common_tids[j]]
+                    )
+
+            np.fill_diagonal(sim_raw, 1.0)
+            np.fill_diagonal(sim_filtered, 1.0)
+
+            # Metrics for Raw
+            rho_raw, _ = spearmanr(
+                sim_raw[np.triu_indices(n_docs, k=1)],
+                expert_upper
+            )
+
+            nn1_raw = evaluate_nn(sim_raw, expert_sim_filtered, k=1)
+            nn3_raw = evaluate_nn(sim_raw, expert_sim_filtered, k=3)
+
+            # Metrics for Filtered
+            rho_filt, _ = spearmanr(
+                sim_filtered[np.triu_indices(n_docs, k=1)],
+                expert_upper
+            )
+
+            nn1_filt = evaluate_nn(sim_filtered, expert_sim_filtered, k=1)
+            nn3_filt = evaluate_nn(sim_filtered, expert_sim_filtered, k=3)
+
+            print(
+                f"  T {t:.1f} | "
+                f"Raw Rho: {rho_raw:.3f} ({n_raw_clusters}c) | "
+                f"Filt Rho: {rho_filt:.3f} ({n_filtered_clusters}c)"
+            )
+
+            all_results.append({
+                "Mode": mode_name,
+                "Threshold": t,
+                "C(Raw)": n_raw_clusters,
+                "C(Filt)": n_filtered_clusters,
+                "Rho(Raw)": rho_raw,
+                "Rho(Filt)": rho_filt,
+                "NN1(R)": f"{nn1_raw}/{n_docs}",
+                "NN3(R)": f"{nn3_raw}/{n_docs}",
+                "NN1(F)": f"{nn1_filt}/{n_docs}",
+                "NN3(F)": f"{nn3_filt}/{n_docs}"
+            })
+
+    print("\n" + "#" * 110)
+    print("DETAILED EXTRACTION COMPARISON: RAW VS SPARSE-FILTERED (MIN 3)")
+    print("#" * 110)
+
+    df = pd.DataFrame(all_results).sort_values("Rho(Raw)", ascending=False)
+    print(df.to_string(index=False))
+
+
+if __name__ == "__main__":
+    run_evaluation()
